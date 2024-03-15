@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<VFECore.Abilities.AbilityDef Name="OutlandSpellBase" Abstract="true">
+		<cooldownTime>120</cooldownTime>
+		<rangeRingColor>(1, 1, 1)</rangeRingColor>
+		<radiusRingColor>(0.3, 0.8, 1)</radiusRingColor>
+	</VFECore.Abilities.AbilityDef>
+
+	<VFECore.Abilities.AbilityDef ParentName="OutlandSpellBase" Name="OutlandSpellGoToTargetBase" Abstract="True">
+		<requireLineOfSight>false</requireLineOfSight>
+		<jobDef>VFEA_GotoTargetAndUseAbility</jobDef>
+		<targetMode>Pawn</targetMode>
+		<range>999999</range>
+		<distanceToTarget>1.5</distanceToTarget>
+	</VFECore.Abilities.AbilityDef>
+
+</Defs>

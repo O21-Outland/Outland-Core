@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- Arcane General -->
+	<Outland.ClassTab_Arcane>Arcane</Outland.ClassTab_Arcane>
+	<Outland.ArcaneMage>Arcane Mage</Outland.ArcaneMage>
+	<Outland.AbilityStatsArcaneEnergy>Mana</Outland.AbilityStatsArcaneEnergy>
+	<Outland.AbilityDisableReasonArcaneEnergyLack>Mage doesn't have enough mana left</Outland.AbilityDisableReasonArcaneEnergyLack>
+	<Outland.UpgradeAbilityTip>You can upgrade this ability to {0} for {1} skill points.</Outland.UpgradeAbilityTip>
+	<Outland.SpellNotKnownByMage>Spell unknown to this mage.</Outland.SpellNotKnownByMage>
+	<Outland.UpgradeLevelRequired>Level {0} required to upgrade.</Outland.UpgradeLevelRequired>
+	<!-- Arcane Stat Reports -->
+	<Outland.ArcaneMaxBase_StatReport>Base Value</Outland.ArcaneMaxBase_StatReport>
+	<Outland.ArcaneMaxLevel_StatReport>Increase from level</Outland.ArcaneMaxLevel_StatReport>
+
+	<!-- Arcane Class Tome -->
+	<Outland.IncapableOfArcaneReason_NotAllowedForNonColonists>Cannot Use: Not allowed for non-colonists.</Outland.IncapableOfArcaneReason_NotAllowedForNonColonists>
+	<Outland.IncapableOfArcaneReason_RaceSentience>Cannot Use: {0} is not sentient.</Outland.IncapableOfArcaneReason_RaceSentience>
+	<Outland.IncapableOfArcaneReason_AlreadyKnown>Cannot Use: Class already known.</Outland.IncapableOfArcaneReason_AlreadyKnown>
+	<Outland.IncapableOfArcaneReason_AlreadyMaxLevel>Cannot Use: Already max level.</Outland.IncapableOfArcaneReason_AlreadyMaxLevel>
+
+	<!-- Arcane Spell Tome -->
+	<Outland.IncapableOfArcaneReason_NotMage>Cannot Use: Must be a mage to learn spells.</Outland.IncapableOfArcaneReason_NotMage>
+	<Outland.IncapableOfArcaneReason_WrongClass>Cannot Use: Can only learn {0} spells.</Outland.IncapableOfArcaneReason_WrongClass>
+	<Outland.IncapableOfArcaneReason_AlreadyKnowSpell>Cannot Use: Spell already known.</Outland.IncapableOfArcaneReason_AlreadyKnowSpell>
+
+	<!-- Spell Specific -->
+	<Outland.AbilityDominateReason>Mentally dominated by {0}</Outland.AbilityDominateReason>
+</LanguageData>

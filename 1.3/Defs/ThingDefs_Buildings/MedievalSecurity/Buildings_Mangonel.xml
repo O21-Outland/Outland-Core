@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="OutlandBuildingBase">
+		<defName>Outland_Mangonel</defName>
+		<label>mangonel</label>
+		<description>An ancient overhead ballistic projectile launching platform.</description>
+		<thingClass>Building_TurretGun</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Outland/Buildings/Security/Mangonel_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3.5, 3.5)</drawSize>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<uiIconPath>Outland/Buildings/Security/Mangonel_MenuIcon</uiIconPath>
+		<uiIconScale>1.0</uiIconScale>
+		<size>(3, 3)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<stealable>false</stealable>
+		<rotatable>true</rotatable>
+		<blockWind>true</blockWind>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.5</fillPercent>
+		<tickerType>Normal</tickerType>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<hasInteractionCell>true</hasInteractionCell>
+		<repairEffect>ConstructDirt</repairEffect>
+		<costList>
+			<WoodLog>250</WoodLog>
+			<Steel>130</Steel>
+			<Outland_ComponentMedieval>8</Outland_ComponentMedieval>
+		</costList>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>3600</WorkToBuild>
+			<Beauty>-20</Beauty>
+		</statBases>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretGunDef>Outland_Gun_Mangonel</turretGunDef>
+			<turretBurstCooldownTime>42</turretBurstCooldownTime>
+			<turretBurstWarmupTime>6</turretBurstWarmupTime>
+			<turretTopDrawSize>4</turretTopDrawSize>
+		</building>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>Outland_DefencePlatforms</li>
+		</researchPrerequisites>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<specialDisplayRadius>32</specialDisplayRadius>
+		<inspectorTabs>
+			<li>ITab_Shells</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Mannable">
+				<manWorkType>Violent</manWorkType>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="Outland.DefModExt_UnconventionalTurret" />
+		</modExtensions>
+		<designationCategory>Outland_Outland</designationCategory>
+	</ThingDef>
+
+	<ThingDef ParentName="OutlandBaseWeaponTurret">
+		<defName>Outland_Gun_Mangonel</defName>
+		<label>mangonel</label>
+		<description>A mangonel is a ballistic device used to launch a projectile a great distance without the aid of gunpowder or other propellants.</description>
+		<graphicData>
+			<texPath>Outland/Buildings/Security/Mangonel_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Bow_Large</soundInteract>
+		<destroyOnDrop>true</destroyOnDrop>
+		<tradeability>None</tradeability>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<RangedWeapon_Cooldown>38</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags Inherit="false">
+			<li>ArtilleryMedieval</li>
+			<li>ArtilleryMedieval_BaseDestroyer</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+				<hasStandardCommand>true</hasStandardCommand>
+				<warmupTime>6.0</warmupTime>
+				<forcedMissRadius>10</forcedMissRadius>
+				<requireLineOfSight>false</requireLineOfSight>
+				<minRange>31.9</minRange>
+				<range>500</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>Bow_Recurve</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CompProperties_ChangeableProjectile" />
+		</comps>
+		<building>
+			<fixedStorageSettings>
+				<filter>
+					<thingDefs>
+						<li>Outland_Ammo_RoundShot</li>
+					</thingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<filter>
+					<thingDefs>
+						<li>Outland_Ammo_RoundShot</li>
+					</thingDefs>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+	</ThingDef>
+
+</Defs>

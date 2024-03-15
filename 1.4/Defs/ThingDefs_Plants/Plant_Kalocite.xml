@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="PlantBaseNonEdible">
+		<defName>Outland_KalociteFormation</defName>
+		<label>Kalocite formation</label>
+		<thingClass>Outland.Crystal</thingClass>
+		<description>Crystalline growth imbued with the worlds magic. Has many uses.</description>
+		<graphicData>
+			<texPath>Outland/Plants/KalociteFormation</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1.15, 1.15)</drawSize>
+		</graphicData>
+		<tickerType>Long</tickerType>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<pathCost>14</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Beauty>10</Beauty>
+			<BeautyOutdoors>3</BeautyOutdoors>
+		</statBases>
+		<plant>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Outland_Kalocite</harvestedThingDef>
+			<harvestYield>12</harvestYield>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<fertilityMin>0.01</fertilityMin>
+			<fertilitySensitivity>0</fertilitySensitivity>
+			<sowMinSkill>5</sowMinSkill>
+			<growDays>14</growDays>
+			<neverBlightable>true</neverBlightable>
+			<lifespanDaysPerGrowDays>0</lifespanDaysPerGrowDays>
+			<visualSizeRange>0.75~1.0</visualSizeRange>
+			<topWindExposure>0</topWindExposure>
+			<cavePlantWeight>1</cavePlantWeight>
+			<wildClusterWeight>0.1</wildClusterWeight>
+			<maxMeshCount>1</maxMeshCount>
+			<dieIfNoSunlight>False</dieIfNoSunlight>
+			<dieFromToxicFallout>False</dieFromToxicFallout>
+			<growMinGlow>0</growMinGlow>
+			<pollution>CleanOnly</pollution>
+		</plant>
+		<researchPrerequisites>
+			<li>Outland_KalociteFarming</li>
+		</researchPrerequisites>
+		<descriptionHyperlinks>
+			<ThingDef>Outland_Kalocite</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef>
+
+	<ThingDef ParentName="PlantBaseNonEdible" MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>Outland_ToxociteFormation</defName>
+		<label>Toxocite formation</label>
+		<thingClass>Outland.Crystal</thingClass>
+		<description>Crystalline growth imbued with the worlds magic. This corrupted variant of Kalocite is highly toxic.</description>
+		<graphicData>
+			<texPath>Outland/Plants/ToxociteFormation</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1.15, 1.15)</drawSize>
+		</graphicData>
+		<tickerType>Long</tickerType>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<pathCost>14</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Beauty>10</Beauty>
+			<BeautyOutdoors>3</BeautyOutdoors>
+		</statBases>
+		<plant>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Outland_Toxocite</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<fertilityMin>0.01</fertilityMin>
+			<fertilitySensitivity>0</fertilitySensitivity>
+			<sowMinSkill>8</sowMinSkill>
+			<growDays>14</growDays>
+			<neverBlightable>true</neverBlightable>
+			<lifespanDaysPerGrowDays>0</lifespanDaysPerGrowDays>
+			<visualSizeRange>0.75~1.0</visualSizeRange>
+			<topWindExposure>0</topWindExposure>
+			<cavePlantWeight>1</cavePlantWeight>
+			<wildClusterWeight>0.1</wildClusterWeight>
+			<maxMeshCount>1</maxMeshCount>
+			<dieIfNoSunlight>False</dieIfNoSunlight>
+			<dieFromToxicFallout>False</dieFromToxicFallout>
+			<growMinGlow>0</growMinGlow>
+			<pollution>PollutedOnly</pollution>
+		</plant>
+		<comps>
+			<li Class="CompProperties_Toxifier">
+				<radius>15.9</radius>
+				<cellsToPollute>1</cellsToPollute>
+				<pollutionIntervalTicks>120000</pollutionIntervalTicks><!-- 2 days -->
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>Outland_KalociteFarming</li>
+		</researchPrerequisites>
+		<descriptionHyperlinks>
+			<ThingDef>Outland_Toxocite</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef>
+
+</Defs>

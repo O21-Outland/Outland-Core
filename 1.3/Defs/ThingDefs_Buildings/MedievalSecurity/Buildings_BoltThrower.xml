@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="OutlandBuildingBase">
+		<defName>Outland_BoltThrower</defName>
+		<label>bolt thrower</label>
+		<description>An ancient crossbow designed to be mounted on a stand for defensive capabilities.</description>
+		<thingClass>Building_TurretGun</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Outland/Buildings/Security/BoltThrowerBase</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.7, 1.7)</drawSize>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<tickerType>Normal</tickerType>
+		<uiIconPath>Outland/Buildings/Security/BoltThrower_UI</uiIconPath>
+		<uiIconScale>1.0</uiIconScale>
+		<size>(1, 1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<stealable>false</stealable>
+		<rotatable>true</rotatable>
+		<blockWind>true</blockWind>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.4</fillPercent>
+		<hasTooltip>true</hasTooltip>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<hasInteractionCell>true</hasInteractionCell>
+		<repairEffect>ConstructDirt</repairEffect>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>1200</WorkToBuild>
+			<Beauty>-10</Beauty>
+			<ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+		</statBases>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretGunDef>Outland_Gun_BoltThrowerTurret</turretGunDef>
+			<turretBurstCooldownTime>2</turretBurstCooldownTime>
+			<turretBurstWarmupTime>1</turretBurstWarmupTime>
+			<turretTopDrawSize>1.7</turretTopDrawSize>
+		</building>
+		<costList>
+			<WoodLog>50</WoodLog>
+			<Steel>30</Steel>
+			<Outland_ComponentMedieval>3</Outland_ComponentMedieval>
+		</costList>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>Outland_DefencePlatforms</li>
+		</researchPrerequisites>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>PlaceWorker_ShowTurretRadius</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_Mannable">
+				<manWorkType>Violent</manWorkType>
+			</li>
+		</comps>
+		<designationCategory>Outland_Outland</designationCategory>
+	</ThingDef>
+
+	<ThingDef ParentName="OutlandBaseWeaponTurret">
+		<defName>Outland_Gun_BoltThrowerTurret</defName>
+		<label>bolt thrower</label>
+		<description>An ancient crossbow designed to be mounted on a stand for defensive capabilities.</description>
+		<graphicData>
+			<texPath>Outland/Buildings/Security/BoltThrowerHead</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.7, 1.7)</drawSize>
+		</graphicData>
+		<soundInteract>Bow_Large</soundInteract>
+		<destroyOnDrop>true</destroyOnDrop>
+		<tradeability>None</tradeability>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<AccuracyTouch>0.67</AccuracyTouch>
+			<AccuracyShort>0.73</AccuracyShort>
+			<AccuracyMedium>0.81</AccuracyMedium>
+			<AccuracyLong>0.71</AccuracyLong>
+			<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags Inherit="false">
+			<li>ArtilleryMedieval</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Outland_Bullet_BoltThrower</defaultProjectile>
+				<warmupTime>1.9</warmupTime>
+				<minRange>1.9</minRange>
+				<range>29.9</range>
+				<soundCast>Bow_Recurve</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>0</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Outland_Bullet_BoltThrower</defName>
+		<label>crossbow bolt</label>
+		<graphicData>
+			<texPath>Outland/Projectiles/Ballista_Proj</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.8,0.8)</drawSize>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>RangedStab</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<stoppingPower>1.0</stoppingPower>
+			<armorPenetrationBase>0.8</armorPenetrationBase>
+			<speed>65</speed>
+		</projectile>
+	</ThingDef>
+
+</Defs>

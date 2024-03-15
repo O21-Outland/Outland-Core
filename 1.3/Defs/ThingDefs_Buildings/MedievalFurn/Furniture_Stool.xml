@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="OutlandFurnitureWithQualityBase">
+		<defName>Outland_Stool</defName>
+		<label>stool</label>
+		<description>A simple platform on which to sit. Not very comfortable, but much better than nothing. Can be used at tables, work stations, and elsewhere.</description>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/Medieval/Stool</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<pathCost>30</pathCost>
+		<fillPercent>0.20</fillPercent>
+		<uiIconOffset>(0, -0.05)</uiIconOffset>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<WorkToBuild>560</WorkToBuild>
+			<Mass>3</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>5</Beauty>
+			<Comfort>0.6</Comfort>
+		</statBases>
+		<building>
+			<isSittable>true</isSittable>
+		</building>
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<researchPrerequisites>
+			<li>Outland_MedievalFurniture</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+</Defs>

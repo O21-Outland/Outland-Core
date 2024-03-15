@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+	<v1.3>
+		<li>/</li>
+		<li>1.3</li>
+		<!-- <li IfModActive="DankPyon.Medieval.Overhaul">1.3/Mods/MedievalOverhaul</li> --> <!-- Disabled permanently, too much work to keep supporting. Anyone is free to figure out a patch for Medieval Overhaul themselves. -->
+		<li IfModActive="sihv.rombones">1.3/Mods/RoMBones</li>
+		<li IfModActive="neronix17.fr.content.dni">1.3/Mods/DragonsNotIncluded</li>
+		<li IfModActive="LWM.DeepStorage">1.3/Mods/LWMDeepStorage</li>
+	</v1.3>
+	<v1.4>
+		<li>/</li>
+		<li>1.4</li>
+		<li IfModActive="Ludeon.RimWorld.Biotech">1.4/Mods/Biotech</li>
+		<li IfModActive="sihv.rombones">1.4/Mods/RoMBones</li>
+	</v1.4>
+	<v1.5>
+		<li>/</li>
+		<li>1.5</li>
+		<li IfModActive="sihv.rombones">1.4/Mods/RoMBones</li>
+	</v1.5>
+</loadFolders>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="DoorBase">
+		<defName>Outland_StoneMedievalDoor</defName>
+		<label>medieval door</label>
+		<description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</description>
+		<thingClass>Building_Door</thingClass>
+		<statBases>
+			<MaxHitPoints>280</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+		</statBases>
+		<graphicData>
+			<texPath>Outland/Buildings/StoneFurniture/MedievalDoor</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Outland/Buildings/StoneFurniture/MedievalDoor_MenuIcon</uiIconPath>
+		<costList>
+			<Outland_ComponentMedieval>2</Outland_ComponentMedieval>
+		</costList>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories Inherit="False">
+			<li>Stony</li>
+		</stuffCategories>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>Outland_SubCatStructural</subCategory>
+				<showOnlyInCategory>false</showOnlyInCategory>
+			</li>
+		</modExtensions>
+		<designationCategory>Outland_Outland</designationCategory>
+	</ThingDef>
+
+</Defs>

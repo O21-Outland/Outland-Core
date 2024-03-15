@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="OutlandBuildingBase">
+		<defName>Outland_Ballista</defName>
+		<label>heavy ballista</label>
+		<description>An ancient military siege weapon mounted on a rotating platform, firing large bolts with incredible piercing strength.</description>
+		<thingClass>Building_TurretGun</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Outland/Buildings/Security/Ballista_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4.5, 4.5)</drawSize>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<tickerType>Normal</tickerType>
+		<uiIconPath>Outland/Buildings/Security/Ballista_MenuIcon</uiIconPath>
+		<uiIconScale>1.0</uiIconScale>
+		<size>(3, 3)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<stealable>false</stealable>
+		<rotatable>true</rotatable>
+		<blockWind>true</blockWind>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.4</fillPercent>
+		<hasTooltip>true</hasTooltip>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<hasInteractionCell>true</hasInteractionCell>
+		<repairEffect>ConstructDirt</repairEffect>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>3600</WorkToBuild>
+			<Beauty>-10</Beauty>
+			<ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+		</statBases>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretGunDef>Outland_Gun_BallistaTurret</turretGunDef>
+			<turretBurstCooldownTime>4.5</turretBurstCooldownTime>
+			<turretBurstWarmupTime>1.9</turretBurstWarmupTime>
+			<turretTopDrawSize>4.5</turretTopDrawSize>
+		</building>
+		<costList>
+			<WoodLog>200</WoodLog>
+			<Steel>120</Steel>
+			<Outland_ComponentMedieval>8</Outland_ComponentMedieval>
+		</costList>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>Outland_DefencePlatforms</li>
+		</researchPrerequisites>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>PlaceWorker_ShowTurretRadius</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<inspectorTabs>
+			<li>ITab_Shells</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Mannable">
+				<manWorkType>Violent</manWorkType>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="Outland.DefModExt_UnconventionalTurret" />
+		</modExtensions>
+		<designationCategory>Outland_Outland</designationCategory>
+	</ThingDef>
+
+	<ThingDef ParentName="OutlandBaseWeaponTurret">
+		<defName>Outland_Gun_BallistaTurret</defName>
+		<label>ballista</label>
+		<description>An ancient military siege engine in a form of a crossbow mounted on a wooden construct.</description>
+		<graphicData>
+			<texPath>Outland/Buildings/Security/Ballista_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4.5, 4.5)</drawSize>
+		</graphicData>
+		<soundInteract>Bow_Large</soundInteract>
+		<destroyOnDrop>true</destroyOnDrop>
+		<tradeability>None</tradeability>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.68</AccuracyShort>
+			<AccuracyMedium>0.79</AccuracyMedium>
+			<AccuracyLong>0.61</AccuracyLong>
+			<RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags Inherit="false">
+			<li>ArtilleryMedieval</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Outland_Bullet_Ballista</defaultProjectile>
+				<warmupTime>1.9</warmupTime>
+				<minRange>5.9</minRange>
+				<range>49.9</range>
+				<soundCast>Bow_Recurve</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CompProperties_ChangeableProjectile" />
+		</comps>
+		<building>
+			<fixedStorageSettings>
+				<filter>
+					<thingDefs>
+						<li>Outland_Ammo_BallistaBolt</li>
+					</thingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<filter>
+					<thingDefs>
+						<li>Outland_Ammo_BallistaBolt</li>
+					</thingDefs>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+	</ThingDef>
+
+</Defs>

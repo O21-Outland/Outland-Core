@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TabulaRasa.UpdateDef>
+		<defName>Outland_Core_20220628</defName>
+		<date>2022/07/24</date>
+		<banner>UpdateInfo/O21Outland</banner>
+		<content>Version 1.1.8240
+- Removed: Clay Brick firing recipe on the Forge, this was for testing and meant to be removed before they were even added.
+- Fixed: Duplicate XML node on a couple of the turrets, unsure why the game never alerted me to this.
+
+For More information please see the Outpost 21 Wiki, left-click to open the page, right click to dismiss update.</content>
+		<linkUrl>https://outpost-21.fandom.com/wiki/Outland_-_Core</linkUrl>
+		<important>False</important>
+	</TabulaRasa.UpdateDef>
+
+</Defs>

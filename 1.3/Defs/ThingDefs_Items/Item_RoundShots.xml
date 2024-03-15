@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>Outland_Ammo_RoundShot</defName>
+		<label>round shot</label>
+		<description>A rock chunk smoothed and rounded for fancy aerodynamic and hit property reasons.</description>
+		<graphicData>
+			<texPath>Outland/Items/RoundShots</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<Mass>1.0</Mass>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<projectileWhenLoaded>Outland_Bullet_RoundShot</projectileWhenLoaded>
+		<modExtensions>
+			<li Class="Outland.DefModExt_UnconventionalShell"></li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Outland_Bullet_RoundShot</defName>
+		<label>round shot</label>
+		<graphicData>
+			<texPath>Outland/Projectiles/RoundShot_Proj</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<speed>33</speed>
+			<explosionRadius>2</explosionRadius>
+			<flyOverhead>true</flyOverhead>
+			<damageDef>Outland_RockDamage</damageDef>
+			<damageAmountBase>100</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<preExplosionSpawnChance>0.4</preExplosionSpawnChance>
+			<preExplosionSpawnThingDef>Filth_RubbleRock</preExplosionSpawnThingDef>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>Roof_Collapse</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+		</projectile>
+	</ThingDef>
+
+	<RecipeDef>
+		<defName>Outland_Make_RoundShots</defName>
+		<label>make round shots</label>
+		<description>Make a batch of round shots rock chunks.</description>
+		<jobString>Making round shots.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>3000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>StoneChunks</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>StoneChunks</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Outland_Ammo_RoundShot>3</Outland_Ammo_RoundShot>
+		</products>
+		<researchPrerequisites>
+			<li>Outland_DefencePlatforms</li>
+		</researchPrerequisites>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>TableStonecutter</li>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef Name="OutlandTrapMedievalBase" ParentName="OutlandBuildingBase" Abstract="True">
+		<thingClass>Building_TrapExplosive</thingClass>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>
+				<rect>(0.1,0,0.8,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconOffset>(0,-0.14)</uiIconOffset>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<tickerType>Normal</tickerType>
+		<stealable>false</stealable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<statBases>
+			<Mass>2</Mass>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>1400</WorkToBuild>
+			<Flammability>1</Flammability>
+			<Beauty>-4</Beauty>
+			<TrapSpringChance>1.0</TrapSpringChance>
+		</statBases>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>Outland_DefenceStructures</li>
+		</researchPrerequisites>
+		<placeWorkers>
+			<li>PlaceWorker_NeverAdjacentTrap</li>
+		</placeWorkers>
+		<building>
+			<isTrap>true</isTrap>
+			<trapPeacefulWildAnimalsSpringChanceFactor>0.25</trapPeacefulWildAnimalsSpringChanceFactor>
+			<expandHomeArea>false</expandHomeArea>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>Outland_SubCatSecurity</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+		<designationCategory>Outland_Outland</designationCategory>
+	</ThingDef>
+
+	<ThingDef ParentName="OutlandTrapMedievalBase">
+		<defName>Outland_FloorTrapChemfuel</defName>
+		<label>pot trap (chemfuel)</label>
+		<description>A pot of chemfuel mostly buried with just the top exposed and covered in a mechanism to trigger it.</description>
+		<graphicData>
+			<texPath>Outland/Buildings/Security/GasTrapMedieval_Chemfuel</texPath>
+		</graphicData>
+		<costList>
+			<Outland_ClayBrick>4</Outland_ClayBrick>
+			<Chemfuel>26</Chemfuel>
+			<Outland_ComponentMedieval>1</Outland_ComponentMedieval>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>2.9</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<startWickHitPointsPercent>0.85</startWickHitPointsPercent>
+				<wickTicks>0</wickTicks>
+				<startWickOnDamageTaken>
+					<li>Bullet</li>
+					<li>Arrow</li>
+					<li>ArrowHighVelocity</li>
+				</startWickOnDamageTaken>
+			</li>
+		</comps>
+		<specialDisplayRadius>2.9</specialDisplayRadius>
+	</ThingDef>
+
+	<ThingDef ParentName="OutlandTrapMedievalBase">
+		<defName>Outland_FloorTrapSmoke</defName>
+		<label>pot trap (smoke)</label>
+		<description>A pair of smoke shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
+		<graphicData>
+			<texPath>Outland/Buildings/Security/GasTrapMedieval_Smoke</texPath>
+		</graphicData>
+		<costList>
+			<Outland_ClayBrick>4</Outland_ClayBrick>
+			<Chemfuel>8</Chemfuel>
+			<MedicineHerbal>6</MedicineHerbal>
+			<Outland_ComponentMedieval>1</Outland_ComponentMedieval>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>6.6</explosiveRadius>
+				<explosiveDamageType>Smoke</explosiveDamageType>
+				<startWickHitPointsPercent>0.85</startWickHitPointsPercent>
+				<postExplosionGasType>BlindSmoke</postExplosionGasType>
+				<wickTicks>0</wickTicks>
+				<startWickOnDamageTaken>
+					<li>Bullet</li>
+					<li>Arrow</li>
+					<li>ArrowHighVelocity</li>
+				</startWickOnDamageTaken>
+			</li>
+		</comps>
+		<specialDisplayRadius>6.6</specialDisplayRadius>
+	</ThingDef>
+
+	<ThingDef ParentName="OutlandTrapMedievalBase">
+		<defName>Outland_FloorTrapKnockout</defName>
+		<label>pot trap (knockout)</label>
+		<description>A pair of smoke shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
+		<graphicData>
+			<texPath>Outland/Buildings/Security/GasTrapMedieval_Knockout</texPath>
+		</graphicData>
+		<costList>
+			<Outland_ClayBrick>4</Outland_ClayBrick>
+			<Chemfuel>8</Chemfuel>
+			<MedicineHerbal>30</MedicineHerbal>
+			<Outland_ComponentMedieval>1</Outland_ComponentMedieval>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>3.6</explosiveRadius>
+				<explosiveDamageType>Smoke</explosiveDamageType>
+				<startWickHitPointsPercent>0.85</startWickHitPointsPercent>
+				<postExplosionSpawnThingDef>Outland_GasKnockout</postExplosionSpawnThingDef>
+				<postExplosionSpawnChance>1</postExplosionSpawnChance>
+				<postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+				<wickTicks>0</wickTicks>
+				<startWickOnDamageTaken>
+					<li>Bullet</li>
+					<li>Arrow</li>
+					<li>ArrowHighVelocity</li>
+				</startWickOnDamageTaken>
+			</li>
+		</comps>
+		<specialDisplayRadius>3.6</specialDisplayRadius>
+	</ThingDef>
+
+	<!-- <ThingDef ParentName="OutlandTrapMedievalBase">
+		<defName>Outland_RoofCollapseTrap</defName>
+		<label>rock collapse trap</label>
+		<description>A solid chunk of roof suspended by very little, the slightest wrong move can set it off and cause a chain reaction if set up correctly.</description>
+		<thingClass>Outland.Building_TrapRoofCollapse</thingClass>
+		<graphicData>
+			<texPath>Outland/Buildings/Security/GasTrapMedieval_Chemfuel</texPath>
+		</graphicData>
+		<costList>
+			<Outland_ClayBrick>4</Outland_ClayBrick>
+			<Chemfuel>26</Chemfuel>
+			<Outland_ComponentMedieval>1</Outland_ComponentMedieval>
+		</costList>
+		<placeWorkers Inherit="False" />
+	</ThingDef> -->
+
+</Defs>

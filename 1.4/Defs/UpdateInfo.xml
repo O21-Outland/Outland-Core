@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TabulaRasa.UpdateDef>
+		<defName>Outland_Core_08102023</defName>
+		<date>2023/10/08</date>
+		<banner>UpdateInfo/O21Outland</banner>
+		<contentList>
+			<li>
+				<header>Fockatts</header>
+				<text>The product of letting a Scottish person name something that's a forest bear cat, Fockatts, will now spawn rarely in many biomes, they're bear-like felines, with horns. Not particularly aggressive, but will hit like a truck when they're angry.</text>
+			</li>
+			<li>
+				<header>Updated Bones Patching</header>
+				<text>Adjusted the Rim of Madness - Bones patches, they should now cause less (hopefully none) errors.</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2755501685</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outland Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/workshop/filedetails/?id=2755526603</linkUrl>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef>
+
+	<TabulaRasa.UpdateDef>
+		<defName>Outland_Core_31072023</defName>
+		<date>2023/07/31</date>
+		<banner>UpdateInfo/O21Outland</banner>
+		<contentList>
+			<li>
+				<header>Fixes:</header>
+				<text>- Ration Pack textures fixed (white artifacts on edges).
+- Rebalanced some recipes, particularly clay/adobe bricks and medieval components.</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2755501685</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outland Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/workshop/filedetails/?id=2755526603</linkUrl>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef>
+
+</Defs>

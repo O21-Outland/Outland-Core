@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- MorrowRim -->
+	<Operation Class="TabulaRasa.PatchOperation_FindModByID">
+		<mods>
+			<li>SirMashedPotato.MorrowRim</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!-- Remove bones from animals -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_Netch"]/statBases</xpath>
+					<value>
+						<Outland_BoneAmount>0</Outland_BoneAmount>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_RetchingNetch"]/statBases</xpath>
+					<value>
+						<Outland_BoneAmount>0</Outland_BoneAmount>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_SiltStrider"]/statBases</xpath>
+					<value>
+						<Outland_BoneAmount>0</Outland_BoneAmount>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_NixHound"]/statBases</xpath>
+					<value>
+						<Outland_BoneAmount>0</Outland_BoneAmount>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_Shalk"]/statBases</xpath>
+					<value>
+						<Outland_BoneAmount>0</Outland_BoneAmount>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_AshHopper"]/statBases</xpath>
+					<value>
+						<Outland_BoneAmount>0</Outland_BoneAmount>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_NixOx"]/statBases</xpath>
+					<value>
+						<Outland_BoneAmount>0</Outland_BoneAmount>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_FungalShalk"]/statBases</xpath>
+					<value>
+						<Outland_BoneAmount>0</Outland_BoneAmount>
+					</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_Netch"]/statBases/BoneAmount</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_RetchingNetch"]/statBases/BoneAmount</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_SiltStrider"]/statBases/BoneAmount</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_NixHound"]/statBases/BoneAmount</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_Shalk"]/statBases/BoneAmount</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_AshHopper"]/statBases/BoneAmount</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_NixOx"]/statBases/BoneAmount</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_FungalShalk"]/statBases/BoneAmount</xpath>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

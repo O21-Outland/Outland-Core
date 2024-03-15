@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="BaseGas">
+		<defName>Outland_GasKnockout</defName>
+		<label>knockout gas</label>
+		<graphicData>
+			<texPath>Things/Gas/Puff</texPath>
+			<drawSize>2.2</drawSize>
+			<color>(0.6,1.0,0.6,0.5)</color>
+		</graphicData>
+		<thingClass>O21Toolbox.GasStuff.GasHediffGiver</thingClass>
+		<gas>
+			<expireSeconds>11~16</expireSeconds>
+			<blockTurretTracking>false</blockTurretTracking>
+		</gas>
+		<modExtensions>
+			<li Class="O21Toolbox.GasStuff.DefModExt_GasHediffGiver">
+				<radius>1.9</radius>
+				<hediffDef>Outland_KnockoutGas</hediffDef>
+				<ticksBeforeApply>120</ticksBeforeApply>
+				<adjustSeverity>1.0</adjustSeverity>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

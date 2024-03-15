@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<SoundDef>
+		<defName>Outland_Item_Ammo</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/AmmoA</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/AmmoB</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_Apparatus</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/ApparatusA</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/ApparatusB</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_ArmorHeavy</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/ArmorHeavyA</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/ArmorHeavyB</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_ArmorLight</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/ArmorLightA</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/ArmorLightB</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_Book</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/BookA</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/BookB</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/BookC</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/BookD</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_Paper</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/BookPageA</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/BookPageB</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/BookPageC</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_Clothing</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/ClothingA</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/ClothingB</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_Gem</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/GemA</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/GemB</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_Generic</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/GenericA</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/GenericB</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_Gold</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/GoldA</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/GoldB</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_Ingredient</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/IngredientA</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/IngredientB</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_Key</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/KeyA</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/KeyB</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/LockpickA</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/LockpickB</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_MagicUse</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/MagicUse</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_PickupOrganic</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/PickupOrganic</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_Potion</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/PotionA</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/PotionB</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_Scroll</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/ScrollA</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/ScrollB</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/ScrollC</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/ScrollD</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_Soultrap</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/Soultrap</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_SummonedVanish</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/SummonedVanish</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_TakeAll</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/TakeAll</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_WeaponBlunt</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/WeaponBluntA</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/WeaponBluntB</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_WeaponBow</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/WeaponBowA</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/WeaponBowB</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_WeaponSharp</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/WeaponSharpA</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/WeaponSharpB</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Item_WeaponStaff</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/WeaponStaffA</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Items/WeaponStaffB</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>

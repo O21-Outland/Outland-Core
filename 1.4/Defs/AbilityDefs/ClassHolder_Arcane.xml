@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<Outland.TomeDef Name="Outland_ArcaneClassTomeBase" Abstract="True">
+		<thingClass>Outland.ClassTome</thingClass>
+		<category>Item</category>
+		<techLevel>Ultra</techLevel>
+		<useHitPoints>true</useHitPoints>
+		<pathCost>14</pathCost>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<tickerType>Never</tickerType>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<thingCategories>
+			<li>Outland_ClassTomes</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Beauty>-4</Beauty>
+			<Mass>1</Mass>
+			<MarketValue>3100</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<WorkToMake>36000</WorkToMake>
+		</statBases>
+		<tradeTags>
+			<li>Outland_ClassTomes</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>Outland_ClassTomes</li>
+		</thingSetMakerTags>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+		</comps>
+	</Outland.TomeDef>
+
+	<Outland.TomeDef Name="Outland_ArcaneSpellSpecificBase" Abstract="True">
+		<thingClass>Outland.AbilityTome</thingClass>
+		<category>Item</category>
+		<techLevel>Ultra</techLevel>
+		<useHitPoints>true</useHitPoints>
+		<pathCost>14</pathCost>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<tickerType>Never</tickerType>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<thingCategories>
+			<li>Outland_SpellTomes</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Beauty>-4</Beauty>
+			<Mass>1</Mass>
+			<MarketValue>3100</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+		<tradeTags>
+			<li>Outland_SpellTomes</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>Outland_SpellTomes</li>
+		</thingSetMakerTags>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+		</comps>
+	</Outland.TomeDef>
+
+	<HediffDef ParentName="ImplantHediffBase" Name="Outland_ArcaneClassBase">
+		<defName>Outland_ArcaneClass</defName>
+		<label>arcane classes</label>
+		<description>Arcane classes allow pawns to use all sorts of magical abilities. Mages can learn many classes or focus on one.</description>
+		<hediffClass>Outland.Hediff_ArcaneAbilities</hediffClass>
+		<descriptionHyperlinks>
+			<ThingDef MayRequire="Neronix17.Outland.MagesGuild">Outland_ClassTome_Hydromagus</ThingDef>
+			<ThingDef MayRequire="Neronix17.Outland.MagesGuild">Outland_ClassTome_Pyromagus</ThingDef>
+			<ThingDef MayRequire="Neronix17.Outland.Lichdom">Outland_ClassTome_Necromagus</ThingDef>
+		</descriptionHyperlinks>
+		<initialSeverity>1</initialSeverity>
+		<minSeverity>0</minSeverity>
+		<keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
+		<countsAsAddedPartOrImplant>False</countsAsAddedPartOrImplant>
+		<!-- Changing stages changes nothing about the stats on levels. All handled dynamically. Nerd. -->
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+				<minSeverity>0</minSeverity>
+			</li>
+			<li>
+				<becomeVisible>true</becomeVisible>
+				<minSeverity>1</minSeverity>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

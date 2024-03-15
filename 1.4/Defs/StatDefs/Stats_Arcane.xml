@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<StatDef Name="ArcaneStatBase" Abstract="True">
+		<category>BasicsPawnImportant</category>
+		<minValue>0</minValue>
+		<hideAtValue>0</hideAtValue>
+		<showOnAnimals>false</showOnAnimals>
+		<showOnMechanoids>false</showOnMechanoids>
+		<showIfHediffsPresent>
+			<li>Outland_ArcaneClass</li>
+		</showIfHediffsPresent>
+	</StatDef>
+
+	<StatDef ParentName="ArcaneStatBase">
+		<defName>Outland_ArcaneEnergyMax</defName>
+		<label>arcane energy limit</label>
+		<description>The maximum amount of arcane energy the individual can store.</description>
+		<defaultBaseValue>0</defaultBaseValue>
+		<toStringStyle>Integer</toStringStyle>
+		<displayPriorityInCategory>3500</displayPriorityInCategory>
+		<scenarioRandomizable>true</scenarioRandomizable>
+		<parts>
+			<li Class="Outland.StatPart_ArcaneEnergyMax" />
+		</parts>
+	</StatDef>
+
+	<StatDef ParentName="ArcaneStatBase">
+		<defName>Outland_ArcaneEnergyRecoveryRate</defName>
+		<label>arcane energy recovery rate</label>
+		<description>The rate at which this person recovers arcane energy.</description>
+		<defaultBaseValue>1</defaultBaseValue>
+		<toStringStyle>FloatMaxTwo</toStringStyle>
+		<formatString>{0}/s</formatString>
+		<displayPriorityInCategory>6000</displayPriorityInCategory>
+		<parts>
+			<li Class="Outland.StatPart_ArcaneEnergyRecoveryRate" />
+		</parts>
+	</StatDef>
+
+	<StatDef ParentName="ArcaneStatBase">
+		<defName>Outland_MagicAbilityCostMultiplier</defName>
+		<label>arcane ability cost multiplier</label>
+		<description>How much effort it costs to use arcane energy.</description>
+		<defaultBaseValue>1</defaultBaseValue>
+		<toStringStyle>PercentOne</toStringStyle>
+		<formatString>{0}</formatString>
+		<displayPriorityInCategory>4000</displayPriorityInCategory>
+	</StatDef>
+
+</Defs>

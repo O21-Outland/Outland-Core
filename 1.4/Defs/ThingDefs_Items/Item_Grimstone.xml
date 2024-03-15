@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<ThingDef ParentName="OutlandStone">
+		<defName>Outland_Grimstone</defName>
+		<label>grimstone</label>
+		<description>A hardened stone formed artificially using crushed kalocite mixed with other stone.</description>
+		<graphicData>
+			<color>(60, 60, 60)</color>
+		</graphicData>
+		<statBases>
+			<Mass>0.5</Mass>
+			<MaxHitPoints>300</MaxHitPoints>
+			<MarketValue>2.1</MarketValue>
+			<SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+			<Beauty>0</Beauty>
+			<ConstructionSpeedFactor>0.8</ConstructionSpeedFactor>
+		</statBases>		
+		<stuffProps>
+			<commonality>1.00</commonality>
+			<statOffsets>
+				<WorkToBuild>140</WorkToBuild>
+			</statOffsets>
+			<color>(60, 60, 60)</color>
+			<stuffAdjective>grimstone</stuffAdjective>
+			<statFactors>
+				<Beauty>1.1</Beauty>
+				<MarketValue>0.5</MarketValue>
+				<MaxHitPoints>1.8</MaxHitPoints>
+				<Flammability>0</Flammability>
+				<WorkToBuild>4.0</WorkToBuild>
+				<WorkToMake>1.5</WorkToMake>
+				<DoorOpenSpeed>0.4</DoorOpenSpeed>
+				<BedRestEffectiveness>0.9</BedRestEffectiveness>
+				<MeleeWeapon_CooldownMultiplier>1.30</MeleeWeapon_CooldownMultiplier>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>

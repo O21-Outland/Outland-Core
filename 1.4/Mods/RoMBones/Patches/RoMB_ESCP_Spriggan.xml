@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!--ESCP - Spriggan-->
+	<Operation Class="TabulaRasa.PatchOperation_FindModByID">
+		<mods>
+			<li>pphhyy.ESCP.Spriggan</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[@Name = "ESCP_SprigganThingBase"]/statBases</xpath>
+					<value>
+						<Outland_BoneAmount>0</Outland_BoneAmount>
+					</value>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName = "ESCP_SprigganThingBase"]/statBases/BoneAmount</xpath>
+					<match Class="PatchOperationRemove">
+						<xpath>/Defs/ThingDef[defName = "ESCP_SprigganThingBase"]/statBases/BoneAmount</xpath>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

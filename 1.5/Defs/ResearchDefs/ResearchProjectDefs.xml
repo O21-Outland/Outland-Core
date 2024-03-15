@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ResearchProjectTagDef>
+		<defName>Outland_ResearchStart</defName>
+	</ResearchProjectTagDef>
+
+	<ResearchTabDef>
+		<defName>Outland_ResearchTab</defName>
+		<label>Outland</label>
+	</ResearchTabDef>
+
+	<ResearchProjectDef Name="Outland_ResearchBase" Abstract="True">
+		<tab>Outland_ResearchTab</tab>
+		<baseCost>50</baseCost>
+		<techLevel>Medieval</techLevel>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Outland_RationPack</defName>
+		<label>ration pack</label>
+		<description>Make ration packs, a preserved mixture of meat and plant matter that won't rot at all. Great for traveling.</description>
+		<baseCost>700</baseCost>
+		<techLevel>Medieval</techLevel>
+		<tags>
+			<li>Outland_ResearchStart</li>
+		</tags>
+		<prerequisites>
+			<li>Pemmican</li>
+		</prerequisites>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>1.10</researchViewY>
+	</ResearchProjectDef>
+
+	<!-- ==================================== Medieval ========================================== -->
+
+	<ResearchProjectDef ParentName="Outland_ResearchBase">
+		<defName>Outland_DefencePlatforms</defName>
+		<label>defence platforms</label>
+		<description>Learn to build medieval defence platforms and ammo for them.</description>
+		<tags>
+			<li>Outland_ResearchStart</li>
+		</tags>
+		<baseCost>800</baseCost>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="Outland_ResearchBase">
+		<defName>Outland_DefenceStructures</defName>
+		<label>defence structures</label>
+		<description>Learn to build medieval defensive structures.</description>
+		<tags>
+			<li>Outland_ResearchStart</li>
+		</tags>
+		<baseCost>300</baseCost>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

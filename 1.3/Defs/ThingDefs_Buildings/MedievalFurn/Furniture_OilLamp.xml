@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<ThingDef ParentName="OutlandFurnitureBase">
+		<defName>Outland_OilLantern</defName>
+		<label>oil lantern</label>
+		<description>It's a small oil lantern. I think I can use it safely even when it rains.</description>
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/Medieval/OilLamp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<uiIconScale>0.9</uiIconScale>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<constructEffect>ConstructWood</constructEffect>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<fillPercent>0</fillPercent>
+		<selectable>true</selectable>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<destroyable>true</destroyable>
+		<tradeability>None</tradeability>
+		<clearBuildingArea>false</clearBuildingArea>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Mass>1</Mass>
+			<Beauty>5</Beauty>
+		</statBases>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<costList>
+			<WoodLog>5</WoodLog>
+			<Steel>10</Steel>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Flickable" />
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>2.0</fuelConsumptionRate>
+				<fuelCapacity>10.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>1</initialFuelPercent>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>9</glowRadius>
+				<glowColor>(252, 187, 113, 0)</glowColor>
+			</li>
+			<li Class="O21Toolbox.BuildingExt.CompProperties_AdvFireOverlay">
+				<fireSize>0.4</fireSize>
+				<offset>(0, -0.001, 0)</offset>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>Outland_MedievalFurniture</li>
+		</researchPrerequisites>
+		<!-- <designatorDropdown>Outland_OilLamp</designatorDropdown> -->
+	</ThingDef>
+
+</Defs>

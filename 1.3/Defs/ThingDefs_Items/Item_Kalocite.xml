@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>Outland_Kalocite</defName>
+		<label>kalocite</label>
+		<description>Crystals imbued with magical energy, used throughout Outland for many purposes from lighting to weapons.</description>
+		<graphicData>
+			<texPath>Outland/Items/Kalocite</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>500</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>8</MarketValue>
+			<Mass>0.1</Mass>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		<intricate>false</intricate>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<allowedArchonexusCount>100</allowedArchonexusCount>
+	</ThingDef>
+
+</Defs>

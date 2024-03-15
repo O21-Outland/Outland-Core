@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="OutlandArtableBedBase">
+		<defName>Outland_BedSingle</defName>
+		<label>bed</label>
+		<description>A cozy mattress and sheets on a frame for resting.</description>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/Medieval/SingleBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,4)</drawSize>
+		</graphicData>
+		<size>(1,2)</size>
+		<uiIconScale>0.90</uiIconScale>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>60</pathCost>
+		<staticSunShadowHeight>0.15</staticSunShadowHeight>
+		<castEdgeShadows>True</castEdgeShadows>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Beauty>8</Beauty>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>45</Mass>
+			<BedRestEffectiveness>1</BedRestEffectiveness>
+			<Comfort>0.75</Comfort>
+			<ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
+			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+		</statBases>
+		<building>
+			<bed_showSleeperBody>False</bed_showSleeperBody>
+			<bed_healPerDay>5</bed_healPerDay>
+		</building>
+		<costStuffCount>45</costStuffCount>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<researchPrerequisites>
+			<li>Outland_MedievalFurniture</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+</Defs>

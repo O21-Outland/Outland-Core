@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="OutlandArtableBedBase">
+		<defName>Outland_BedDouble</defName>
+		<label>double bed</label>
+		<description>A simple double-wide bed that fits two people.</description>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/Medieval/DoubleBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4.05,4.05)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<uiIconScale>0.90</uiIconScale>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>60</pathCost>
+		<leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+		<staticSunShadowHeight>0.15</staticSunShadowHeight>
+		<castEdgeShadows>True</castEdgeShadows>
+		<statBases>
+			<MaxHitPoints>195</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>1400</WorkToBuild>
+			<Mass>75</Mass>
+			<Comfort>0.85</Comfort>
+			<Beauty>8</Beauty>
+			<BedRestEffectiveness>1</BedRestEffectiveness>
+			<ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
+			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+		</statBases>
+		<building>
+			<bed_showSleeperBody>False</bed_showSleeperBody>
+			<bed_healPerDay>5</bed_healPerDay>
+		</building>
+		<costStuffCount>85</costStuffCount>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<researchPrerequisites>
+			<li>Outland_MedievalFurniture</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+</Defs>

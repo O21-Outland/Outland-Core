@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<GeneDef Name="ArcaneAffinityBase" Abstract="True">
+		<displayCategory>Outland_ArcaneGenes</displayCategory>
+		<exclusionTags>
+			<li>ArcaneAffinity</li>
+		</exclusionTags>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>Outland/GeneIcons/EndogeneBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>Outland/GeneIcons/XenogeneBG</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef ParentName="ArcaneAffinityBase">
+		<defName>Outland_ArcaneAffinity_LargeIncrease</defName>
+		<label>strong arcane affinity</label>
+		<description>Carriers of this gene find using arcane abilities almost natural, as if they were born to it.\n\nThis gene does nothing useful with no Outland magic classes available.</description>
+		<iconPath>Outland/GeneIcons/Gene_ArcaneAffinityLarge</iconPath>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<statOffsets>
+			<Outland_ArcaneEnergyMax>50</Outland_ArcaneEnergyMax>
+		</statOffsets>
+		<statFactors>
+			<Outland_ArcaneEnergyRecoveryRate>2</Outland_ArcaneEnergyRecoveryRate>
+			<Outland_MagicAbilityCostMultiplier>0.8</Outland_MagicAbilityCostMultiplier>
+		</statFactors>
+		<biostatMet>-2</biostatMet>
+	</GeneDef>
+
+	<GeneDef ParentName="ArcaneAffinityBase">
+		<defName>Outland_ArcaneAffinity_SmallIncrease</defName>
+		<label>weak arcane affinity</label>
+		<description>Carriers of this gene have an easier time handling arcane abilities.\n\nThis gene does nothing useful with no Outland magic classes available.</description>
+		<iconPath>Outland/GeneIcons/Gene_ArcaneAffinitySmall</iconPath>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<statOffsets>
+			<Outland_ArcaneEnergyMax>25</Outland_ArcaneEnergyMax>
+		</statOffsets>
+		<statFactors>
+			<Outland_ArcaneEnergyRecoveryRate>1</Outland_ArcaneEnergyRecoveryRate>
+			<Outland_MagicAbilityCostMultiplier>0.9</Outland_MagicAbilityCostMultiplier>
+		</statFactors>
+		<biostatMet>-1</biostatMet>
+	</GeneDef>
+
+	<GeneDef ParentName="ArcaneAffinityBase">
+		<defName>Outland_ArcaneAffinity_SmallDecrease</defName>
+		<label>weak arcane aversion</label>
+		<description>Carriers of this gene have a harder time handling arcane abilities.\n\nThis gene does nothing useful with no Outland magic classes available.</description>
+		<iconPath>Outland/GeneIcons/Gene_ArcaneAversionSmall</iconPath>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<statOffsets>
+			<Outland_ArcaneEnergyMax>-25</Outland_ArcaneEnergyMax>
+		</statOffsets>
+		<statFactors>
+			<Outland_MagicAbilityCostMultiplier>1.1</Outland_MagicAbilityCostMultiplier>
+		</statFactors>
+		<biostatMet>1</biostatMet>
+	</GeneDef>
+
+	<GeneDef ParentName="ArcaneAffinityBase">
+		<defName>Outland_ArcaneAffinity_LargeDecrease</defName>
+		<label>strong arcane aversion</label>
+		<description>Carriers of this gene find using magic much more difficult, sometimes impossible.\n\nThis gene does nothing useful with no Outland magic classes available.</description>
+		<iconPath>Outland/GeneIcons/Gene_ArcaneAversionLarge</iconPath>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<statOffsets>
+			<Outland_ArcaneEnergyMax>-50</Outland_ArcaneEnergyMax>
+		</statOffsets>
+		<statFactors>
+			<Outland_MagicAbilityCostMultiplier>1.2</Outland_MagicAbilityCostMultiplier>
+		</statFactors>
+		<biostatMet>2</biostatMet>
+	</GeneDef>
+
+</Defs>

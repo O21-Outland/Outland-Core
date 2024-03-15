@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>Outland_ComponentArcane</defName>
+		<label>arcane component</label>
+		<description>Miscellaneous parts useful in the construction of magic devices and equipment.</description>
+		<graphicData>
+			<texPath>Outland/Items/ArcaneComponent</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>50</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<MarketValue>25</MarketValue>
+			<Mass>0.8</Mass>
+			<Flammability>0.8</Flammability>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+		<intricate>true</intricate>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<allowedArchonexusCount>10</allowedArchonexusCount>
+	</ThingDef>
+
+	<RecipeDef>
+		<defName>Outland_MakeComponentArcane</defName>
+		<label>make arcane component</label>
+		<description>Make an arcane component.</description>
+		<jobString>Making arcane component.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>2000</workAmount>
+		<workSkill>Crafting</workSkill>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Outland_Kalocite</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Outland_ComponentMedieval</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Outland_Kalocite</li>
+				<li>Outland_ComponentMedieval</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Outland_ComponentArcane>1</Outland_ComponentArcane>
+		</products>
+	</RecipeDef>
+
+</Defs>

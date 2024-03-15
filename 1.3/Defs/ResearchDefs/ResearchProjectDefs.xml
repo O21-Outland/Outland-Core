@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+    <ResearchProjectTagDef>
+        <defName>Outland_ResearchStart</defName>
+    </ResearchProjectTagDef>
+
+	<ResearchTabDef>
+		<defName>Outland_ResearchTab</defName>
+		<label>Outland</label>
+	</ResearchTabDef>
+
+	<ResearchProjectDef Name="Outland_ResearchBase" Abstract="True">
+		<tab>Outland_ResearchTab</tab>
+		<baseCost>1000</baseCost>
+		<techLevel>Medieval</techLevel>
+	</ResearchProjectDef>
+
+	<!-- ==================================== Kalocite ========================================== -->
+
+	<ResearchProjectDef ParentName="Outland_ResearchBase">
+		<defName>Outland_KalociteFarming</defName>
+		<label>kalocite farming</label>
+		<description>Learn the secrets to focusing the growth of kalocite crystals into a designated zone.</description>
+		<tags>
+			<li>Outland_ResearchStart</li>
+		</tags>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="Outland_ResearchBase">
+		<defName>Outland_KalociteDecoration</defName>
+		<label>kalocite deco</label>
+		<description>Learn to maniulate kalocite into various decorative uses, lighting for example.</description>
+		<prerequisites>
+			<li>Outland_KalociteFarming</li>
+		</prerequisites>
+		<tags>
+			<li>Outland_ResearchStart</li>
+		</tags>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<!-- ==================================== Grimstone ========================================== -->
+
+	<ResearchProjectDef ParentName="Outland_ResearchBase">
+		<defName>Outland_Grimstone</defName>
+		<label>grimstone</label>
+		<description>Learn to create grimstone, formed from combining kalocite with any kind of stone bricks.</description>
+		<tags>
+			<li>Outland_ResearchStart</li>
+		</tags>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+
+	<!-- <ResearchProjectDef ParentName="Outland_ResearchBase">
+		<defName>Outland_GrimstoneDeco</defName>
+		<label>grimstone deco</label>
+		<description>Learn to build grimstone decorative buildings.</description>
+		<tags>
+			<li>Outland_ResearchStart</li>
+		</tags>
+		<prerequisites>
+			<li>Outland_Grimstone</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef> -->
+
+	<!-- ==================================== Medieval ========================================== -->
+
+	<ResearchProjectDef ParentName="Outland_ResearchBase">
+		<defName>Outland_MedievalFurniture</defName>
+		<label>medieval furniture</label>
+		<description>Learn to build medieval furniture.</description>
+		<tags>
+			<li>Outland_ResearchStart</li>
+		</tags>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="Outland_ResearchBase">
+		<defName>Outland_MedievalDeco</defName>
+		<label>medieval deco</label>
+		<description>Learn to build medieval decorative buildings.</description>
+		<prerequisites>
+			<li>Outland_MedievalFurniture</li>
+		</prerequisites>
+		<tags>
+			<li>Outland_ResearchStart</li>
+		</tags>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="Outland_ResearchBase">
+		<defName>Outland_DefencePlatforms</defName>
+		<label>defence platforms</label>
+		<description>Learn to build medieval defence platforms and ammo for them.</description>
+		<tags>
+			<li>Outland_ResearchStart</li>
+		</tags>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="Outland_ResearchBase">
+		<defName>Outland_DefenceStructures</defName>
+		<label>defence structures</label>
+		<description>Learn to build medieval defensive structures.</description>
+		<tags>
+			<li>Outland_ResearchStart</li>
+		</tags>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

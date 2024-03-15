@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<HediffDef>
+		<defName>Outland_SoulTrapped</defName>
+		<label>soul trapped</label>
+		<description>This creatures soul is trapped and when killed will result in the creation of a soul shard. Resurrecting a pawn with no soul is known to cause severe and unending rage issues.</description>
+		<hediffClass>Outland.Hediff_SoulTrap</hediffClass>
+		<defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
+		<initialSeverity>1</initialSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2.0</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>Outland_SoullessRage</defName>
+		<label>soulless rage</label>
+		<description>This creatures soul was wrenched from its body on death. Though resurrection has returned life to the body, the soul is gone and the body knows nothing but rage in its place. After a day of this, they will die again.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
+		<initialSeverity>1</initialSeverity>
+		<comps>
+			<li Class="HediffCompProperties_KillAfterDays">
+				<days>1</days>
+			</li>
+			<li Class="HediffCompProperties_CauseMentalState">
+				<animalMentalState>ManhunterPermanent</animalMentalState>
+				<animalMentalStateAlias>Manhunter</animalMentalStateAlias>
+				<humanMentalState>Berserk</humanMentalState>
+				<letterDef>ThreatSmall</letterDef>
+				<!-- <mtbDaysToCauseMentalState>0</mtbDaysToCauseMentalState> -->
+			</li>
+		</comps>
+	</HediffDef>
+
+</Defs>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<DesignatorDropdownGroupDef>
+		<defName>Outland_OilWallLanterns</defName>
+		<label>wall lanterns</label>
+	</DesignatorDropdownGroupDef>
+
+	<ThingDef Name="OutlandOilWallLanternBase" ParentName="OutlandWallLightBase" Abstract="True">
+		<description>A wall mounted lighting fixture.</description>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/Medieval/WallOilLamp</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.5,2.5)</drawSize>
+		</graphicData>
+		<uiIconScale>1</uiIconScale>
+		<uiIconOffset>(0,-0.2)</uiIconOffset>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Mass>2</Mass>
+		</statBases>
+		<costList>
+			<WoodLog>5</WoodLog>
+			<Outland_ComponentMedieval>2</Outland_ComponentMedieval>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Flickable" />
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>2.0</fuelConsumptionRate>
+				<fuelCapacity>10.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>1</initialFuelPercent>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>Outland_MedievalFurniture</li>
+		</researchPrerequisites>
+		<designatorDropdown>Outland_OilWallLanterns</designatorDropdown>
+	</ThingDef>
+	
+	<ThingDef ParentName="OutlandOilWallLanternBase">
+		<defName>Outland_WallLantern</defName>
+		<label>wall lantern</label>
+		<comps>
+			<li Class="VanillaFurnitureExpanded.CompProperties_GlowerExtended">
+				<spawnGlowerInFacedCell>true</spawnGlowerInFacedCell>
+				<colorOptions>
+					<li>
+						<glowRadius>7</glowRadius>
+						<glowColor>(252, 187, 113)</glowColor>
+						<colorLabel>normal</colorLabel>
+					</li>
+				</colorOptions>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="OutlandOilWallLanternBase" MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>Outland_WallLantern_Darklight</defName>
+		<label>wall lantern (darklight)</label>
+		<comps>
+			<li Class="VanillaFurnitureExpanded.CompProperties_GlowerExtended">
+				<spawnGlowerInFacedCell>true</spawnGlowerInFacedCell>
+				<colorOptions>
+					<li>
+						<glowRadius>7</glowRadius>
+						<glowColor>(78, 226, 229)</glowColor>
+						<colorLabel>darklight</colorLabel>
+					</li>
+				</colorOptions>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

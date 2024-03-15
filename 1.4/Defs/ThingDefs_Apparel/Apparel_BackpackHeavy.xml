@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<TabulaRasa.ExtendedApparelDef ParentName="OutlandApparelMakeableBase">
+		<defName>Outland_BackpackHeavy</defName>
+		<label>heavy backpack</label>
+		<description>A large backpack. Greatly increases the carry capacity of the pawn wearing it.</description>
+		<graphicData>
+			<texPath>Outland/Apparel/BackpackHeavy/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+				<li>HandTailoringBench</li>
+				<li>ElectricTailoringBench</li>
+			</recipeUsers>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Tailor</effectWorking>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<statBases>
+			<WorkToMake>4200</WorkToMake>
+			<Mass>2</Mass>
+			<Flammability>0.4</Flammability>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<carryCapBuff>50</carryCapBuff>
+		<thingCategories>
+			<li>ApparelUtility</li>
+		</thingCategories>
+		<generateAllowChance>0.05</generateAllowChance>
+		<apparel>
+			<wornGraphicPath>Outland/Apparel/BackpackHeavy/Apparel</wornGraphicPath>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<careIfDamaged>false</careIfDamaged>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>Backpack_Neolithic</li>
+				<li>Backpack_Medieval</li>
+			</tags>
+			<wornGraphicData>
+				<renderUtilityAsPack>false</renderUtilityAsPack>
+				<north>
+					<offset>(0.35,-0.05)</offset>
+				</north>
+			</wornGraphicData>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.4,0.3,0.15)</only>
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(0.6,0.45,0.18)</only>
+				</li>
+				<li>
+					<weight>20</weight>
+					<only>(0.8,0.6,0.23)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</TabulaRasa.ExtendedApparelDef>
+
+</Defs>

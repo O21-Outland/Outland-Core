@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Outland.NoFuelInKilnWarning>Kiln has no fuel, if it cools for too long the current contents will be worthless!</Outland.NoFuelInKilnWarning>
+	<Outland.PlaceOnMudOrNextToWater>Must be placed either on muddy terrain or on dirt next to water.</Outland.PlaceOnMudOrNextToWater>
+</LanguageData>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="Outland.PatchOperation_SettingActive">
+		<settings>
+			<li>kalociteGlow</li>
+		</settings>
+		<active Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Outland_Kalocite" or defName="Outland_KalociteFormation"]</xpath>
+			<value>
+				<comps>
+					<li Class="CompProperties_Glower">
+						<glowRadius>3</glowRadius>
+						<glowColor>(101, 173, 224, 0.5)</glowColor>
+					</li>
+				</comps>
+			</value>
+		</active>
+	</Operation>
+
+
+</Patch>

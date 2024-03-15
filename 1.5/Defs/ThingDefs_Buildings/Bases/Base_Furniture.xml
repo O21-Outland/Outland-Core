@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef Name="OutlandBuildingBase" ParentName="BuildingBase" Abstract="True">
+		<designationCategory>Outland_Outland</designationCategory>
+		<thingClass>Building</thingClass>
+	</ThingDef>
+
+	<ThingDef Name="OutlandFurnitureBase" ParentName="OutlandBuildingBase" Abstract="True">
+		<designationCategory>Outland_Outland</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Styleable" />
+		</comps>
+	</ThingDef>
+
+	<ThingDef Name="OutlandFurnitureWithQualityBase" ParentName="OutlandFurnitureBase" Abstract="True">
+		<thingClass>Building</thingClass>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef Name="OutlandShelfBase" ParentName="OutlandFurnitureWithQualityBase" Abstract="True">
+		<thingClass>Building_Storage</thingClass>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.05</staticSunShadowHeight>
+		<pathCost>50</pathCost>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<statBases>
+			<Flammability>1.0</Flammability>
+			<Beauty>0.5</Beauty>
+		</statBases>
+		<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<maxItemsInCell>3</maxItemsInCell>
+			<storageGroupTag>Shelf</storageGroupTag>
+			<blueprintClass>Blueprint_Storage</blueprintClass>
+			<fixedStorageSettings>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+						<li>Root</li>
+					</categories>
+					<disallowedCategories>
+						<li>Chunks</li>
+						<li>Plants</li>
+						<li>Buildings</li>
+					</disallowedCategories>
+					<disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
+						<li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
+					</disallowedThingDefs>
+					<specialFiltersToDisallow>
+						<li>AllowLargeCorpses</li>
+					</specialFiltersToDisallow>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<categories>
+						<li>Foods</li>
+						<li>Manufactured</li>
+						<li>ResourcesRaw</li>
+						<li>Items</li>
+						<li>Weapons</li>
+						<li>Apparel</li>
+						<li>BodyParts</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+			<paintable>true</paintable>
+		</building>
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+		</inspectorTabs>
+		<surfaceType>Item</surfaceType>
+		<canOverlapZones>false</canOverlapZones>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef Name="OutlandArtableFurnitureBase" ParentName="OutlandFurnitureWithQualityBase" Abstract="True">
+		<comps>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtFurniture</nameMaker>
+				<descriptionMaker>ArtDescription_Furniture</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+	</ThingDef>
+
+	<ThingDef Name="OutlandTableBase" ParentName="OutlandFurnitureWithQualityBase" Abstract="True">
+		<description>People eat off tables when chairs are placed facing them.</description>
+		<thingClass>Building</thingClass>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<pathCost>60</pathCost>
+		<fillPercent>0.4</fillPercent>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<canOverlapZones>false</canOverlapZones>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<surfaceType>Eat</surfaceType>
+		<comps>
+			<li>
+				<compClass>CompGatherSpot</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="OutlandFurnitureBase" Name="OutlandBedBase" Abstract="True">
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<thingClass>Building_Bed</thingClass>
+		<altitudeLayer>Building</altitudeLayer>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<canOverlapZones>false</canOverlapZones>
+		<passability>PassThroughOnly</passability>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<building>
+			<buildingTags>
+				<li>Bed</li>
+			</buildingTags>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_AssignableToPawn">
+				<drawAssignmentOverlay>false</drawAssignmentOverlay>
+				<compClass>CompAssignableToPawn_Bed</compClass>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li MayRequire="Neronix17.Outland.FurnitureAndDecor">Outland_EndTable</li>
+					<li MayRequire="Neronix17.Outland.FurnitureAndDecor">Outland_EndTableWithLamp</li>
+					<li MayRequire="Neronix17.Outland.FurnitureAndDecor">Outland_Dresser</li>
+					<li MayRequire="Neronix17.Outland.FurnitureAndDecor">Outland_Wardrobe</li>
+					<li MayRequire="Neronix17.Outland.FurnitureAndDecor">Outland_StoneEndTable</li>
+					<li MayRequire="Neronix17.Outland.FurnitureAndDecor">Outland_StoneEndTableWithLamp</li>
+					<li MayRequire="Neronix17.Outland.FurnitureAndDecor">Outland_StoneDresser</li>
+					<li MayRequire="Neronix17.Outland.FurnitureAndDecor">Outland_StoneWardrobe</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef Name="OutlandBedWithQualityBase" ParentName="OutlandBedBase" Abstract="True">
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef Name="OutlandArtableBedBase" ParentName="OutlandBedWithQualityBase" Abstract="True">
+		<comps>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtFurniture</nameMaker>
+				<descriptionMaker>ArtDescription_Furniture</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+	</ThingDef>
+
+	<ThingDef Name="OutlandWallLightBase" ParentName="OutlandFurnitureBase" Abstract="True">
+		<size>(1, 1)</size>
+		<uiIconOffset>(0,-0.2)</uiIconOffset>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<tickerType>Normal</tickerType>
+		<rotatable>true</rotatable>
+		<selectable>true</selectable>
+		<destroyable>true</destroyable>
+		<clearBuildingArea>false</clearBuildingArea>
+		<canOverlapZones>true</canOverlapZones>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<fillPercent>0.20</fillPercent>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<canPlaceOverWall>true</canPlaceOverWall>
+			<allowWireConnection>false</allowWireConnection>
+		</building>
+		<placeWorkers>
+			<li>VanillaFurnitureExpanded.PlaceWorker_OnWall</li>
+		</placeWorkers>
+		<comps>
+			<li Class="VanillaFurnitureExpanded.CompProperties_MountableOnWall" />
+		</comps>
+	</ThingDef>
+
+</Defs>

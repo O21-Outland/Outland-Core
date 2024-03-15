@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="OutlandBenchBase">
+		<defName>Outland_Kiln</defName>
+		<label>kiln</label>
+		<description>A thermally insulated chamber used in the processing of various materials. Primarily used in the hardening of clay objects like pottery, tiles and bricks.</description>
+		<thingClass>ItemProcessor.Building_ItemProcessor</thingClass>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<texPath>Outland/Buildings/Production/Kiln</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawRotated>false</drawRotated>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.5</uiIconScale>
+		<size>(2,2)</size>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<surfaceType>Item</surfaceType>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<fillPercent>0.5</fillPercent>
+		<hasInteractionCell>false</hasInteractionCell>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>5000</WorkToBuild>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<costStuffCount>40</costStuffCount>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costList>
+			<Steel>10</Steel>
+			<Outland_ComponentMedieval>2</Outland_ComponentMedieval>
+		</costList>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+		<designationCategory>Outland_Outland</designationCategory>
+		<comps>
+			<li Class="ItemProcessor.CompProperties_ItemProcessor">
+				<numberOfInputs>1</numberOfInputs>
+				<acceptsNoneAsInput>false</acceptsNoneAsInput>
+				<ignoresIngredientLists>true</ignoresIngredientLists>
+				<showProgressBar>false</showProgressBar>
+				<isSemiAutomaticMachine>true</isSemiAutomaticMachine>
+				<destroyIngredientsAtStartOfProcess>true</destroyIngredientsAtStartOfProcess>
+				<noPowerDestroysProgress>true</noPowerDestroysProgress>
+				<noPowerDestroysInitialWarning>Outland.NoFuelInKilnWarning</noPowerDestroysInitialWarning>
+				<rareTicksToDestroy>10</rareTicksToDestroy>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>80.0</fuelConsumptionRate>
+				<fuelCapacity>50.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(252, 187, 113, 0)</glowColor>
+			</li>
+			<li Class="CompProperties_Flickable" />
+			<li Class="CompProperties_Breakdownable" />
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>Outland_SubCatProduction</subCategory>
+				<showOnlyInCategory>false</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ItemProcessor.ItemAcceptedDef>
+		<defName>Outland_KilnInput</defName>
+		<building>Outland_Kiln</building>
+		<slot>1</slot>
+		<items>			
+			<li>Outland_Clay</li>						
+		</items>							
+	</ItemProcessor.ItemAcceptedDef>
+
+	<ItemProcessor.CombinationDef>
+		<defName>Outland_KilnCombination</defName>
+		<building>Outland_Kiln</building>
+		<items>
+			<li>Outland_Clay</li>
+		</items>
+		<amount>
+			<li>40</li>
+		</amount>
+		<result>Outland_ClayBrick</result>	
+		<yield>40</yield>
+		<singleTimeIfNotQualityIncreasing>1</singleTimeIfNotQualityIncreasing>
+	</ItemProcessor.CombinationDef>
+
+</Defs>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Medieval Component Crafting -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="CraftingSpot"]/recipes</xpath>
+        <value>
+			<li>Outland_MakeComponentMedieval</li>
+        </value>
+    </Operation>
+
+</Patch>

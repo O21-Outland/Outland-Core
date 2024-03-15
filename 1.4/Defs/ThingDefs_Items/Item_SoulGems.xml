@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>Outland_SoulGemPetty</defName>
+		<label>soul shard (petty)</label>
+		<description>A crystalized soul from an animal. Can be merged to create a lesser soul shard.</description>
+		<graphicData>
+			<texPath>Outland/Items/SoulGems/Petty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>25</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>3</MarketValue>
+			<Mass>0.1</Mass>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		<intricate>false</intricate>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<allowedArchonexusCount>100</allowedArchonexusCount>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>Outland_SoulGemLesser</defName>
+		<label>soul shard (Lesser)</label>
+		<description>A crystalized soul from an animal. Can be merged to create a common soul shard, or split to make petty soul shards.</description>
+		<graphicData>
+			<texPath>Outland/Items/SoulGems/Lesser</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>25</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>9</MarketValue>
+			<Mass>0.1</Mass>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		<intricate>false</intricate>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<allowedArchonexusCount>100</allowedArchonexusCount>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>Outland_SoulGemCommon</defName>
+		<label>soul shard (common)</label>
+		<description>A crystalized soul from an animal. Can be merged to create a greater soul shard, or split to make lesser soul shards.</description>
+		<graphicData>
+			<texPath>Outland/Items/SoulGems/Common</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>25</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>27</MarketValue>
+			<Mass>0.1</Mass>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		<intricate>false</intricate>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<allowedArchonexusCount>100</allowedArchonexusCount>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>Outland_SoulGemGreater</defName>
+		<label>soul shard (greater)</label>
+		<description>A crystalized soul from an animal. Can be merged to create a grand soul shard, or split to make common soul shards.</description>
+		<graphicData>
+			<texPath>Outland/Items/SoulGems/Greater</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>25</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>81</MarketValue>
+			<Mass>0.1</Mass>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		<intricate>false</intricate>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<allowedArchonexusCount>100</allowedArchonexusCount>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>Outland_SoulGemGrand</defName>
+		<label>soul shard (grand)</label>
+		<description>A crystalized soul from an animal. Can be split to make greater soul shards.</description>
+		<graphicData>
+			<texPath>Outland/Items/SoulGems/Grand</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>25</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>243</MarketValue>
+			<Mass>0.1</Mass>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		<intricate>false</intricate>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<allowedArchonexusCount>100</allowedArchonexusCount>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>Outland_SoulGemBlack</defName>
+		<label>soul shard (black)</label>
+		<description>A crystalized soul from a humanlike race.</description>
+		<graphicData>
+			<texPath>Outland/Items/SoulGems/Black</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>25</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>729</MarketValue>
+			<Mass>0.1</Mass>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		<intricate>false</intricate>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<allowedArchonexusCount>100</allowedArchonexusCount>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OutlandHatMakeableBase" Name="OutlandTribalMask" Abstract="True">
+		<description>Elegant traditional mask, often associated with religious significance. Improves social impact.</description>
+		<recipeMaker>
+			<researchPrerequisite />
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.15</drawSize>
+		</graphicData>
+		<uiIconScale>1.15</uiIconScale>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<techLevel>Neolithic</techLevel>
+		<costStuffCount>14</costStuffCount>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>0.2</Mass>
+			<StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.15</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+            <tags Inherit="false">
+                <li>Neolithic</li>
+            </tags>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+            <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="OutlandTribalMask">
+		<defName>Outland_TribalMask_Deer</defName>
+		<label>tribal mask (deer)</label>
+		<graphicData>
+			<texPath>Outland/Apparel/TribalMask_Deer/Head</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Outland/Apparel/TribalMask_Deer/Head</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="OutlandTribalMask">
+		<defName>Outland_TribalMask_Feline</defName>
+		<label>tribal mask (feline)</label>
+		<graphicData>
+			<texPath>Outland/Apparel/TribalMask_Feline/Head</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Outland/Apparel/TribalMask_Feline/Head</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+</Defs>

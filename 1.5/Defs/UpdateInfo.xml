@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TabulaRasa.UpdateDef>
+		<defName>Outland_Core_14032024</defName>
+		<date>2024/03/14</date>
+		<banner>UpdateInfo/O21Outland</banner>
+		<contentList>
+			<li>
+				<header>Update to RimWorld 1.5</header>
+				<text>The mod is now fully updated to support RimWorld 1.5.</text>
+			</li>
+			<li>
+				<header>Removed Content</header>
+				<text>Content relating specifically to the magic system has been removed and will return instead as part of Mages Guild. Most of it you probably never seen but what you will notice if you're a returning user is that Kalocite and Grimstone are no longer in the Core mod.\n\nThe reasoning for this if you are curious is that it was content always intended to be used by multiple magic focused modules that were going to be split by class originally, plans have since changed and it felt more appropriate to include them in the main magic module which will contain most of the magic related content instead.</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2755501685</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outland Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/workshop/filedetails/?id=2755526603</linkUrl>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef>
+
+</Defs>

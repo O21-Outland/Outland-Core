@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef>
+		<defName>Outland_MakeMudBricks</defName>
+		<label>form mud brick</label>
+		<description>Form mud bricks from the muddy terrain in the area.</description>
+		<jobString>Forming mud bricks.</jobString>
+		<workAmount>3000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<products>
+			<Outland_MudBrick>5</Outland_MudBrick>
+		</products>
+	</RecipeDef>
+	
+</Defs>

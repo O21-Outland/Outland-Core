@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef Name="Outland_ArcaneClassTomeBase" Abstract="True">
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<techLevel>Ultra</techLevel>
+		<useHitPoints>true</useHitPoints>
+		<pathCost>14</pathCost>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<tickerType>Never</tickerType>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<thingCategories>
+			<li>Outland_ClassTomes</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Beauty>-4</Beauty>
+			<Mass>1</Mass>
+			<MarketValue>3100</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<WorkToMake>36000</WorkToMake>
+		</statBases>
+		<costList>
+			<WoodLog>2</WoodLog>
+			<Outland_Kalocite>20</Outland_Kalocite>
+		</costList>
+		<!-- TODO: Reimplement as VBE patch? Maybe just keep as uncraftable. -->
+		<!-- <recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>Outland_ArcaneClass</researchPrerequisite>
+			<recipeUsers>
+				<li>Outland_ManufacturingBench</li>
+			</recipeUsers>
+		</recipeMaker> -->
+		<tradeTags>
+			<li>Outland_ClassTomes</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>Outland_ClassTomes</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<ThingDef Name="Outland_ArcaneSpellSpecificBase" Abstract="True">
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<techLevel>Ultra</techLevel>
+		<useHitPoints>true</useHitPoints>
+		<pathCost>14</pathCost>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<tickerType>Never</tickerType>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<thingCategories>
+			<li>Outland_SpellTomes</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Beauty>-4</Beauty>
+			<Mass>1</Mass>
+			<MarketValue>3100</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+		<thingSetMakerTags>
+			<li>Outland_SpellTomes</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<HediffDef ParentName="ImplantHediffBase" Name="Outland_ArcaneClassBase">
+		<defName>Outland_ArcaneClass</defName>
+		<label>arcane classes</label>
+		<description>Arcane classes allow pawns to use all sorts of magical abilities. They are however limited to a single arcane class, keeping them from becoming overly powerful.</description>
+		<hediffClass>Outland.Hediff_ArcaneClass</hediffClass>
+		<descriptionHyperlinks>
+			<ThingDef MayRequire="Neronix17.Outland.MagesGuild">Outland_ClassTome_Hydromagus</ThingDef>
+		</descriptionHyperlinks>
+		<initialSeverity>1</initialSeverity>
+		<minSeverity>0</minSeverity>
+		<maxSeverity>6</maxSeverity>
+		<keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
+		<countsAsAddedPartOrImplant>False</countsAsAddedPartOrImplant>
+		<stages>
+			<li>
+				<!-- Doesn't actually get used. Just potentially useful for something later. -->
+				<becomeVisible>false</becomeVisible>
+				<minSeverity>0</minSeverity>
+				<statFactors>
+					<Outland_ArcaneEnergyMax>50</Outland_ArcaneEnergyMax>
+					<Outland_ArcaneEnergyRecoveryRate>0.10</Outland_ArcaneEnergyRecoveryRate>
+				</statFactors>
+			</li>
+			<li>
+				<becomeVisible>true</becomeVisible>
+				<minSeverity>1</minSeverity>
+				<statFactors>
+					<Outland_ArcaneEnergyMax>100</Outland_ArcaneEnergyMax>
+					<Outland_ArcaneEnergyRecoveryRate>0.25</Outland_ArcaneEnergyRecoveryRate>
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>2</minSeverity>
+				<statFactors>
+					<Outland_ArcaneEnergyMax>150</Outland_ArcaneEnergyMax>
+					<Outland_ArcaneEnergyRecoveryRate>0.50</Outland_ArcaneEnergyRecoveryRate>
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>3</minSeverity>
+				<statFactors>
+					<Outland_ArcaneEnergyMax>200</Outland_ArcaneEnergyMax>
+					<Outland_ArcaneEnergyRecoveryRate>1</Outland_ArcaneEnergyRecoveryRate>
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>4</minSeverity>
+				<statFactors>
+					<Outland_ArcaneEnergyMax>250</Outland_ArcaneEnergyMax>
+					<Outland_ArcaneEnergyRecoveryRate>1.5</Outland_ArcaneEnergyRecoveryRate>
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>5</minSeverity>
+				<statFactors>
+					<Outland_ArcaneEnergyMax>300</Outland_ArcaneEnergyMax>
+					<Outland_ArcaneEnergyRecoveryRate>2.0</Outland_ArcaneEnergyRecoveryRate>
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>6</minSeverity>
+				<statFactors>
+					<Outland_ArcaneEnergyMax>350</Outland_ArcaneEnergyMax>
+					<Outland_ArcaneEnergyRecoveryRate>2.5</Outland_ArcaneEnergyRecoveryRate>
+				</statFactors>
+			</li>
+		</stages>
+		<modExtensions>
+			<li Class="Outland.DefModExt_LevelingHediff">
+				<experienceCurve>
+					<points>
+						<li>(0, 1)</li>
+						<li>(300, 2)</li>
+						<li>(900, 3)</li>
+						<li>(1800, 4)</li>
+						<li>(3600, 5)</li>
+						<li>(10800, 6)</li>
+					</points>
+				</experienceCurve>
+				<skillPointsPerLevel>2</skillPointsPerLevel>
+			</li>
+		</modExtensions>
+	</HediffDef>
+
+	<HediffDef ParentName="DiseaseBase">
+		<defName>Outland_NaturalMage</defName>
+		<label>natural mage</label>
+		<labelNoun>natural mage</labelNoun>
+		<description>Able to use arcane magic from birth.</description>
+		<comps>
+			<li>
+				<compClass>Outland.HediffComp_NaturalMage</compClass>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

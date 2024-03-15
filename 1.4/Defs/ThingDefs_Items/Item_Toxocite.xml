@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase" MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>Outland_Toxocite</defName>
+		<label>toxocite</label>
+		<description>Crystals imbued with magical energy, a variant of Kalocite, these crystals are extremely toxic.</description>
+		<graphicData>
+			<texPath>Outland/Items/Toxocite</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>25</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Beauty>-40</Beauty>
+			<MarketValue>0</MarketValue>
+			<Mass>0.1</Mass>
+			<Flammability>0.3</Flammability>
+			<DeteriorationRate>4</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>ItemsMisc</li>
+		</thingCategories>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_GasOnDamage">
+				<type>ToxGas</type>
+				<damageFactor>6</damageFactor>
+				<useStackCountAsFactor>true</useStackCountAsFactor>
+			</li>
+			<li Class="CompProperties_Dissolution">
+				<dissolutionAfterDays>10</dissolutionAfterDays>
+				<dissolutinFactorIndoors>0.25</dissolutinFactorIndoors>
+				<dissolutionFactorRain>3</dissolutionFactorRain>
+			</li>
+			<li Class="CompProperties_DissolutionEffectPollution">
+				<cellsToPollutePerDissolution>2</cellsToPollutePerDissolution>
+				<tilePollutionPerDissolution>0.001</tilePollutionPerDissolution>
+				<waterTilePollutionFactor>10</waterTilePollutionFactor>
+			</li>
+			<li>
+				<compClass>CompDissolutionEffect_Goodwill</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

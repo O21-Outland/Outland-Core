@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>Outland_Clay</defName>
+		<label>clay</label>
+		<description>Natural clay, dug up from the land. Used in a variety of ways, most commonly to create clay bricks.</description>
+		<graphicData>
+			<texPath>Outland/Items/Clay</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(153, 148, 135)</color>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>75</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<Mass>0.2</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>1</MarketValue>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		<intricate>false</intricate>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<allowedArchonexusCount>100</allowedArchonexusCount>
+	</ThingDef>
+	
+	<ThingDef ParentName="OutlandStone">
+		<defName>Outland_ClayBrick</defName>
+		<label>clay brick</label>
+		<description>A brick made from clay and fired in a kiln, fireproof and relatively weak compared to proper cut stone.</description>
+		<graphicData>
+			<color>(171, 119, 91)</color>
+		</graphicData>
+		<statBases>
+			<Mass>0.5</Mass>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>1</MarketValue>
+			<SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1</BluntDamageMultiplier>
+			<Beauty>-5</Beauty>
+			<ConstructionSpeedFactor>0.9</ConstructionSpeedFactor>
+		</statBases>
+		<stuffProps>
+			<commonality>1.00</commonality>
+			<statOffsets>
+				<WorkToBuild>130</WorkToBuild>
+			</statOffsets>
+			<color>(171, 119, 91)</color>
+			<stuffAdjective>clay brick</stuffAdjective>
+			<statFactors>
+				<Beauty>1.15</Beauty>
+				<MarketValue>0.4</MarketValue>
+				<MaxHitPoints>1.35</MaxHitPoints>
+				<Flammability>0</Flammability>
+				<WorkToBuild>4</WorkToBuild>
+				<WorkToMake>1</WorkToMake>
+				<DoorOpenSpeed>0.25</DoorOpenSpeed>
+				<BedRestEffectiveness>0.9</BedRestEffectiveness>
+				<MeleeWeapon_CooldownMultiplier>1.35</MeleeWeapon_CooldownMultiplier>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>

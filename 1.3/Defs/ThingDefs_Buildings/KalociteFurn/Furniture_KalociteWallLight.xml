@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<DesignatorDropdownGroupDef>
+		<defName>Outland_KalociteWallLamps</defName>
+		<label>kalocite wall lamps</label>
+	</DesignatorDropdownGroupDef>
+
+	<ThingDef Name="OutlandKalociteWallLightBase" ParentName="OutlandWallLightBase" Abstract="True">
+		<description>Kalocite modified to provide light, attached by a bracket to the wall.</description>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/Kalocite/CrystalWallLamp</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.5, 2.5)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Mass>2</Mass>
+		</statBases>
+		<costList>
+			<Outland_Kalocite>1</Outland_Kalocite>
+			<Steel>2</Steel>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Flickable" />
+		</comps>
+		<researchPrerequisites>
+			<li>Outland_KalociteDecoration</li>
+		</researchPrerequisites>
+		<designatorDropdown>Outland_KalociteWallLamps</designatorDropdown>
+	</ThingDef>
+
+	<!-- Default -->
+	<ThingDef ParentName="OutlandKalociteWallLightBase">
+		<defName>Outland_KalociteWallLamp</defName>
+		<label>kalocite wall lamp</label>
+		<graphicData>
+			<color>(101, 173, 224)</color>
+		</graphicData>
+		<comps>
+			<li Class="VanillaFurnitureExpanded.CompProperties_GlowerExtended">
+				<spawnGlowerInFacedCell>true</spawnGlowerInFacedCell>
+				<colorOptions>
+					<li>
+						<glowRadius>7</glowRadius>
+						<glowColor>(101, 173, 224)</glowColor>
+						<colorLabel>kalocite</colorLabel>
+					</li>
+				</colorOptions>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- Darklight (Ideology) -->
+	<ThingDef ParentName="OutlandKalociteWallLightBase" MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>Outland_KalociteWallLamp_Darklight</defName>
+		<label>kalocite wall lamp (darklight)</label>
+		<graphicData>
+			<color>(78, 226, 229)</color>
+		</graphicData>
+		<comps>
+			<li Class="VanillaFurnitureExpanded.CompProperties_GlowerExtended">
+				<spawnGlowerInFacedCell>true</spawnGlowerInFacedCell>
+				<colorOptions>
+					<li>
+						<glowRadius>7</glowRadius>
+						<glowColor>(78, 226, 229)</glowColor>
+						<colorLabel>darklight</colorLabel>
+					</li>
+				</colorOptions>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

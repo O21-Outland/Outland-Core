@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+
+      <ThingCategoryDef>
+        <defName>Outland_ClassTomes</defName>
+        <label>class tomes</label>
+        <parent>Items</parent>
+      </ThingCategoryDef>
+
+      <ThingCategoryDef>
+        <defName>Outland_SpellTomes</defName>
+        <label>spell tomes</label>
+        <parent>Items</parent>
+      </ThingCategoryDef>
+	  
+</Defs>

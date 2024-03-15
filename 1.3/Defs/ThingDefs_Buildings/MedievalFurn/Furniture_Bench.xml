@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<ThingDef ParentName="OutlandArtableFurnitureBase">
+		<defName>Outland_Bench</defName>
+		<label>bench</label>
+		<description>A wide wooden bench.</description>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/Medieval/Bench</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.3, 2.3)</drawSize>
+            <drawOffset>(0.0, 0.0, 0.05)</drawOffset>
+		</graphicData>
+		<size>(2,1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<fillPercent>0.45</fillPercent>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<pathCost>30</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>12000</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>8</Beauty>
+			<Comfort>0.75</Comfort>
+		</statBases>
+		<building>
+			<isSittable>true</isSittable>
+		</building>
+		<costStuffCount>85</costStuffCount>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<researchPrerequisites>
+			<li>Outland_MedievalFurniture</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<VFECore.Abilities.AbilityDef ParentName="OutlandSpellGoToTargetBase">
+		<defName>Outland_Spell_SoulTrap</defName>
+		<label>soul trap</label>
+		<description>Traps the targets soul, binding it to the physical realm if the target dies while the effect is applied.</description>
+		<abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
+		<iconPath>Outland/Abilities/Spell_SoulTrap</iconPath>
+		<castSound>Outland_Spell_ConjurationHit</castSound>
+		<castFleck>BlastDry</castFleck>
+		<!-- TODO: Better Target Fleck? -->
+		<targetFlecks>
+			<li>BlastDry</li>
+		</targetFlecks>
+		<targetMode>Pawn</targetMode>
+		<castTime>900</castTime>
+		<distanceToTarget>16.5</distanceToTarget>
+		<power>6</power>
+		<requiredHediff>
+			<hediffDef>Outland_ArcaneClass</hediffDef>
+			<minimumLevel>0</minimumLevel>
+		</requiredHediff>
+		<modExtensions>
+			<li Class="VFECore.Abilities.AbilityExtension_Hediff">
+				<hediff>Outland_SoulTrapped</hediff>
+			</li>
+			<li Class="Outland.AbilityExtension_Arcane">
+				<energyUsed>50</energyUsed>
+				<experience>100</experience>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+
+</Defs>

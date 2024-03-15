@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef Name="OutlandBorderBase" ParentName="OutlandBuildingBase" Abstract="True">
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0</fillPercent>
+		<selectable>true</selectable>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<destroyable>true</destroyable>
+		<tradeability>None</tradeability>
+		<clearBuildingArea>false</clearBuildingArea>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<statBases>
+			<MaxHitPoints>45</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Mass>1</Mass>
+			<Beauty>1</Beauty>
+		</statBases>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<researchPrerequisites>
+			<li>Outland_MedievalDeco</li>
+		</researchPrerequisites>
+		<costStuffCount>1</costStuffCount>
+		<designationCategory>Outland_OutlandDeco</designationCategory>
+	</ThingDef>
+
+	<ThingDef ParentName="OutlandBorderBase">
+		<defName>Outland_BorderWood</defName>
+		<label>wooden border</label>
+		<description>Simple wooden floor border. Purely decorative.</description>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/Medieval/BoundaryWood</texPath>
+		</graphicData>
+		<uiIconOffset>(0, -0.35)</uiIconOffset>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="OutlandBorderBase">
+		<defName>Outland_BorderWoodCorner</defName>
+		<label>wooden border (corner)</label>
+		<description>Simple wooden floor border. Purely decorative.</description>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/Medieval/BoundaryWoodCorner</texPath>
+		</graphicData>
+		<uiIconOffset>(0.3, -0.35)</uiIconOffset>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="OutlandBorderBase">
+		<defName>Outland_BorderStone</defName>
+		<label>stone border</label>
+		<description>Simple stone floor border. Purely decorative.</description>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/Medieval/BoundaryStone</texPath>
+		</graphicData>
+		<uiIconOffset>(0, -0.35)</uiIconOffset>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="OutlandBorderBase">
+		<defName>Outland_BorderStoneCorner</defName>
+		<label>stone border (corner)</label>
+		<description>Simple stone floor border. Purely decorative.</description>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/Medieval/BoundaryStoneCorner</texPath>
+		</graphicData>
+		<uiIconOffset>(0.3, -0.35)</uiIconOffset>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+	</ThingDef>
+
+</Defs>

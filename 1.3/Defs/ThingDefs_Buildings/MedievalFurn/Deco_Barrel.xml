@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OutlandFurnitureWithQualityBase">
+		<defName>Outland_Barrel</defName>
+		<label>barrel</label>
+		<description>Just a barrel. What else did you expect it to say here?</description>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/Medieval/Barrel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<uiIconOffset>(0, -0.05)</uiIconOffset>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<pathCost>30</pathCost>
+		<fillPercent>0.20</fillPercent>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<WorkToBuild>560</WorkToBuild>
+			<Mass>3</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>5</Beauty>
+			<Comfort>0.6</Comfort>
+		</statBases>
+		<building>
+			<isSittable>true</isSittable>
+		</building>
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<researchPrerequisites>
+			<li>Outland_MedievalDeco</li>
+		</researchPrerequisites>
+		<designationCategory>Outland_OutlandDeco</designationCategory>
+	</ThingDef>
+
+</Defs>

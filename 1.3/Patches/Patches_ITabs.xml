@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[@Name="BasePawn"]/inspectorTabs</xpath>
+        <value>
+            <li>Outland.ITab_Ability_Arcane</li>
+        </value>
+    </Operation>
+
+</Patch>

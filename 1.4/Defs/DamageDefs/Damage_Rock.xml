@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<DamageDef>
+		<defName>Outland_RockDamage</defName>
+		<label>rock</label>
+		<workerClass>NoCamShakeExplosions.DamageWorker_BombNoCamShake</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been squashed to death by a rock.</deathMessage>
+		<hediff>Crush</hediff>
+		<hediffSkin>Bruise</hediffSkin>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Blunt</armorCategory>
+		<overkillPctToDestroyPart>0~0.67</overkillPctToDestroyPart>
+		<isRanged>true</isRanged>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+		<isExplosive>true</isExplosive>
+		<minDamageToFragment>4</minDamageToFragment>
+		<defaultDamage>20</defaultDamage>
+		<defaultArmorPenetration>0</defaultArmorPenetration>
+		<explosionCellFleck>BlastDry</explosionCellFleck>
+		<explosionColorCenter>(1, 1, 1, 0.9)</explosionColorCenter>
+		<explosionColorEdge>(1, 1, 1, 0.6)</explosionColorEdge>
+		<soundExplosion>Explosion_Bomb</soundExplosion>
+		<combatLogRules>Damage_Bomb</combatLogRules>
+	</DamageDef>
+
+</Defs>

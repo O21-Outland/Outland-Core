@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!-- Bone Ash Recipe -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="MakeBoneChina"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Outland_Bones</li>
+								</thingDefs>
+							</filter>
+							<count>20</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="MakeBoneChina"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>Outland_Bones</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			<!-- Bonecrete Recipe -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="MakeBonecrete"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Outland_Bones</li>
+								</thingDefs>
+							</filter>
+							<count>70</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="MakeBonecrete"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>Outland_Bones</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			<!-- Bone Plastic Recipe -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="MakeBonePlastic"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Outland_Bones</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="MakeBonePlastic"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>Outland_Bones</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			<!-- Bone Plasteel Recipe -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="MakeBonePlasteel"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Outland_Bones</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Steel</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="MakeBonePlasteel"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>Outland_Bones</li>
+							<li>Steel</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			<!-- Bone Marrow Recipe -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="MakeMarrowFromBone"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Outland_Bones</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="MakeMarrowFromBone"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>Outland_Bones</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			<!-- Bone Chemfuel Recipe -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="Make_ChemfuelFromBone"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Outland_Bones</li>
+								</thingDefs>
+							</filter>
+							<count>70</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="Make_ChemfuelFromBone"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>Outland_Bones</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			<!-- Bone Floors -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="BoneFloor"]/costList</xpath>
+				<value>
+					<costList>
+						<Outland_Bones>3</Outland_Bones>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="BoneFloor_Blackened"]/costList</xpath>
+				<value>
+					<costList>
+						<Outland_Bones>3</Outland_Bones>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="BoneFloor_Ashen"]/costList</xpath>
+				<value>
+					<costList>
+						<Outland_Bones>3</Outland_Bones>
+						<BoneChina>2</BoneChina>
+					</costList>
+				</value>
+			</li>
+			<!-- Bone Chair -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="BoneChair"]/costList</xpath>
+				<value>
+					<costList>
+						<Outland_Bones>150</Outland_Bones>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="BoneChair"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Outland/Buildings/Furniture/SkullChair</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<drawSize>(1.5, 1.5)</drawSize>
+						<shadowData>
+							<volume>(0.6, 0.6, 0.6)</volume>
+						</shadowData>
+						<damageData>
+							<rectN>(0,0,1,0.703125)</rectN>
+							<rectS>(0.09375,0,0.84375,1)</rectS>
+							<rectE>(0,0,0.84375,0.625)</rectE>
+							<rectW>(0.15625,0,0.84375,0.625)</rectW>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<!-- Bone Throne -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="BoneThrone"]/costList</xpath>
+				<value>
+					<costList>
+						<Outland_Bones>1000</Outland_Bones>
+					</costList>
+				</value>
+			</li>
+			<!-- Bone Wall -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="BoneWall"]/costList</xpath>
+				<value>
+					<costList>
+						<Outland_Bones>5</Outland_Bones>
+					</costList>
+				</value>
+			</li>
+			<!-- Skull Mask -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="ROMB_Apparel_SkullMask"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Outland/Apparel/ROMBoneArmor/Head</texPath>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="ROMB_Apparel_SkullMask"]/apparel/wornGraphicPaths</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="ROMB_Apparel_SkullMask"]/apparel</xpath>
+				<value>
+					<wornGraphicPath>Outland/Apparel/ROMBoneArmor/Head</wornGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="ROMB_Apparel_SkullMask"]/costList</xpath>
+				<value>
+					<costList>
+						<Outland_Bones>50</Outland_Bones>
+					</costList>
+				</value>
+			</li>
+			<!-- Bone Armor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Sihv_Apparel_BoneArmor"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Outland/Apparel/ROMBoneArmor/Apparel</texPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Sihv_Apparel_BoneArmor"]/apparel/wornGraphicPath</xpath>
+				<value>
+					<wornGraphicPath>Outland/Apparel/ROMBoneArmor/Apparel</wornGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Sihv_Apparel_BoneArmor"]/costList</xpath>
+				<value>
+					<costList>
+						<Outland_Bones>100</Outland_Bones>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs</xpath>
+				<value>
+					<ThingDef ParentName="ArmorSmithableBase">
+						<defName>Outland_ROMBonePauldrons</defName>
+						<label>skull pauldrons</label>
+						<description>Bone pauldrons to cover shoulders and arms of the user.</description>
+						<techLevel>Neolithic</techLevel>
+						<graphicData>
+							<texPath>Outland/Apparel/ROMBonePauldrons/Apparel</texPath>
+							<graphicClass>Graphic_Single</graphicClass>
+						</graphicData>
+						<statBases>
+							<WorkToMake>1200</WorkToMake>
+							<MaxHitPoints>150</MaxHitPoints>
+							<Mass>1</Mass>
+							<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+							<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+						</statBases>
+						<equippedStatOffsets>
+							<MoveSpeed>-0.04</MoveSpeed>
+						</equippedStatOffsets>
+						<thingCategories>
+							<li>Apparel</li>
+						</thingCategories>
+						<costList>
+							<Outland_Bones>30</Outland_Bones>
+						</costList>
+						<apparel>
+							<bodyPartGroups>
+								<li>Shoulders</li>
+								<li>Arms</li>
+							</bodyPartGroups>
+							<wornGraphicPath>Outland/Apparel/ROMBonePauldrons/Apparel</wornGraphicPath>
+							<layers>
+								<li>ShellExtra</li>
+							</layers>
+							<tags>
+								<li>Neolithic</li>
+							</tags>
+							<defaultOutfitTags>
+								<li>Soldier</li>
+							</defaultOutfitTags>
+						</apparel>
+						<recipeMaker>
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+							<workSkill>Crafting</workSkill>
+							<effectWorking>Sculpt</effectWorking>
+							<soundWorking>Recipe_Sculpt</soundWorking>
+							<recipeUsers>
+								<li>CraftingSpot</li>
+								<li>HandTailoringBench</li>
+								<li>ElectricTailoringBench</li>
+							</recipeUsers>
+							<unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+						</recipeMaker>
+					</ThingDef>
+				</value>
+			</li>
+			<!-- Excess bone removal -->
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="BoneItem"]</xpath>
+			</li>
+			<!-- Stat Edit -->
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/StatDef[defName="BoneAmount"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

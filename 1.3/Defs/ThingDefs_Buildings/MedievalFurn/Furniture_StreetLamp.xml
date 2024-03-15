@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OutlandBuildingBase">
+		<defName>Outland_OilStreetLamp</defName>
+		<label>oil street lamp</label>
+		<description>It's a street lamp.</description>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/Medieval/StreetLamp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3.5, 3.5)</drawSize>
+			<drawOffset>(0.0, 0.0, 1.2)</drawOffset>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<uiIconScale>0.3</uiIconScale>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<pathCost>8</pathCost>
+		<constructEffect>ConstructMetal</constructEffect>
+		<tickerType>Normal</tickerType>
+		<fillPercent>0.2</fillPercent>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<selectable>true</selectable>
+		<destroyable>true</destroyable>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToBuild>250</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>8</Beauty>
+		</statBases>
+		<costList>
+			<Steel>40</Steel>
+			<Outland_ComponentMedieval>2</Outland_ComponentMedieval>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Flickable" />
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>2</fuelConsumptionRate>
+				<fuelCapacity>25.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>1</initialFuelPercent>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>15</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>Outland_MedievalFurniture</li>
+		</researchPrerequisites>
+		<designationCategory>Outland_Outland</designationCategory>
+		<!-- <designatorDropdown>Outland_StreetLamp</designatorDropdown> -->
+	</ThingDef>
+
+</Defs>

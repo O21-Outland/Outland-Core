@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>Outland_SubCatStructural</defName>
+		<label>Structural</label>
+		<!-- <iconPath>Toolbox/UI/CategoryStructural</iconPath> -->
+		<designationCategory>Outland_Outland</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>Outland_SubCatProduction</defName>
+		<label>Production</label>
+		<!-- <iconPath>Toolbox/UI/CategoryStructural</iconPath> -->
+		<designationCategory>Outland_Outland</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>Outland_SubCatMagicConstructs</defName>
+		<label>Magic Constructs</label>
+		<designationCategory>Outland_Outland</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>Outland_SubCatSecurity</defName>
+		<label>Security</label>
+		<designationCategory>Outland_Outland</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>Outland_SubCatDecoration</defName>
+		<label>Decoration</label>
+		<!-- <iconPath>Toolbox/UI/CategoryDecor</iconPath> -->
+		<designationCategory>Outland_Outland</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>Outland_SubCatRugs</defName>
+		<label>Rugs</label>
+		<!-- <iconPath>Toolbox/UI/CategoryDecor</iconPath> -->
+		<designationCategory>Outland_Outland</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>Outland_SubCatKalocite</defName>
+		<label>Kalocite</label>
+		<designationCategory>Outland_Outland</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>Outland_SubCatFurnitureWood</defName>
+		<label>Furniture (Wooden)</label>
+		<!-- <iconPath>Toolbox/UI/CategoryFurniture</iconPath> -->
+		<designationCategory>Outland_Outland</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>Outland_SubCatFurnitureStone</defName>
+		<label>Furniture (Stone)</label>
+		<designationCategory>Outland_Outland</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+</Defs>

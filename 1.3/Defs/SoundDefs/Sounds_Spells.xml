@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<SoundDef>
+		<defName>Outland_Spell_AlterationCast</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/AlterationCast</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_AlterationFail</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/AlterationFail</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_AlterationHit</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/AlterationHit</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_ConjurationCast</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/ConjurationCast</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Spell_ConjurationFail</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/ConjurationFail</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_ConjurationHit</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/ConjurationHit</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_DestructionCast</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/DestructionCast</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_DestructionFail</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/DestructionFail</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_DestructionHit</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/DestructionHit</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_Equip</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/Equip</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_FireballCast</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/FireballCast</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_FireballFail</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/FireballFail</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Spell_FireballHit</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/FireballHit</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_FrostCast</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/FrostCast</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_FrostFail</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/FrostFail</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_FrostHit</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/FrostHit</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_IllusionCast</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/IllusionCast</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_IllusionFail</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/IllusionFail</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_IllusionHit</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/IllusionHit</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_MysticismCast</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/MysticismCast</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_MysticismFail</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/MysticismFail</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_MysticismHit</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/MysticismHit</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Outland_Spell_PoisonCast</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/PoisonCast</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_PoisonFail</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/PoisonFail</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_PoisonHit</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/PoisonHit</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_RestorationCast</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/RestorationCast</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_RestorationFail</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/RestorationFail</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_RestorationHit</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/RestorationHit</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_ShockCast</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/ShockCast</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_ShockFail</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/ShockFail</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Outland_Spell_ShockHit</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Outland/Spells/ShockHit</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>17~25</volumeRange>
+				<pitchRange>0.936413~1.275543</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>

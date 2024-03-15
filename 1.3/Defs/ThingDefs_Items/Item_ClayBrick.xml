@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<ThingDef ParentName="OutlandStone">
+		<defName>Outland_UnfiredClayBrick</defName>
+		<label>unfired clay brick</label>
+		<description>A weak brick made from clay, fireproof but easily destroyed. Can be improved by firing in a Forge</description>
+		<graphicData>
+			<color>(153, 148, 135)</color>
+		</graphicData>
+		<statBases>
+			<Mass>0.5</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>1</MarketValue>
+			<SharpDamageMultiplier>0</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+			<Beauty>-14</Beauty>
+			<ConstructionSpeedFactor>0.7</ConstructionSpeedFactor>
+		</statBases>
+		<stuffProps>
+			<statOffsets>
+				<WorkToBuild>160</WorkToBuild>
+			</statOffsets>
+			<color>(153, 148, 135)</color>
+			<stuffAdjective>unfired clay brick</stuffAdjective>
+			<statFactors>
+				<Beauty>0.7</Beauty>
+				<MarketValue>0.1</MarketValue>
+				<MaxHitPoints>0.75</MaxHitPoints>
+				<Flammability>0</Flammability>
+				<WorkToBuild>6.0</WorkToBuild>
+				<WorkToMake>1.5</WorkToMake>
+				<DoorOpenSpeed>0.25</DoorOpenSpeed>
+				<BedRestEffectiveness>0.8</BedRestEffectiveness>
+				<MeleeWeapon_CooldownMultiplier>1.8</MeleeWeapon_CooldownMultiplier>
+			</statFactors>
+		</stuffProps>
+		<modExtensions>
+			<li Class="VFECore.StuffExtension">
+				<structureGenerationCommonalityOffset>0</structureGenerationCommonalityOffset>
+				<weaponGenerationCommonalityOffset>0</weaponGenerationCommonalityOffset>
+				<apparelGenerationCommonalityOffset>0</apparelGenerationCommonalityOffset>
+				<structureGenerationCommonalityFactor>0</structureGenerationCommonalityFactor>
+				<weaponGenerationCommonalityFactor>0</weaponGenerationCommonalityFactor>
+				<apparelGenerationCommonalityFactor>0</apparelGenerationCommonalityFactor>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="OutlandStone">
+		<defName>Outland_ClayBrick</defName>
+		<label>clay brick</label>
+		<description>A brick made from clay and fired in a forge, fireproof and relatively weak compared to proper cut stone.</description>
+		<graphicData>
+			<color>(171, 119, 91)</color>
+		</graphicData>
+		<statBases>
+			<Mass>0.5</Mass>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>1</MarketValue>
+			<SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1</BluntDamageMultiplier>
+			<Beauty>-5</Beauty>
+			<ConstructionSpeedFactor>0.9</ConstructionSpeedFactor>
+		</statBases>
+		<stuffProps>
+			<commonality>1.00</commonality>
+			<statOffsets>
+				<WorkToBuild>130</WorkToBuild>
+			</statOffsets>
+			<color>(171, 119, 91)</color>
+			<stuffAdjective>clay brick</stuffAdjective>
+			<statFactors>
+				<Beauty>1.15</Beauty>
+				<MarketValue>0.4</MarketValue>
+				<MaxHitPoints>1.35</MaxHitPoints>
+				<Flammability>0</Flammability>
+				<WorkToBuild>4</WorkToBuild>
+				<WorkToMake>1</WorkToMake>
+				<DoorOpenSpeed>0.25</DoorOpenSpeed>
+				<BedRestEffectiveness>0.9</BedRestEffectiveness>
+				<MeleeWeapon_CooldownMultiplier>1.35</MeleeWeapon_CooldownMultiplier>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>

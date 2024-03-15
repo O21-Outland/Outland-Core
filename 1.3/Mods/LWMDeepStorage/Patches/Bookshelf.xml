@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================================== Bookshelf ==================================== -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Outland_Bookshelf"]</xpath>
+		<value>
+			<thingClass>Building_Storage</thingClass>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Outland_Bookshelf"]</xpath>
+		<value>
+			<inspectorTabs>
+				<li>ITab_Storage</li>
+				<li>LWM.DeepStorage.ITab_DeepStorage_Inventory</li>
+			</inspectorTabs>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Outland_Bookshelf"]</xpath>
+		<value>
+			<building>
+				<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+				<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+				<fixedStorageSettings>
+					<filter>
+						<categories>
+							<li>Techprints</li>
+							<li MayRequire="VanillaExpanded.VBooksE">VBE_Books</li>
+						</categories>
+					</filter>
+				</fixedStorageSettings>
+			</building>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Outland_Bookshelf"]/comps</xpath>
+		<value>
+			<li Class="LWM.DeepStorage.Properties">
+				<maxNumberStacks>6</maxNumberStacks>
+				<minTimeStoringTakes>250</minTimeStoringTakes>
+				<additionalTimeEachStack>25</additionalTimeEachStack>
+				<additionalTimeEachDef>25</additionalTimeEachDef>
+				<additionalTimeStackSize>5</additionalTimeStackSize>
+				<overlayType>SumOfAllItems</overlayType>
+			</li>
+		</value>
+	</Operation>
+
+</Patch>

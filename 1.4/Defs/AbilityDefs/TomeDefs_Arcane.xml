@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<!-- ==================== Class Spell Tome Base ==================== -->
+
+	<Outland.TomeDef ParentName="Outland_ArcaneSpellSpecificBase" Name="Outland_UniversalSpellBase" Abstract="True">
+		<graphicData>
+			<texPath>Outland/Items/Books/Universal_Basic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</Outland.TomeDef>
+	
+	<!-- ==================== Spell Tome: Soul Trap ==================== -->
+
+	<Outland.TomeDef ParentName="Outland_UniversalSpellBase">
+		<defName>Outland_SpellTome_SoulTrap</defName>
+		<label>arcane spell tome (Soul trap)</label>
+		<description>Rips the soul in crystal form from the target upon their death.</description>
+		<unlockedAbilities>
+			<li>Outland_Spell_SoulTrap</li>
+		</unlockedAbilities>
+	</Outland.TomeDef>
+
+</Defs>

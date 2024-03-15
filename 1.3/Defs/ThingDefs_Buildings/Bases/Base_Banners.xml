@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="OutlandBuildingBase" Name="Outland_BannerBase" Abstract="True">
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+            <drawSize>(2.0, 2.0)</drawSize>
+            <drawOffset>(0.0, 0.0, 0.55)</drawOffset>
+		</graphicData>
+        <size>(1, 1)</size>
+		<rotatable>true</rotatable>
+		<useHitPoints>true</useHitPoints>
+		<passability>Standable</passability>
+		<uiIconScale>0.65</uiIconScale>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>10</Beauty>
+			<Mass>1</Mass>
+		</statBases>
+		<costList>
+            <WoodLog>20</WoodLog>
+		</costList>
+		<costStuffCount>80</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+        </stuffCategories>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+		<designationCategory>Outland_OutlandDeco</designationCategory>
+	</ThingDef>
+
+</Defs>

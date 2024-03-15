@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- MorrowRim - Ashlands Swamp -->
+	<Operation Class="TabulaRasa.PatchOperation_FindModByID">
+		<mods>
+			<li>SirMashedPotato.MorrowRim.AshSwamp</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_Mudcrab"]/statBases</xpath>
+					<value>
+						<Outland_BoneAmount>0</Outland_BoneAmount>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_SwampJelly"]/statBases</xpath>
+					<value>
+						<Outland_BoneAmount>0</Outland_BoneAmount>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_SwampStrider"]/statBases</xpath>
+					<value>
+						<Outland_BoneAmount>0</Outland_BoneAmount>
+					</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_Mudcrab"]/statBases/BoneAmount</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_SwampJelly"]/statBases/BoneAmount</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName = "MorrowRim_SwampStrider"]/statBases/BoneAmount</xpath>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

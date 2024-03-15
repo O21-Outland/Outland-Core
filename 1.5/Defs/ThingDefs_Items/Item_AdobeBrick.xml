@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<ThingDef ParentName="OutlandStone">
+		<defName>Outland_AdobeBrick</defName>
+		<label>adobe brick</label>
+		<description>A weak brick made from a dried and hardened mixture of mud and hay.</description>
+		<graphicData>
+			<color>(112, 84, 62)</color>
+		</graphicData>
+		<statBases>
+			<Mass>0.5</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>1</MarketValue>
+			<SharpDamageMultiplier>0</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+			<Beauty>-2</Beauty>
+			<ConstructionSpeedFactor>0.7</ConstructionSpeedFactor>
+		</statBases>
+		<stuffProps>
+			<commonality>1.00</commonality>
+			<statOffsets>
+				<WorkToBuild>160</WorkToBuild>
+			</statOffsets>
+			<color>(112, 84, 62)</color>
+			<stuffAdjective>adobe brick</stuffAdjective>
+			<statFactors>
+				<Beauty>0.8</Beauty>
+				<MarketValue>0.1</MarketValue>
+				<MaxHitPoints>0.75</MaxHitPoints>
+				<Flammability>0.1</Flammability>
+				<WorkToBuild>6.0</WorkToBuild>
+				<WorkToMake>1.5</WorkToMake>
+				<DoorOpenSpeed>0.25</DoorOpenSpeed>
+				<BedRestEffectiveness>0.8</BedRestEffectiveness>
+				<MeleeWeapon_CooldownMultiplier>1.8</MeleeWeapon_CooldownMultiplier>
+			</statFactors>
+		</stuffProps>
+		<modExtensions>
+			<li Class="VFECore.StuffExtension">
+				<structureGenerationCommonalityOffset>0</structureGenerationCommonalityOffset>
+				<weaponGenerationCommonalityOffset>0</weaponGenerationCommonalityOffset>
+				<apparelGenerationCommonalityOffset>0</apparelGenerationCommonalityOffset>
+				<structureGenerationCommonalityFactor>0</structureGenerationCommonalityFactor>
+				<weaponGenerationCommonalityFactor>0</weaponGenerationCommonalityFactor>
+				<apparelGenerationCommonalityFactor>0</apparelGenerationCommonalityFactor>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

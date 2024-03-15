@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OutlandFurnitureWithQualityBase">
+		<defName>Outland_Pot</defName>
+		<label>pot</label>
+		<description>A storage container made from clay.</description>
+		<techLevel>Neolithic</techLevel>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/PotA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<color>(171, 119, 91)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<pathCost>30</pathCost>
+		<fillPercent>0.20</fillPercent>
+		<uiIconOffset>(0, -0.05)</uiIconOffset>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<WorkToBuild>560</WorkToBuild>
+			<Mass>3</Mass>
+			<Flammability>0</Flammability>
+			<Beauty>2</Beauty>
+		</statBases>
+		<costList>
+			<Outland_ClayBrick>10</Outland_ClayBrick>
+		</costList>
+		<researchPrerequisites>
+			<li>Smithing</li>
+		</researchPrerequisites>
+		<designationCategory>Outland_OutlandDeco</designationCategory>
+		<comps>
+			<li Class="O21Toolbox.BuildingExt.CompProperties_ExtraGraphics">
+				<extraGraphics>
+					<li>
+						<label>Pot (Normal)</label>
+						<path>Outland/Buildings/Furniture/PotA</path>
+					</li>
+					<li>
+						<label>Pot (Tall)</label>
+						<path>Outland/Buildings/Furniture/PotB</path>
+					</li>
+					<li>
+						<label>Pot (Wide)</label>
+						<path>Outland/Buildings/Furniture/PotC</path>
+					</li>
+				</extraGraphics>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>
