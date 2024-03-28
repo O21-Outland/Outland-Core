@@ -18,9 +18,6 @@
 			</damageData>
 		</graphicData>
 		<uiIconPath>Outland/Buildings/StoneFurniture/MedievalDoor_MenuIcon</uiIconPath>
-		<costList>
-			<Outland_ComponentMedieval>2</Outland_ComponentMedieval>
-		</costList>
 		<costStuffCount>30</costStuffCount>
 		<stuffCategories Inherit="False">
 			<li>Stony</li>

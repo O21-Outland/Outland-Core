@@ -34,7 +34,7 @@
 		</stuffCategories>
 		<costList>
 			<Steel>40</Steel>
-			<Outland_ComponentMedieval>4</Outland_ComponentMedieval>
+			<Outland_ComponentMedieval>1</Outland_ComponentMedieval>
 		</costList>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">

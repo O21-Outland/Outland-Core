@@ -64,7 +64,7 @@
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<costList>
 			<Steel>150</Steel>
-			<ComponentIndustrial>6</ComponentIndustrial>
+			<Outland_ComponentMedieval>8</Outland_ComponentMedieval>
 		</costList>
 		<inspectorTabs>
 			<li>ITab_Shells</li>

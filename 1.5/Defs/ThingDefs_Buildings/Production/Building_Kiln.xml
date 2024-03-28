@@ -43,7 +43,7 @@
 		</stuffCategories>
 		<costList>
 			<Steel>10</Steel>
-			<Outland_ComponentMedieval>2</Outland_ComponentMedieval>
+			<Outland_ComponentMedieval>1</Outland_ComponentMedieval>
 		</costList>
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 		<designationCategory>Outland_Outland</designationCategory>
