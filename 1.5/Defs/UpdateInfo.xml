@@ -8,11 +8,11 @@
 		<contentList>
 			<li>
 				<header>Update to RimWorld 1.5</header>
-				<text>The mod is now fully updated to support RimWorld 1.5.</text>
+				<text>The mod, and related modules should now be fully updated to support RimWorld 1.5.</text>
 			</li>
 			<li>
 				<header>Removed Content</header>
-				<text>Content relating specifically to the magic system has been removed and will return instead as part of Mages Guild. Most of it you probably never seen but what you will notice if you're a returning user is that Kalocite and Grimstone are no longer in the Core mod.\n\nThe reasoning for this if you are curious is that it was content always intended to be used by multiple magic focused modules that were going to be split by class originally, plans have since changed and it felt more appropriate to include them in the main magic module which will contain most of the magic related content instead.</text>
+				<text>Content relating specifically to the magic system has been removed and will return instead as part of Mages Guild. Most of it you probably never seen but what you will notice if you're a returning user is that Kalocite and Grimstone are no longer in the Core mod.\n\nThe reasoning for this if you are curious is that it was content intended to be used by multiple magic focused modules that were going to be split by class originally, plans have since changed and it felt more appropriate to include them in the main magic module which will contain most of the magic related content instead.</text>
 			</li>
 		</contentList>
 		<links>
