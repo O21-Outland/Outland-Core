@@ -197,18 +197,14 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<fillPercent>0.20</fillPercent>
+		<terrainAffordanceNeeded IsNull="True" />
 		<building>
-			<isInert>true</isInert>
 			<isEdifice>false</isEdifice>
-			<canPlaceOverWall>true</canPlaceOverWall>
-			<allowWireConnection>false</allowWireConnection>
+			<isAttachment>true</isAttachment>
 		</building>
 		<placeWorkers>
-			<li>VanillaFurnitureExpanded.PlaceWorker_OnWall</li>
+			<li>Placeworker_AttachedToWall</li>
 		</placeWorkers>
-		<comps>
-			<li Class="VanillaFurnitureExpanded.CompProperties_MountableOnWall" />
-		</comps>
 	</ThingDef>
 
 </Defs>
