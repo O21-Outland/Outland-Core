@@ -204,6 +204,7 @@
 		</building>
 		<placeWorkers>
 			<li>Placeworker_AttachedToWall</li>
+			<li>PlaceWorker_GlowRadius</li>
 		</placeWorkers>
 	</ThingDef>
 
