@@ -116,11 +116,6 @@
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<surfaceType>Eat</surfaceType>
-		<comps>
-			<li>
-				<compClass>CompGatherSpot</compClass>
-			</li>
-		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="OutlandFurnitureBase" Name="OutlandBedBase" Abstract="True">

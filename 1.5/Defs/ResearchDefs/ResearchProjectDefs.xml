@@ -16,23 +16,35 @@
 		<techLevel>Medieval</techLevel>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef>
+	<ResearchProjectDef ParentName="Outland_ResearchBase">
 		<defName>Outland_RationPack</defName>
 		<label>ration pack</label>
 		<description>Make ration packs, a preserved mixture of meat and plant matter that won't rot at all. Great for traveling.</description>
-		<baseCost>700</baseCost>
-		<techLevel>Medieval</techLevel>
+		<baseCost>600</baseCost>
 		<tags>
 			<li>Outland_ResearchStart</li>
 		</tags>
 		<prerequisites>
 			<li>Pemmican</li>
 		</prerequisites>
-		<researchViewX>2.00</researchViewX>
-		<researchViewY>1.10</researchViewY>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
-	<!-- ==================================== Medieval ========================================== -->
+	<ResearchProjectDef ParentName="Outland_ResearchBase">
+		<defName>Outland_Crossbows</defName>
+		<label>crossbow</label>
+		<description>Learn to create crossbows, why strain your arm when you can risk an accidental misfire?</description>
+		<baseCost>300</baseCost>
+		<tags>
+			<li>Outland_ResearchStart</li>
+		</tags>
+		<prerequisites>
+			<li>RecurveBow</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="Outland_ResearchBase">
 		<defName>Outland_DefencePlatforms</defName>
@@ -41,6 +53,9 @@
 		<tags>
 			<li>Outland_ResearchStart</li>
 		</tags>
+		<prerequisites>
+			<li>Smithing</li>
+		</prerequisites>
 		<baseCost>800</baseCost>
 		<researchViewX>2</researchViewX>
 		<researchViewY>0.5</researchViewY>
