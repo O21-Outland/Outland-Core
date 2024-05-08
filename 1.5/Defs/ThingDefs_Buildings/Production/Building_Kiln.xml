@@ -22,7 +22,7 @@
 		</graphicData>
 		<uiIconScale>0.5</uiIconScale>
 		<size>(2,2)</size>
-		<tickerType>Normal</tickerType>
+		<tickerType>Rare</tickerType>
 		<altitudeLayer>Building</altitudeLayer>
 		<surfaceType>Item</surfaceType>
 		<passability>PassThroughOnly</passability>

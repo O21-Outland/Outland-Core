@@ -31,4 +31,64 @@
 		<designationCategory>Outland_Outland</designationCategory>
 	</ThingDef>
 
+	<ThingDef ParentName="DoorBase">
+		<defName>Outland_WideDoorStone</defName>
+		<label>wide medieval door</label>
+		<description>Divides rooms. A heavy stone door. This large door requires adjacent walls to function.</description>
+		<thingClass>Building_MultiTileDoor</thingClass>
+		<statBases>
+			<WorkToBuild>15000</WorkToBuild>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Beauty>10</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Outland/Buildings/Structural/WideStoneDoor/DoorMover</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Outland/Buildings/Structural/WideStoneDoor/Door_MenuIcon_south</uiIconPath>
+		<useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
+		<size>(2, 1)</size>
+		<rotatable>true</rotatable>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<costStuffCount>100</costStuffCount>
+		<stuffCategories Inherit="False">
+			<li>Stony</li>
+		</stuffCategories>
+		<building>
+			<blueprintClass>Blueprint_Build</blueprintClass>
+			<blueprintGraphicData>
+				<texPath>Outland/Buildings/Structural/WideStoneDoor/Door_MenuIcon</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<shaderType>EdgeDetect</shaderType>
+				<drawSize>(3, 3)</drawSize>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>Outland/Buildings/Structural/WideStoneDoor/DoorTop</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>(3, 3)</drawSize>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>Outland/Buildings/Structural/WideStoneDoor/DoorSupport</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>(3, 3)</drawSize>
+			</doorSupportGraphic>
+		</building>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<placeWorkers>
+			<li>PlaceWorker_MultiCellDoor</li>
+		</placeWorkers>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>Outland_SubCatStructural</subCategory>
+				<showOnlyInCategory>false</showOnlyInCategory>
+			</li>
+		</modExtensions>
+		<designationCategory>Outland_Outland</designationCategory>
+	</ThingDef>
+
 </Defs>
