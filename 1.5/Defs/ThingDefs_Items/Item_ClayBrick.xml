@@ -22,7 +22,7 @@
 		</statBases>
 		<intricate>false</intricate>
 		<thingCategories>
-			<li>Manufactured</li>
+			<li>ResourcesRaw</li>
 		</thingCategories>
 		<allowedArchonexusCount>100</allowedArchonexusCount>
 	</ThingDef>
