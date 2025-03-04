@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="Outland.PatchOperation_SettingActive">
+		<settings>
+			<li>smithyToForge</li>
+		</settings>
+		<active Class="PatchOperationAddModExtension">
+			<xpath>/Defs/ThingDef[defName="Outland_Forge"]</xpath>
+			<value>
+				<li Class="RecipeInheritance.ThingDefExtension">
+					<inheritRecipesFrom>
+						<li>FueledSmithy</li>
+					</inheritRecipesFrom>
+				</li>
+			</value>
+		</active>
+	</Operation>
+
+</Patch>

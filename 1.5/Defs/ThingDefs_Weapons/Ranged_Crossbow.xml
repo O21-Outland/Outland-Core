@@ -32,10 +32,6 @@
 		<weaponTags>
 			<li>OutlandRangedHeavy</li>
 		</weaponTags>
-		<weaponClasses>
-			<li>Ranged</li>
-			<li>RangedLight</li>
-		</weaponClasses>
 		<recipeMaker>
 			<researchPrerequisite>Outland_Crossbows</researchPrerequisite>
 			<recipeUsers>
