@@ -84,6 +84,7 @@
 			<li>WeaponsRanged</li>
 		</thingCategories>
 		<weaponClasses>
+			<li>Medieval</li>
 			<li>Ranged</li>
 		</weaponClasses>
 		<inspectorTabs>
@@ -139,6 +140,7 @@
 			<li>WeaponsMelee</li>
 		</thingCategories>
 		<weaponClasses>
+			<li>Medieval</li>
 			<li>Melee</li>
 		</weaponClasses>
 		<relicChance>1</relicChance>

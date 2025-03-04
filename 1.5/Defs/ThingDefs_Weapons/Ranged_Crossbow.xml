@@ -9,6 +9,12 @@
 			<texPath>Outland/Weapons/Crossbow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<weaponClasses Inherit="False">
+			<li>Medieval</li>
+			<li>Ranged</li>
+			<li>RangedLight</li>
+		</weaponClasses>
 		<soundInteract>Bow_Recurve</soundInteract>
 		<costList>
 			<Outland_ComponentMedieval>1</Outland_ComponentMedieval>
@@ -33,7 +39,8 @@
 		<recipeMaker>
 			<researchPrerequisite>Outland_Crossbows</researchPrerequisite>
 			<recipeUsers>
-				<li>CraftingSpot</li>
+				<li>Outland_BasicWorkbench</li>
+				<li>Outland_Forge</li>
 			</recipeUsers>
 			<skillRequirements>
 				<Crafting>5</Crafting>
