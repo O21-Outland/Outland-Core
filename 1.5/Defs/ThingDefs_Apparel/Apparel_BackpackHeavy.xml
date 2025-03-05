@@ -31,18 +31,18 @@
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
-		<costStuffCount>80</costStuffCount>
+		<costStuffCount>120</costStuffCount>
 		<statBases>
 			<WorkToMake>4200</WorkToMake>
-			<Mass>2</Mass>
+			<Mass>3</Mass>
 			<Flammability>0.4</Flammability>
-			<EquipDelay>2</EquipDelay>
+			<EquipDelay>2.5</EquipDelay>
 		</statBases>
-		<carryCapBuff>50</carryCapBuff>
+		<carryCapBuff>60</carryCapBuff>
 		<thingCategories>
 			<li>ApparelUtility</li>
 		</thingCategories>
-		<generateAllowChance>0.05</generateAllowChance>
+		<generateAllowChance>0.025</generateAllowChance>
 		<apparel>
 			<wornGraphicPath>Outland/Apparel/BackpackHeavy/Apparel</wornGraphicPath>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
