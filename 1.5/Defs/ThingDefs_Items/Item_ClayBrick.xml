@@ -62,6 +62,16 @@
 				<MeleeWeapon_CooldownMultiplier>1.35</MeleeWeapon_CooldownMultiplier>
 			</statFactors>
 		</stuffProps>
+		<modExtensions>
+			<li Class="VFECore.StuffExtension">
+				<structureGenerationCommonalityOffset>0</structureGenerationCommonalityOffset>
+				<weaponGenerationCommonalityOffset>0</weaponGenerationCommonalityOffset>
+				<apparelGenerationCommonalityOffset>0</apparelGenerationCommonalityOffset>
+				<structureGenerationCommonalityFactor>0</structureGenerationCommonalityFactor>
+				<weaponGenerationCommonalityFactor>0</weaponGenerationCommonalityFactor>
+				<apparelGenerationCommonalityFactor>0</apparelGenerationCommonalityFactor>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 </Defs>
