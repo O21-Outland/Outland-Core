@@ -23,10 +23,10 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<techLevel>Neolithic</techLevel>
-		<costStuffCount>14</costStuffCount>
+		<costStuffCount>40</costStuffCount>
 		<statBases>
-			<WorkToMake>6000</WorkToMake>
-			<Mass>0.2</Mass>
+			<WorkToMake>3200</WorkToMake>
+			<Mass>1.2</Mass>
 			<StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
