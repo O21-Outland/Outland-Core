@@ -17,6 +17,6 @@
 	<v1.5>
 		<li>/</li>
 		<li>1.5</li>
-		<li IfModActive="sihv.rombones">1.4/Mods/RoMBones</li>
+		<li IfModActive="sihv.rombones">1.5/Mods/RoMBones</li>
 	</v1.5>
 </loadFolders>
