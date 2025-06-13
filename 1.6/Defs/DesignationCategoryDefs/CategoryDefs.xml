@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<DesignationCategoryDef>
+		<defName>Outland_Outland</defName>
+		<label>outland</label>
+		<order>500</order>
+		<specialDesignatorClasses>
+			<li>Designator_Cancel</li>
+			<li>Designator_Deconstruct</li>
+			<li>TabulaRasa.Designator_SubCategory</li>
+		</specialDesignatorClasses>
+	</DesignationCategoryDef>
+
+</Defs>

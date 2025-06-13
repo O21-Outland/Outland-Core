@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef>
+		<defName>Outland_MakeClay</defName>
+		<label>dig for clay</label>
+		<description>Dig for clay from the muddy terrain in the area.</description>
+		<jobString>Digging clay.</jobString>
+		<workAmount>1500</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<products>
+			<Outland_Clay>10</Outland_Clay>
+		</products>
+	</RecipeDef>
+
+	<!-- <RecipeDef>
+		<defName>Outland_FireClayBricks</defName>
+		<label>fire clay bricks</label>
+		<description>Fire unfired clay bricks to harden them.</description>
+		<jobString>Fire clay bricks.</jobString>
+		<workAmount>1200</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Outland_UnfiredClayBrick</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<products>
+			<Outland_ClayBrick>15</Outland_ClayBrick>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Outland_UnfiredClayBrick</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef> -->
+
+</Defs>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="DoorBase">
+		<defName>Outland_TentDoor</defName>
+		<label>tent door</label>
+		<description>A doorway hung with thick overlapping strips of fabric or leather. It allows quick passage while insulating the temperature.</description>
+		<statBases>
+			<WorkToBuild>35</WorkToBuild>
+			<MaxHitPoints>20</MaxHitPoints>
+		</statBases>
+		<useStuffTerrainAffordance>true</useStuffTerrainAffordance>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded> <!-- Best affordance needed for stone -->
+		<holdsRoof>false</holdsRoof>
+		<graphicData>
+			<texPath>Things/Building/Door/AnimalFlap_Mover</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<damageData>
+				<!-- no damage marks because they don't move with the door -->
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Door/AnimalFlap_MenuIcon</uiIconPath>
+		<costStuffCount>15</costStuffCount>
+		<stuffCategories Inherit="False">
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<building>
+			<paintable>true</paintable>
+			<ai_chillDestination>false</ai_chillDestination>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Door/AnimalFlap_Blueprint</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+			</blueprintGraphicData>
+		</building>
+		<designationCategory>Outland_Outland</designationCategory>
+		<damageMultipliers Inherit="False">
+			<li>
+				<damageDef>Cut</damageDef>
+				<multiplier>4</multiplier>
+			</li>
+			<li>
+				<damageDef>Stab</damageDef>
+				<multiplier>4</multiplier>
+			</li>
+			<li>
+				<damageDef>Bomb</damageDef>
+				<multiplier>8</multiplier>
+			</li>
+			<li>
+				<damageDef>Thump</damageDef>
+				<multiplier>8</multiplier>
+			</li>
+		</damageMultipliers>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>Outland_SubCatStructural</subCategory>
+				<showOnlyInCategory>false</showOnlyInCategory>
+			</li>
+			<li Class="TabulaRasa.DefModExt_SelfPoweredDoor" />
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

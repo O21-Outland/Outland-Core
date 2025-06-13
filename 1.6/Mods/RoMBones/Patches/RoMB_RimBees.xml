@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- RimBees -->
+	<Operation Class="TabulaRasa.PatchOperation_FindModByID">
+		<mods>
+			<li>sarg.rimbees</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="RB_Skeletal_Honeycomb"]/butcherProducts</xpath>
+					<value>
+						<butcherProducts>
+							<RB_BaseHoney>5</RB_BaseHoney>
+							<RB_Steelwax>5</RB_Steelwax>
+							<Outland_Bones>25</Outland_Bones>
+						</butcherProducts>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="RB_CentrifugeSkeletalCombBulk"]/products</xpath>
+					<value>
+						<products>
+							<RB_BaseHoney>50</RB_BaseHoney>
+							<RB_Steelwax>50</RB_Steelwax>
+							<Outland_Bones>250</Outland_Bones>
+						</products>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

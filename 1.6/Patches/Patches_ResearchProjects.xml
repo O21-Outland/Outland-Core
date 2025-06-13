@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Researches for scenarios -->
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]</xpath>
+		<value>
+			<li Class="VFECore.ResearchProjectDefExtension">
+				<greylistedTags>
+					<li>Outland_ResearchStart</li>
+				</greylistedTags>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/ResearchProjectDef[defName="TreeSowing"]</xpath>
+		<value>
+			<li Class="VFECore.ResearchProjectDefExtension">
+				<greylistedTags>
+					<li>Outland_ResearchStart</li>
+				</greylistedTags>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="Brewing"]/tags</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="Brewing"]/tags</xpath>
+			<value>
+				<li>Outland_ResearchStart</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="Brewing"]</xpath>
+			<value>
+				<tags>
+					<li>Outland_ResearchStart</li>
+				</tags>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="ComplexFurniture"]/tags</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="ComplexFurniture"]/tags</xpath>
+			<value>
+				<li>Outland_ResearchStart</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="ComplexFurniture"]</xpath>
+			<value>
+				<tags>
+					<li>Outland_ResearchStart</li>
+				</tags>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="Stonecutting"]/tags</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="Stonecutting"]/tags</xpath>
+			<value>
+				<li>Outland_ResearchStart</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="Stonecutting"]</xpath>
+			<value>
+				<tags>
+					<li>Outland_ResearchStart</li>
+				</tags>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="ComplexClothing"]/tags</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="ComplexClothing"]/tags</xpath>
+			<value>
+				<li>Outland_ResearchStart</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="ComplexClothing"]</xpath>
+			<value>
+				<tags>
+					<li>Outland_ResearchStart</li>
+				</tags>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="Smithing"]/tags</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="Smithing"]/tags</xpath>
+			<value>
+				<li>Outland_ResearchStart</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="Smithing"]</xpath>
+			<value>
+				<tags>
+					<li>Outland_ResearchStart</li>
+				</tags>
+			</value>
+		</nomatch>
+	</Operation>
+
+</Patch>

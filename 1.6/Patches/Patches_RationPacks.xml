@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="ElectricStove" or defName="FueledStove" or defName="Campfire"]/recipes</xpath>
+		<value>
+			<li>Outland_MakeRationPack</li>
+			<li>Outland_MakeRationPackBulk</li>
+		</value>
+	</Operation>
+
+</Patch>

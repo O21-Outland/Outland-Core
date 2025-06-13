@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef Name="Outland_BaseGas" Abstract="True">
+		<thingClass>Gas</thingClass>
+		<label>gas</label>
+		<category>Gas</category>
+		<altitudeLayer>Gas</altitudeLayer>
+		<useHitPoints>false</useHitPoints>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<graphicClass>Graphic_Gas</graphicClass>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="Outland_BaseGas">
+		<defName>Outland_GasKnockout</defName>
+		<label>knockout gas</label>
+		<graphicData>
+			<texPath>Things/Gas/Puff</texPath>
+			<drawSize>2.2</drawSize>
+			<color>(0.6,1.0,0.6,0.5)</color>
+		</graphicData>
+		<thingClass>TabulaRasa.Gas_HediffGiver</thingClass>
+		<gas>
+			<expireSeconds>11~16</expireSeconds>
+		</gas>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_GasHediffGiver">
+				<radius>1.9</radius>
+				<hediffDef>Outland_KnockoutGas</hediffDef>
+				<ticksBeforeApply>120</ticksBeforeApply>
+				<adjustSeverity>1.0</adjustSeverity>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

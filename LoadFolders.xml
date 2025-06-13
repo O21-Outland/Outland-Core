@@ -3,7 +3,6 @@
 	<v1.3>
 		<li>/</li>
 		<li>1.3</li>
-		<!-- <li IfModActive="DankPyon.Medieval.Overhaul">1.3/Mods/MedievalOverhaul</li> --> <!-- Disabled permanently, too much work to keep supporting. Anyone is free to figure out a patch for Medieval Overhaul themselves. -->
 		<li IfModActive="sihv.rombones">1.3/Mods/RoMBones</li>
 		<li IfModActive="neronix17.fr.content.dni">1.3/Mods/DragonsNotIncluded</li>
 		<li IfModActive="LWM.DeepStorage">1.3/Mods/LWMDeepStorage</li>
@@ -19,4 +18,9 @@
 		<li>1.5</li>
 		<li IfModActive="sihv.rombones">1.5/Mods/RoMBones</li>
 	</v1.5>
+	<v1.6>
+		<li>/</li>
+		<li>1.6</li>
+		<li IfModActive="sihv.rombones">1.6/Mods/RoMBones</li>
+	</v1.6>
 </loadFolders>

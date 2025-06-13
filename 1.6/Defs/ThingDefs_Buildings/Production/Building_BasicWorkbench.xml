@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="OutlandBenchBase">
+		<defName>Outland_BasicWorkbench</defName>
+		<label>basic workbench</label>
+		<description>A simple wooden workbench with basic tools.\n\nNote: Crafts anything you can usually craft at a Crafting Spot.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<graphicData>
+			<texPath>Outland/Buildings/Production/SimpleWorkbench</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,5)</drawSize>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<size>(3,1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<fillPercent>0.5</fillPercent>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<hasInteractionCell>true</hasInteractionCell>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<surfaceType>Item</surfaceType>
+		<designationCategory>Outland_Outland</designationCategory>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<costStuffCount>200</costStuffCount>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costList>
+			<Steel>30</Steel>
+		</costList>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>Outland_Forge</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<WorkTableWorkSpeedFactor>0.1</WorkTableWorkSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+			</li>
+			<li Class="TabulaRasa.CompProperties_ExtraGraphics">
+				<extraGraphics>
+					<li>
+						<label>Default</label>
+						<path>Outland/Buildings/Production/SimpleWorkbench</path>
+					</li>
+					<li>
+						<label>Red Cloth</label>
+						<path>Outland/Buildings/Production/SimpleWorkbenchRed</path>
+					</li>
+					<li>
+						<label>Blue Cloth</label>
+						<path>Outland/Buildings/Production/SimpleWorkbenchBlue</path>
+					</li>
+					<li>
+						<label>Green Cloth</label>
+						<path>Outland/Buildings/Production/SimpleWorkbenchGreen</path>
+					</li>
+					<li>
+						<label>Purple Cloth</label>
+						<path>Outland/Buildings/Production/SimpleWorkbenchPurple</path>
+					</li>
+				</extraGraphics>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<!-- <researchPrerequisites>
+			<li>???</li>
+		</researchPrerequisites> -->
+		<modExtensions>
+			<li Class="RecipeInheritance.ThingDefExtension">
+				<inheritRecipesFrom>
+					<li>CraftingSpot</li>
+				</inheritRecipesFrom>
+			</li>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>Outland_SubCatProduction</subCategory>
+				<showOnlyInCategory>false</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

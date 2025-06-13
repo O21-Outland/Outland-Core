@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>Outland_Ammo_BallistaBolt</defName>
+		<label>ballista bolt</label>
+		<description>A large reinforced bolt used in bolt firing siege weapons.</description>
+		<graphicData>
+			<texPath>Outland/Items/BallistaBolts</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<stackLimit>50</stackLimit>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<Mass>0.3</Mass>
+			<Flammability>0.8</Flammability>
+		</statBases>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<projectileWhenLoaded>Outland_Bullet_Ballista</projectileWhenLoaded>
+		<modExtensions>
+			<li Class="Outland.DefModExt_UnconventionalShell"></li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Outland_Bullet_Ballista</defName>
+		<label>ballista bolt</label>
+		<graphicData>
+			<texPath>Outland/Projectiles/Ballista_Proj</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.2,1.2)</drawSize>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>RangedStab</damageDef>
+			<damageAmountBase>50</damageAmountBase>
+			<stoppingPower>2.0</stoppingPower>
+			<armorPenetrationBase>1.0</armorPenetrationBase>
+			<speed>50</speed>
+		</projectile>
+	</ThingDef>
+
+	<RecipeDef>
+		<defName>Outland_Make_BallistaBolts</defName>
+		<label>make ballista bolts</label>
+		<description>Make a batch of ballista bolts from wood and steel.</description>
+		<jobString>Making ballista bolts.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>16</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Outland_Ammo_BallistaBolt>5</Outland_Ammo_BallistaBolt>
+		</products>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+		<researchPrerequisites>
+			<li>Outland_DefencePlatforms</li>
+		</researchPrerequisites>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>FueledSmithy</li>
+			<li>ElectricSmithy</li>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>

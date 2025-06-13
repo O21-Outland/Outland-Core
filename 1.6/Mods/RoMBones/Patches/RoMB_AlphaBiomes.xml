@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Alpha Biomes-->
+	<Operation Class="TabulaRasa.PatchOperation_FindModByID">
+		<mods>
+			<li>sarg.alphabiomes</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="AB_GallatrossBones"]/costList</xpath>
+					<value>
+						<costList>
+							<Outland_Bones>150</Outland_Bones>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="AB_AncientGallatrossSkull"]/costList</xpath>
+					<value>
+						<costList>
+							<Outland_Bones>55</Outland_Bones>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="AB_AncientBone"]/costList</xpath>
+					<value>
+						<costList>
+							<Outland_Bones>25</Outland_Bones>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="AB_AncientBrokenBone"]/costList</xpath>
+					<value>
+						<costList>
+							<Outland_Bones>10</Outland_Bones>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="AB_AncientVerticalBone"]/costList</xpath>
+					<value>
+						<costList>
+							<Outland_Bones>40</Outland_Bones>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="AB_HugeGallatrossSkeleton"]/costList</xpath>
+					<value>
+						<costList>
+							<Outland_Bones>250</Outland_Bones>
+						</costList>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

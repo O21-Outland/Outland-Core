@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<HediffDef>
+		<defName>Outland_AntiTox</defName>
+		<label>anti-tox</label>
+		<hediffClass>Outland.Hediff_AntiTox</hediffClass>
+		<description>Anti-tox slowly reduces toxic buildup and prevents it from increasing while under the effects, the effect gets weaker over time if it is not replenished.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<makesSickThought>false</makesSickThought>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.3</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>weak</label>
+				<minSeverity>0</minSeverity>
+				<becomeVisible>true</becomeVisible>
+			</li>
+			<li>
+				<label>standard</label>
+				<minSeverity>0.2</minSeverity>
+			</li>
+			<li>
+				<label>strong</label>
+				<minSeverity>0.8</minSeverity>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>
