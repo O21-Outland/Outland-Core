@@ -8,6 +8,7 @@
 			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
 			<MarketValue>750</MarketValue>
 			<FilthRate>3</FilthRate>
+			<Wildness>0.65</Wildness>
 		</statBases>
 		<uiIconScale>1.15</uiIconScale>
 		<tools>
@@ -84,7 +85,7 @@
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Outland_FockattFur</leatherDef>
 			<gestationPeriodDays>10</gestationPeriodDays>
-			<wildness>0.65</wildness>
+			<!-- <wildness>0.65</wildness> -->
 			<lifeExpectancy>22</lifeExpectancy>
 			<trainability>Advanced</trainability>
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>

@@ -67,7 +67,7 @@
 			</li>
 		</tools>
 		<modExtensions>
-			<li Class="VFECore.StuffExtension">
+			<li Class="VEF.Things.StuffExtension">
 				<structureGenerationCommonalityOffset>0</structureGenerationCommonalityOffset>
 				<structureGenerationCommonalityFactor>0</structureGenerationCommonalityFactor>
 			</li>

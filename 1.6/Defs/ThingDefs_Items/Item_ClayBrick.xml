@@ -63,7 +63,7 @@
 			</statFactors>
 		</stuffProps>
 		<modExtensions>
-			<li Class="VFECore.StuffExtension">
+			<li Class="VEF.Things.StuffExtension">
 				<structureGenerationCommonalityOffset>0</structureGenerationCommonalityOffset>
 				<weaponGenerationCommonalityOffset>0</weaponGenerationCommonalityOffset>
 				<apparelGenerationCommonalityOffset>0</apparelGenerationCommonalityOffset>

@@ -4,7 +4,7 @@
 	<DamageDef>
 		<defName>Outland_RockDamage</defName>
 		<label>rock</label>
-		<workerClass>NoCamShakeExplosions.DamageWorker_BombNoCamShake</workerClass>
+		<workerClass>VEF.Weapons.DamageWorker_BombNoCamShake</workerClass>
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been squashed to death by a rock.</deathMessage>
 		<hediff>Crush</hediff>

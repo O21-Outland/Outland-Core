@@ -5,7 +5,7 @@
 		<defName>Outland_Kiln</defName>
 		<label>kiln</label>
 		<description>A thermally insulated chamber used in the processing of various materials. Primarily used in the hardening of clay objects like pottery, tiles and bricks.</description>
-		<thingClass>ItemProcessor.Building_ItemProcessor</thingClass>
+		<thingClass>Building</thingClass>
 		<techLevel>Medieval</techLevel>
 		<graphicData>
 			<texPath>Outland/Buildings/Production/Kiln</texPath>
@@ -30,7 +30,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<fillPercent>0.5</fillPercent>
-		<hasInteractionCell>false</hasInteractionCell>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
@@ -45,10 +46,13 @@
 			<Steel>10</Steel>
 			<Outland_ComponentMedieval>1</Outland_ComponentMedieval>
 		</costList>
+		<inspectorTabs>
+			<li>PipeSystem.ITab_Processor</li>
+		</inspectorTabs>
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 		<designationCategory>Outland_Outland</designationCategory>
 		<comps>
-			<li Class="ItemProcessor.CompProperties_ItemProcessor">
+			<!-- <li Class="ItemProcessor.CompProperties_ItemProcessor">
 				<numberOfInputs>1</numberOfInputs>
 				<acceptsNoneAsInput>false</acceptsNoneAsInput>
 				<ignoresIngredientLists>true</ignoresIngredientLists>
@@ -58,6 +62,14 @@
 				<noPowerDestroysProgress>true</noPowerDestroysProgress>
 				<noPowerDestroysInitialWarning>Outland.NoFuelInKilnWarning</noPowerDestroysInitialWarning>
 				<rareTicksToDestroy>10</rareTicksToDestroy>
+			</li> -->
+			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+				<notWorkingKey>Outland.NoFuelInKilnWarning</notWorkingKey>
+				<processes>
+					<li>Outland_ClayToBricks</li>
+				</processes>
+				<showProgressBar>false</showProgressBar>
+				<hideSettings>true</hideSettings>
 			</li>
 			<li Class="CompProperties_Refuelable">
 				<fuelConsumptionRate>80.0</fuelConsumptionRate>
@@ -85,7 +97,32 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ItemProcessor.ItemAcceptedDef>
+	<PipeSystem.ProcessDef>
+		<defName>Outland_ClayToBricks</defName>
+		<label>fire clay into bricks</label>
+		<description>Turn 20 clay into 40 bricks</description>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<autoExtract>false</autoExtract>
+		<useIngredients>true</useIngredients>
+		<transfersIngredientList>true</transfersIngredientList>
+		<priorityInBillList>0</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>Outland_Clay</thing>
+				<countNeeded>20</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>60000</ticks>
+		<results>
+			<li>
+				<thing>Outland_ClayBrick</thing>
+				<count>40</count>
+			</li>
+		</results>
+		<destroyIngredientsOnStart>true</destroyIngredientsOnStart>
+	</PipeSystem.ProcessDef>
+
+	<!-- <ItemProcessor.ItemAcceptedDef>
 		<defName>Outland_KilnInput</defName>
 		<building>Outland_Kiln</building>
 		<slot>1</slot>
@@ -106,6 +143,6 @@
 		<result>Outland_ClayBrick</result>	
 		<yield>40</yield>
 		<singleTimeIfNotQualityIncreasing>1</singleTimeIfNotQualityIncreasing>
-	</ItemProcessor.CombinationDef>
+	</ItemProcessor.CombinationDef> -->
 
 </Defs>

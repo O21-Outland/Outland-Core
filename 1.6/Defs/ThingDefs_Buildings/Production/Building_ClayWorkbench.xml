@@ -59,7 +59,7 @@
 			<li>???</li>
 		</researchPrerequisites> -->
 		<modExtensions>
-			<li Class="RecipeInheritance.ThingDefExtension">
+			<li Class="VEF.Buildings.RecipeInheritanceExtension">
 				<inheritRecipesFrom>
 					<li>Outland_DiggingSpot</li>
 				</inheritRecipesFrom>

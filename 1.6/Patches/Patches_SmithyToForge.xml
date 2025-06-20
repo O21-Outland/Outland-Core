@@ -8,7 +8,7 @@
 		<active Class="PatchOperationAddModExtension">
 			<xpath>/Defs/ThingDef[defName="Outland_Forge"]</xpath>
 			<value>
-				<li Class="RecipeInheritance.ThingDefExtension">
+				<li Class="VEF.Buildings.RecipeInheritanceExtension">
 					<inheritRecipesFrom>
 						<li>FueledSmithy</li>
 					</inheritRecipesFrom>

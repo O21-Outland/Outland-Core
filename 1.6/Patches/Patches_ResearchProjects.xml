@@ -2,26 +2,40 @@
 <Patch>
 
 	<!-- Researches for scenarios -->
-	<Operation Class="PatchOperationAddModExtension">
-		<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]</xpath>
-		<value>
-			<li Class="VFECore.ResearchProjectDefExtension">
-				<greylistedTags>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]/tags</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]/tags</xpath>
+			<value>
+				<li>Outland_ResearchStart</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]</xpath>
+			<value>
+				<tags>
 					<li>Outland_ResearchStart</li>
-				</greylistedTags>
-			</li>
-		</value>
+				</tags>
+			</value>
+		</nomatch>
 	</Operation>
 
-	<Operation Class="PatchOperationAddModExtension">
-		<xpath>/Defs/ResearchProjectDef[defName="TreeSowing"]</xpath>
-		<value>
-			<li Class="VFECore.ResearchProjectDefExtension">
-				<greylistedTags>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="TreeSowing"]/tags</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="TreeSowing"]/tags</xpath>
+			<value>
+				<li>Outland_ResearchStart</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="TreeSowing"]</xpath>
+			<value>
+				<tags>
 					<li>Outland_ResearchStart</li>
-				</greylistedTags>
-			</li>
-		</value>
+				</tags>
+			</value>
+		</nomatch>
 	</Operation>
 
 	<Operation Class="PatchOperationConditional">
