@@ -44,7 +44,7 @@ namespace Outland
             new Harmony("Neronix17.Outland.Core").PatchAll();
         }
 
-        public override string SettingsCategory() => "Outland - Core";
+        public override string SettingsCategory() => "Outland";
 
         public override void DoSettingsWindowContents(Rect inRect)
         {

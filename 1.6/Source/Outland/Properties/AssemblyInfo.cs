@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Outland")]
+[assembly: AssemblyTitle("Outland - Core")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Outland")]
+[assembly: AssemblyProduct("Outland - Core")]
 [assembly: AssemblyCopyright("Copyright © Neronix17 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

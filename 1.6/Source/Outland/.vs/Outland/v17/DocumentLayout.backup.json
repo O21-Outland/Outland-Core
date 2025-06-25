@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|F:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\outlandmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:outlandmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|f:\\rwmodcategories\\neronix17\\outland\\outland - core\\1.6\\source\\outland\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|f:\\rwmodcategories\\neronix17\\outland\\outland - core\\1.6\\source\\outland\\utility\\logutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|F:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\utility\\logutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:utility\\logutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|f:\\rwmodcategories\\neronix17\\outland\\outland - core\\1.6\\source\\outland\\outlandmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:outlandmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|F:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\outlandsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,24 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
               "ToolTip": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\Properties\\AssemblyInfo.cs",
               "RelativeToolTip": "Properties\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T18:13:55.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LogUtil.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\Utility\\LogUtil.cs",
               "RelativeDocumentMoniker": "Utility\\LogUtil.cs",
@@ -63,8 +63,7 @@
               "RelativeToolTip": "Utility\\LogUtil.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAewC0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T18:13:23.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T18:13:23.164Z"
             },
             {
               "$type": "Document",
@@ -76,18 +75,17 @@
               "RelativeToolTip": "OutlandSettings.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T13:33:37.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T13:33:37.301Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "OutlandMod.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\OutlandMod.cs",
               "RelativeDocumentMoniker": "OutlandMod.cs",
               "ToolTip": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\OutlandMod.cs",
               "RelativeToolTip": "OutlandMod.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAC2AAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-13T23:27:36.415Z",
               "EditorCaption": ""
@@ -102,8 +100,7 @@
               "RelativeToolTip": "OutlandStartup.cs",
               "ViewState": "AgIAAGEAAAAAAAAAAAAAAKIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T23:26:32.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T23:26:32.7Z"
             },
             {
               "$type": "Document",
@@ -115,8 +112,7 @@
               "RelativeToolTip": "OutlandDebug.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAAAAAHMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T23:26:08.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T23:26:08.073Z"
             },
             {
               "$type": "Document",
@@ -128,8 +124,7 @@
               "RelativeToolTip": "OutlandDefOf.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T23:25:13.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T23:25:13.767Z"
             }
           ]
         }
