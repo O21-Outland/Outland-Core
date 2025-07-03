@@ -23,7 +23,7 @@
 	</v1.5>
 	<v1.6>
 		<li>/</li>
-		<li>Common_Old</li>
+		<li>Common</li>
 		<li>1.6</li>
 		<li IfModActive="sihv.rombones">1.6/Mods/RoMBones</li>
 	</v1.6>
