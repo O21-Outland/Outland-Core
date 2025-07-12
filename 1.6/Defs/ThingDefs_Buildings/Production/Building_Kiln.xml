@@ -5,7 +5,7 @@
 		<defName>Outland_Kiln</defName>
 		<label>kiln</label>
 		<description>A thermally insulated chamber used in the processing of various materials. Primarily used in the hardening of clay objects like pottery, tiles and bricks.</description>
-		<thingClass>Building</thingClass>
+		<thingClass>Building_WorkTableAutonomous</thingClass>
 		<techLevel>Medieval</techLevel>
 		<graphicData>
 			<texPath>Outland/Buildings/Production/Kiln</texPath>
@@ -22,7 +22,7 @@
 		</graphicData>
 		<uiIconScale>0.5</uiIconScale>
 		<size>(2,2)</size>
-		<tickerType>Rare</tickerType>
+		<tickerType>Normal</tickerType>
 		<altitudeLayer>Building</altitudeLayer>
 		<surfaceType>Item</surfaceType>
 		<passability>PassThroughOnly</passability>
@@ -47,8 +47,12 @@
 			<Outland_ComponentMedieval>1</Outland_ComponentMedieval>
 		</costList>
 		<inspectorTabs>
-			<li>PipeSystem.ITab_Processor</li>
+			<!-- <li>PipeSystem.ITab_Processor</li> -->
+			 <li>ITab_Bills</li>
 		</inspectorTabs>
+		<recipes>
+			<li>Outland_FireClayBricks</li>
+		</recipes>
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 		<designationCategory>Outland_Outland</designationCategory>
 		<comps>
@@ -63,14 +67,14 @@
 				<noPowerDestroysInitialWarning>Outland.NoFuelInKilnWarning</noPowerDestroysInitialWarning>
 				<rareTicksToDestroy>10</rareTicksToDestroy>
 			</li> -->
-			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+			<!-- <li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
 				<notWorkingKey>Outland.NoFuelInKilnWarning</notWorkingKey>
 				<processes>
 					<li>Outland_ClayToBricks</li>
 				</processes>
 				<showProgressBar>false</showProgressBar>
 				<hideSettings>true</hideSettings>
-			</li>
+			</li> -->
 			<li Class="CompProperties_Refuelable">
 				<fuelConsumptionRate>80.0</fuelConsumptionRate>
 				<fuelCapacity>50.0</fuelCapacity>
@@ -97,7 +101,7 @@
 		</modExtensions>
 	</ThingDef>
 
-	<PipeSystem.ProcessDef>
+	<!-- <PipeSystem.ProcessDef>
 		<defName>Outland_ClayToBricks</defName>
 		<label>fire clay into bricks</label>
 		<description>Turn 20 clay into 40 bricks</description>
@@ -120,7 +124,7 @@
 			</li>
 		</results>
 		<destroyIngredientsOnStart>true</destroyIngredientsOnStart>
-	</PipeSystem.ProcessDef>
+	</PipeSystem.ProcessDef> -->
 
 	<!-- <ItemProcessor.ItemAcceptedDef>
 		<defName>Outland_KilnInput</defName>

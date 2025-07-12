@@ -15,12 +15,12 @@
 		</products>
 	</RecipeDef>
 
-	<!-- <RecipeDef>
+	<RecipeDef>
 		<defName>Outland_FireClayBricks</defName>
 		<label>fire clay bricks</label>
 		<description>Fire unfired clay bricks to harden them.</description>
 		<jobString>Fire clay bricks.</jobString>
-		<workAmount>1200</workAmount>
+		<formingTicks>25000</formingTicks>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
 		<soundWorking>Recipe_Smelt</soundWorking>
@@ -28,20 +28,20 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Outland_UnfiredClayBrick</li>
+						<li>Outland_Clay</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>40</count>
 			</li>
 		</ingredients>
 		<products>
-			<Outland_ClayBrick>15</Outland_ClayBrick>
+			<Outland_ClayBrick>40</Outland_ClayBrick>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Outland_UnfiredClayBrick</li>
+				<li>Outland_Clay</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-	</RecipeDef> -->
+	</RecipeDef>
 
 </Defs>

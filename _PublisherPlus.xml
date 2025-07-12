@@ -3,6 +3,6 @@
   <Excluded>
     <exclude>.git</exclude>
     <exclude>1.5\Mods\RoMBones\Source</exclude>
-    <exclude>1.5\Source</exclude>
+    <exclude>1.6\Source</exclude>
   </Excluded>
 </Configuration>
