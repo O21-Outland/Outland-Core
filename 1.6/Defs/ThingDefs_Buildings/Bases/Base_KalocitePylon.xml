@@ -27,9 +27,10 @@
 		</statBases>
 		<designationCategory>Outland_Outland</designationCategory>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatMagicConstructs</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Magic Constructs</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>

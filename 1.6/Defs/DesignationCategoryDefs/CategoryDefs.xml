@@ -3,13 +3,15 @@
 
 	<DesignationCategoryDef>
 		<defName>Outland_Outland</defName>
-		<label>outland</label>
+		<label>Outland</label>
 		<order>500</order>
 		<specialDesignatorClasses>
 			<li>Designator_Cancel</li>
 			<li>Designator_Deconstruct</li>
-			<li>TabulaRasa.Designator_SubCategory</li>
 		</specialDesignatorClasses>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay" />
+		</modExtensions>
 	</DesignationCategoryDef>
 
 </Defs>

@@ -66,9 +66,10 @@
 		</comps>
 		<modExtensions>
 			<li Class="Outland.DefModExt_UnconventionalTurret" />
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatSecurity</subCategory>
-				<showOnlyInCategory>false</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Security</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 		<designationCategory>Outland_Outland</designationCategory>

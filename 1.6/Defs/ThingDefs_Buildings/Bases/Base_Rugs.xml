@@ -40,9 +40,10 @@
 		<clearBuildingArea>false</clearBuildingArea>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatRugs</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Rugs</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>

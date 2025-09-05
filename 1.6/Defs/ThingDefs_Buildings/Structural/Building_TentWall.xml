@@ -79,9 +79,10 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatStructural</subCategory>
-				<showOnlyInCategory>false</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Structural</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 		<damageMultipliers>

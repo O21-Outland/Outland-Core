@@ -23,9 +23,10 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatStructural</subCategory>
-				<showOnlyInCategory>false</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Structural</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 		<designationCategory>Outland_Outland</designationCategory>
@@ -83,9 +84,10 @@
 			<li>PlaceWorker_MultiCellDoor</li>
 		</placeWorkers>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatStructural</subCategory>
-				<showOnlyInCategory>false</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Structural</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 		<designationCategory>Outland_Outland</designationCategory>

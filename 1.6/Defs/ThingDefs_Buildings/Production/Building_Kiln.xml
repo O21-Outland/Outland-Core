@@ -94,9 +94,10 @@
 			<li Class="CompProperties_Breakdownable" />
 		</comps>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatProduction</subCategory>
-				<showOnlyInCategory>false</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Production</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>

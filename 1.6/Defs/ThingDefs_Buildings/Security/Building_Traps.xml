@@ -41,9 +41,10 @@
 			<ai_chillDestination>false</ai_chillDestination>
 		</building>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatSecurity</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Security</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 		<designationCategory>Outland_Outland</designationCategory>
