@@ -2,9 +2,9 @@
 <Defs>
 
 	<ThingDef ParentName="OutlandBuildingBase">
-		<defName>DankPyon_ResearchingSpot</defName>
+		<defName>Outland_ResearchingSpot</defName>
 		<label>research spot</label>
-		<description>A spot for researching early tech, any Neolithic research can be done here, albeit slowly, but anything above that requires some proper tools.</description>
+		<description>A spot for early access to researching, can't do much work with no equipment so progress will be slow.</description>
 		<thingClass>Building_ResearchBench</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Production/CraftingSpot</texPath>
@@ -38,12 +38,6 @@
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_ResearchBenchSubstitutes">
-				<techLevel>Neolithic</techLevel>
-				<!-- <actLikeResearchBench>
-					<li>SimpleResearchBench</li>
-				</actLikeResearchBench> -->
-			</li>
 			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
 				<subcategories>
 					<li>Production</li>
