@@ -47,8 +47,7 @@
 			<Outland_ComponentMedieval>1</Outland_ComponentMedieval>
 		</costList>
 		<inspectorTabs>
-			<!-- <li>PipeSystem.ITab_Processor</li> -->
-			 <li>ITab_Bills</li>
+			<li>ITab_Bills</li>
 		</inspectorTabs>
 		<recipes>
 			<li>Outland_FireClayBricks</li>
@@ -56,25 +55,6 @@
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 		<designationCategory>Outland_Outland</designationCategory>
 		<comps>
-			<!-- <li Class="ItemProcessor.CompProperties_ItemProcessor">
-				<numberOfInputs>1</numberOfInputs>
-				<acceptsNoneAsInput>false</acceptsNoneAsInput>
-				<ignoresIngredientLists>true</ignoresIngredientLists>
-				<showProgressBar>false</showProgressBar>
-				<isSemiAutomaticMachine>true</isSemiAutomaticMachine>
-				<destroyIngredientsAtStartOfProcess>true</destroyIngredientsAtStartOfProcess>
-				<noPowerDestroysProgress>true</noPowerDestroysProgress>
-				<noPowerDestroysInitialWarning>Outland.NoFuelInKilnWarning</noPowerDestroysInitialWarning>
-				<rareTicksToDestroy>10</rareTicksToDestroy>
-			</li> -->
-			<!-- <li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
-				<notWorkingKey>Outland.NoFuelInKilnWarning</notWorkingKey>
-				<processes>
-					<li>Outland_ClayToBricks</li>
-				</processes>
-				<showProgressBar>false</showProgressBar>
-				<hideSettings>true</hideSettings>
-			</li> -->
 			<li Class="CompProperties_Refuelable">
 				<fuelConsumptionRate>80.0</fuelConsumptionRate>
 				<fuelCapacity>50.0</fuelCapacity>
