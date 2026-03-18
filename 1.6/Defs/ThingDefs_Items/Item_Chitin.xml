@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>Outland_Chitin</defName>
+		<label>chitin</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>Outland/Items/Chitin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>3</MarketValue>
+			<StuffPower_Armor_Sharp>1.12</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.45</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.25</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(126, 112, 116)</color>
+			<commonality>0.001</commonality>
+			<statFactors>
+				<MaxHitPoints>1.5</MaxHitPoints>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>
