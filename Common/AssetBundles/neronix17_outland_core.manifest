@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1839971624
+CRC: 860316545
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1d395760ebaf4c5e0c9800f3c90f7941
+    Hash: 2c9d2c862ae36760aa62845c0919e6c6
   TypeTreeHash:
     serializedVersion: 2
     Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 1d395760ebaf4c5e0c9800f3c90f7941
+    Hash: 2c9d2c862ae36760aa62845c0919e6c6
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -457,6 +457,7 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Spells/DestructionCast.ogg
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Fockatt_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Black/FockattPack_south.png
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/Chitin.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/Backpack/Apparel_Fat_eastm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/BallistaBolts/BallistaBolts_b.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/FockattFemalePack_north.png

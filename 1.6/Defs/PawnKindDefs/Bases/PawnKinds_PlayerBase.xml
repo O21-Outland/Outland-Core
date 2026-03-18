@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<PawnKindDef Name="Outland_BaseColonyPawnKind" Abstract="True">
@@ -28,7 +28,7 @@
 		<initialResistanceRange>10~17</initialResistanceRange>
 	</PawnKindDef>
 
-  	<PawnKindDef Name="Outland_BaseTribalPawnKind" Abstract="True">
+	<PawnKindDef Name="Outland_BaseTribalPawnKind" Abstract="True">
 		<combatPower>40</combatPower>
 		<isFighter>false</isFighter>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -53,6 +53,6 @@
 		<techHediffsChance>0.02</techHediffsChance>
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>10~17</initialResistanceRange>
-  	</PawnKindDef>
+	</PawnKindDef>
 
 </Defs>

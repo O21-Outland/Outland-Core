@@ -19,7 +19,7 @@
 		<scatterableOnMapGen>false</scatterableOnMapGen>
 		<useHitPoints>false</useHitPoints>
 		<size>(1,1)</size>
-		<designationCategory>Production</designationCategory>
+		<designationCategory>Outland_Outland</designationCategory>
 		<passability>Standable</passability>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
