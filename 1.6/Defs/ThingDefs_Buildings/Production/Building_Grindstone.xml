@@ -31,8 +31,7 @@
 			<li>BuildingsMisc</li>
 		</thingCategories>
 		<costList>
-			<WoodLog>15</WoodLog>
-			<Outland_ComponentMedieval>1</Outland_ComponentMedieval>
+			<WoodLog>30</WoodLog>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Facility">

@@ -28,13 +28,12 @@
 			<Flammability>0.1</Flammability>
 		</statBases>
 		<size>(3,2)</size>
-		<costStuffCount>60</costStuffCount>
+		<costStuffCount>100</costStuffCount>
 		<stuffCategories>
 			<li>Stony</li>
 		</stuffCategories>
 		<costList>
 			<Steel>40</Steel>
-			<Outland_ComponentMedieval>1</Outland_ComponentMedieval>
 		</costList>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">

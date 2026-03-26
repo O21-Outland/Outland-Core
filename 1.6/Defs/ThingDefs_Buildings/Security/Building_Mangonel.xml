@@ -29,9 +29,9 @@
 		<hasInteractionCell>true</hasInteractionCell>
 		<repairEffect>ConstructDirt</repairEffect>
 		<costList>
-			<WoodLog>250</WoodLog>
-			<Steel>130</Steel>
-			<Outland_ComponentMedieval>8</Outland_ComponentMedieval>
+			<WoodLog>240</WoodLog>
+			<Steel>160</Steel>
+			<Cloth>30</Cloth>
 		</costList>
 		<statBases>
 			<MaxHitPoints>450</MaxHitPoints>

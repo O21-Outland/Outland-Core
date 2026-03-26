@@ -17,8 +17,8 @@
 		</weaponClasses>
 		<soundInteract>Bow_Recurve</soundInteract>
 		<costList>
-			<Outland_ComponentMedieval>1</Outland_ComponentMedieval>
-			<WoodLog>35</WoodLog>
+			<Cloth>10</Cloth>
+			<WoodLog>60</WoodLog>
 		</costList>
 		<statBases>
 			<WorkToMake>5000</WorkToMake>

@@ -60,7 +60,6 @@
 		<costList>
 			<Outland_ClayBrick>4</Outland_ClayBrick>
 			<Chemfuel>26</Chemfuel>
-			<Outland_ComponentMedieval>1</Outland_ComponentMedieval>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Explosive">
@@ -89,7 +88,6 @@
 			<Outland_ClayBrick>4</Outland_ClayBrick>
 			<Chemfuel>8</Chemfuel>
 			<MedicineHerbal>6</MedicineHerbal>
-			<Outland_ComponentMedieval>1</Outland_ComponentMedieval>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Explosive">
@@ -119,7 +117,6 @@
 			<Outland_ClayBrick>4</Outland_ClayBrick>
 			<Chemfuel>8</Chemfuel>
 			<MedicineHerbal>30</MedicineHerbal>
-			<Outland_ComponentMedieval>1</Outland_ComponentMedieval>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Explosive">
@@ -151,7 +148,6 @@
 		<costList>
 			<Outland_ClayBrick>4</Outland_ClayBrick>
 			<Chemfuel>26</Chemfuel>
-			<Outland_ComponentMedieval>1</Outland_ComponentMedieval>
 		</costList>
 		<placeWorkers Inherit="False" />
 	</ThingDef> -->

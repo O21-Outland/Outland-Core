@@ -44,9 +44,9 @@
 			<turretTopDrawSize>1.7</turretTopDrawSize>
 		</building>
 		<costList>
-			<WoodLog>50</WoodLog>
+			<WoodLog>60</WoodLog>
 			<Steel>30</Steel>
-			<Outland_ComponentMedieval>3</Outland_ComponentMedieval>
+			<Cloth>15</Cloth>
 		</costList>
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 		<researchPrerequisites>

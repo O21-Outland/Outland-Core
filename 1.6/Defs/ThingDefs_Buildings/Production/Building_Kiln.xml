@@ -38,13 +38,12 @@
 			<WorkToBuild>5000</WorkToBuild>
 			<Flammability>0.1</Flammability>
 		</statBases>
-		<costStuffCount>40</costStuffCount>
+		<costStuffCount>80</costStuffCount>
 		<stuffCategories>
 			<li>Stony</li>
 		</stuffCategories>
 		<costList>
-			<Steel>10</Steel>
-			<Outland_ComponentMedieval>1</Outland_ComponentMedieval>
+			<Steel>20</Steel>
 		</costList>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
