@@ -4,7 +4,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>Outland_ComponentMedieval</defName>
 		<label>medieval component</label>
-		<description>Miscellaneous gears, ropes, hinges and other mechanical parts for building more complex things.</description>
+		<description>Miscellaneous gears, ropes, hinges and other mechanical parts for building more complex things. \n\nNote: No longer used, will be removed eventually when it can be done cleanly.</description>
 		<graphicData>
 			<texPath>Outland/Items/MedievalComponent</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>

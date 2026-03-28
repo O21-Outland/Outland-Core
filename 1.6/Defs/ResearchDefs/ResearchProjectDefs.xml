@@ -42,7 +42,7 @@
 		<prerequisites>
 			<li>RecurveBow</li>
 		</prerequisites>
-		<researchViewX>1</researchViewX>
+		<researchViewX>2</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
@@ -57,20 +57,21 @@
 			<li>Smithing</li>
 		</prerequisites>
 		<baseCost>800</baseCost>
-		<researchViewX>2</researchViewX>
-		<researchViewY>0.5</researchViewY>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="Outland_ResearchBase">
 		<defName>Outland_DefenceStructures</defName>
-		<label>defence structures</label>
-		<description>Learn to build medieval defensive structures.</description>
+		<label>pot traps</label>
+		<description>Unlock pot traps, buildable traps filled with different ingredients that break when stepped on triggering their effect.</description>
 		<tags>
 			<li>Outland_ResearchStart</li>
 		</tags>
+		<techLevel>Neolithic</techLevel>
 		<baseCost>300</baseCost>
-		<researchViewX>3</researchViewX>
-		<researchViewY>0.5</researchViewY>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
 </Defs>
