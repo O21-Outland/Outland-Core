@@ -84,6 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Hediffs\Hediff_AntiTox.cs" />
+    <Compile Include="Stats\StatPart_ChitinFactor.cs" />
     <Compile Include="Utility\Util_DiceRoll.cs" />
     <Compile Include="Buildings\Building_TrapRoofCollapse.cs" />
     <Compile Include="ModExtensions\DefModExt_UnconventionalTurret.cs" />

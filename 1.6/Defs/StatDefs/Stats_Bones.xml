@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
 	<StatDef>
 		<defName>Outland_BoneAmount</defName>
 		<label>bone amount</label>
@@ -12,15 +13,22 @@
 			<li Class="StatPart_BodySize" />
 			<li Class="StatPart_NaturalNotMissingBodyPartsCoverage" />
 			<li Class="Outland.StatPart_BoneFactor" />
-			<!-- <li Class="Outland.StatPart_ShouldHaveBones" /> -->
 		</parts>
-		<!-- <postProcessCurve>
-			<points>
-				<li>(0,0)</li>
-				<li>(5,14)</li>
-				<li>(40,40)</li>
-				<li>(100000,100000)</li>
-			</points>
-		</postProcessCurve> -->
 	</StatDef>
+
+	<StatDef>
+		<defName>Outland_ChitinAmount</defName>
+		<label>chitin amount</label>
+		<description>The quantity of chitin you will get from butchering this creature.</description>
+		<category>BasicsPawn</category>
+		<defaultBaseValue>35</defaultBaseValue>
+		<toStringStyle>Integer</toStringStyle>
+		<hideAtValue>0</hideAtValue>
+		<parts>
+			<li Class="StatPart_BodySize" />
+			<li Class="StatPart_NaturalNotMissingBodyPartsCoverage" />
+			<li Class="Outland.StatPart_ChitinFactor" />
+		</parts>
+	</StatDef>
+
 </Defs>

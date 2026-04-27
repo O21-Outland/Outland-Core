@@ -17,8 +17,8 @@ namespace Outland
 		[HarmonyPostfix]
 		public static void Postfix(Pawn __instance, ref IEnumerable<Thing> __result, float efficiency)
 		{
-			int boneCount = GenMath.RoundRandom(__instance.GetStatValue(DefDatabase<StatDef>.GetNamed("Outland_BoneAmount", true), true) * efficiency);
-			int meatCountCheck = GenMath.RoundRandom(__instance.GetStatValue(DefDatabase<StatDef>.GetNamed("MeatAmount", true), true));
+			int boneCount = GenMath.RoundRandom(__instance.GetStatValue(OutlandDefOf.Outland_BoneAmount, true) * efficiency);
+			int meatCountCheck = GenMath.RoundRandom(__instance.GetStatValue(StatDefOf.MeatAmount, true));
 			if (boneCount > 0)
 			{
 
@@ -29,9 +29,18 @@ namespace Outland
 				}
 				if (meatCountCheck > 1)
 				{
-					Thing bones = ThingMaker.MakeThing(DefDatabase<ThingDef>.GetNamed("Outland_Bones"), null);
-					bones.stackCount = boneCount;
-					NewList.Add(bones);
+					if (__result.Any(t => FoodUtility.GetMeatSourceCategory(t.def) != MeatSourceCategory.Insect))
+                    {
+                        Thing bones = ThingMaker.MakeThing(OutlandDefOf.Outland_Bones, null);
+                        bones.stackCount = boneCount;
+                        NewList.Add(bones);
+                    }
+					else
+					{
+                        Thing bones = ThingMaker.MakeThing(OutlandDefOf.Outland_Bones, null);
+                        bones.stackCount = boneCount;
+                        NewList.Add(bones);
+                    }
 				}
 
 				IEnumerable<Thing> output = NewList;

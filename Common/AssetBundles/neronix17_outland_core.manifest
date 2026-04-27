@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3037641024
+CRC: 3612825279
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a7176866897ff12a2589a69940eb8d91
+    Hash: 48a7cf3f1a3262d50669ba5bf22b782c
   TypeTreeHash:
     serializedVersion: 2
     Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: a7176866897ff12a2589a69940eb8d91
+    Hash: 48a7cf3f1a3262d50669ba5bf22b782c
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -27,22 +27,18 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/WeaponBluntB.ogg
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/GenericA.ogg
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/Books/Universal_Advanced.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Wendigo/Wendigo_south.png
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/HeavyTribalPadding/Apparel_Fat_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ShoulderCloak/Apparel_Fat_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/ArcaneComponent/ArcaneComponent.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Spells/ShockCast.ogg
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Structural/WideWoodDoor/DoorMover_south.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Weapons/Pickaxe.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/HeavyTribalPadding/Apparel_Fat_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Grey/Fockatt_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Security/BoltThrower_UI.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/Stool.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/BackpackHeavy/Apparel_Fat_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/SimpleWorkbenchBlue_northm.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Weapons/Paintbrush.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/FockattFemale_north.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/Soultrap.ogg
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/CuSith/StormCuSith_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/WallLampFlush_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/TableMedSquare.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/Backpack/Apparel_m.png
@@ -71,12 +67,12 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Blue/FockattPack_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Projectiles/FireProj_L.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/Kalocite/Kalocite_b.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Wendigo/FrostWendigo_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/BackpackHeavy/Apparel_Hulk_northm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/ClayworkBench_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/TableLargeSquare_HearthBlue.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/TribalRobe/Apparel_Female_north.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/Torch_Extinguish.ogg
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Weapons/InsectSpikeMace.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/Shelf_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/BackpackHeavy/Apparel_Fat_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Weapons/Bone/BoneSpear.png
@@ -84,7 +80,6 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/Bookshelf_eastm.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Spells/FireballCast.ogg
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/BookD.ogg
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/CuSith/CuSith_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/WallLampFlush_southm.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Spells/IllusionFail.ogg
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBonePauldrons/Apparel_Thin_east.png
@@ -94,17 +89,16 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Blue/FockattPack_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/EndTableLight_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/Bone/Bone_b.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Weapons/Screwdrier.png
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/Chitin.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Structural/WideWoodDoor/Door_MenuIcon_east.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ShoulderCloak/Apparel_Female_north.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/Torch_Loop.ogg
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ShoulderCloak/Apparel_Female_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/SimpleWorkbenchBlue_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/TableLargeSquare_HearthGreen_m.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/TableLargeSquare_HearthRed_m.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/Bone/Bone_a.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Security/GasTrapMedieval_Knockout.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Black/Fockatt_south.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/CuSith/FrostCuSith_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/UpdateInfo/O21Outland.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ShoulderCloak/Apparel_Hulk_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/TableLargeSquare_HearthGreen.png
@@ -117,25 +111,23 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Spells/MysticismLoop.ogg
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/SimpleWorkbenchRed_northm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/TableSmallRect_east.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Tyranodon/TyranodonBaby_south.png
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/TribalMask_Feline/Head.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/HeavyTribalPadding/Apparel_Hulk_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/Backpack/Apparel.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/Backpack/Apparel_Thin_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/BackpackHeavy/Apparel_Female_east.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/TribalMask_Feline/Head.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Wendigo/StormWendigo_east.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Spells/AlterationCast.ogg
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Wendigo/Wendigo_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Skeleton/Body/Naked_Male_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/GeneIcons/Gene_ArcaneAffinityLarge.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/BookPageA.ogg
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/Chitin.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/WineRack_southm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Brown/Fockatt_east.png
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Weapons/InsectSword.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Plants/KalociteFormation/KalociteFormation_c.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Spells/DestructionFail.ogg
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ShoulderCloak/Apparel_Male_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Black/FockattPack_east.png
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Weapons/ObsidianMacuahuitl.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Security/GasTrapMedieval_Smoke.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Brown/FockattFemale_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/BackpackHeavy/Apparel_Female_north.png
@@ -145,7 +137,6 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBonePauldrons/Apparel_Female_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/TribalRobe/Apparel_Fat_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/Backpack/Apparel_Female_north.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/CuSith/FrostCuSith_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/SimpleWorkbenchGreen_eastm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ShoulderCloak/Apparel_Thin_north.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Spells/DestructionLoop.ogg
@@ -157,12 +148,9 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBoneArmor/Apparel_Fat_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Security/Mangonel_MenuIcon.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/Shelf_east.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/CuSith/FireCuSith_north.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Wendigo/FrostWendigo_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Projectiles/ArcaneProj_S.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/Backpack/Apparel_Hulk_northm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Blue/FockattFemalePack_south.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/CuSith/FireCuSith_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/BackpackHeavy/Apparel_Male_southm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/SimpleWorkbench_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/SimpleWorkbenchRed_north.png
@@ -177,10 +165,9 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBoneArmor/Apparel_Male_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Structural/WideStoneDoor/DoorSupport_east.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Spells/Equip.ogg
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Tyranodon/DessicatedTyranodonBaby.png
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/Kiln_m.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/Torch_Equip.ogg
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBonePauldrons/Apparel_Female_east.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/Kiln_m.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/ClayworkBench_eastm.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Spells/FireballHit.ogg
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/RoundShots/RoundShots_a.png
@@ -222,10 +209,10 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBoneArmor/Head_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/Backpack/Apparel_Male_northm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBonePauldrons/Apparel_Male_east.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Wendigo/FireWendigo_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/ClayworkBench_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/Backpack/Apparel_Thin_eastm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/HeavyTribalwear/Apparel.png
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Weapons/ObsidianAxe.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/Marrow/Marrow_c.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBonePauldrons/Apparel_Thin_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/SimpleWorkbenchPurple_north.png
@@ -254,7 +241,6 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/WineRack_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBoneArmor/Head_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/TableLargeSquare_HearthPurple_m.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Wendigo/StormWendigo_north.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/GoldB.ogg
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/HeavyTribalwear/Apparel_Male_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Brown/Fockatt_south.png
@@ -272,7 +258,6 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Brown/FockattPack_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/TribalRobe/Apparel_Male_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBonePauldrons/Apparel_Female_south.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/CuSith/CuSith_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Projectiles/FireProj_M.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Brown/Fockatt_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/HeavyTribalwear/Apparel_Thin_east.png
@@ -305,7 +290,6 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/AmmoA.ogg
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/Backpack/Apparel_Male_north.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Spells/MysticismHit.ogg
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/CuSith/FireCuSith_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/Dresser_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/Backpack/Apparel_Female_southm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ShoulderCloak/Apparel_Hulk_north.png
@@ -320,12 +304,13 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Spells/ConjurationFail.ogg
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Grey/FockattPack_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Blue/FockattFemale_south.png
-- Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/Torch_Unequip.ogg
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/TribalHood/Head_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/BackpackHeavy/Apparel_Thin_northm.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Resources/ArcaneCore_m.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBonePauldrons/Apparel_Fat_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Security/Ballista_Top.png
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Resources/ArcaneCore_m.png
+- Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/Torch_Unequip.ogg
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBonePauldrons/Apparel_Fat_east.png
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Projectiles/ObsidianArrow.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/TribalRobe/Apparel_Fat_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBoneArmor/Apparel_Thin_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/TribalRobe/Apparel_Female_south.png
@@ -335,13 +320,11 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBoneArmor/Apparel_Thin_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/EndTableLight_eastm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBoneArmor/Apparel_Female_east.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Tyranodon/Tyranodon_south.png
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/Backpack/Apparel_Hulk_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBonePauldrons/Apparel_Male_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/GeneIcons/EndogeneBG.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/EndTableLight_east.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Wendigo/StormWendigo_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ShoulderCloak/Apparel_Female_east.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/Backpack/Apparel_Hulk_east.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/WeaponBowA.ogg
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/BoltedCoffin_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Structural/WideStoneDoor/Door_MenuIcon_east.png
@@ -352,7 +335,6 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/EndTable_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/BackpackHeavy/Apparel_Male_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/EndTableLight_northm.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Tyranodon/Tyranodon_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/TribalRobe/Apparel_Female_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/HeavyTribalPadding/Apparel_Female_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/GrindingWheel_south.png
@@ -361,7 +343,6 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/Backpack/Apparel_Male_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Security/BoltThrowerBase.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/Bookshelf_southm.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Tyranodon/TyranodonBaby_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/SoulGems/Black.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/HeavyTribalwear/Apparel_Hulk_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Skeleton/Body/Naked_Male_north.png
@@ -378,16 +359,16 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/SimpleWorkbenchGreen_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/Backpack/Apparel_Fat_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Projectiles/ArcaneProj_M.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Plants/ToxociteFormation/ToxociteFormation_b.png
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Weapons/InsectStaff.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/TableLargeSquare_HearthPurple.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBonePauldrons/Apparel_Male_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/TableLargeSquare_HearthRed.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Structural/WideWoodDoor/Door_MenuIcon_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/TribalRobe/Apparel_Thin_north.png
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Plants/ToxociteFormation/ToxociteFormation_b.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Blue/FockattFemale_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/BackpackHeavy/Apparel_Thin_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/GeneIcons/Gene_ArcaneAffinitySmall.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/CuSith/StormCuSith_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Plants/ToxociteFormation/ToxociteFormation_a.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/BackpackHeavy/Apparel_Hulk_eastm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/ModIcon.png
@@ -402,19 +383,16 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Plants/KalociteFormation/KalociteFormation_b.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ShoulderCloak/Apparel_Male_east.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/MagicUse.ogg
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Wendigo/FrostWendigo_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Structural/WideWoodDoor/DoorSupport_south.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/WeaponStaffB.ogg
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBoneArmor/Apparel.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Furniture/Log_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/WallLampFlush_east.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/CuSith/FrostCuSith_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/Bookshelf_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/HeavyTribalwear/Apparel_Thin_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/Backpack/Apparel_Thin_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/SimpleWorkbenchRed_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/TribalMask_Feline/Head_east.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/CuSith/StormCuSith_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/TribalRobe/Apparel_Thin_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Black/Fockatt_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/TribalMask_Deer/Head_north.png
@@ -423,7 +401,6 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/HeavyTribalwear/Apparel_Female_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Plants/ToxociteFormation/ToxociteFormation_Immature.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/Kalocite/Kalocite_c.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Wendigo/Wendigo_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Structural/MedievalDoor_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/BackpackHeavy/Apparel_Fat_northm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Brown/FockattFemalePack_south.png
@@ -493,6 +470,7 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/HeavyTribalwear/Apparel_Fat_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/ClayworkBench_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/Bone/Bone_c.png
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Weapons/ObsidianBow.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/Books/Universal_Basic.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/Forge_south.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Spells/PoisonCast.ogg
@@ -501,19 +479,18 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/TribalRobe/Apparel_Hulk_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Linked/WattleDaub_MenuIcon.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/Backpack/Apparel_Thin_southm.png
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Weapons/ObsidianSpear.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/IngredientA.ogg
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Spells/FrostCast.ogg
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBoneArmor/Apparel_Fat_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/Backpack/Apparel_Fat_southm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/HeavyTribalPadding/Apparel_Female_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/WineRack_east.png
-- Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/ClothingA.ogg
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Tyranodon/Tyranodon_north.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Linked/WattleDaub_Atlas_m.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/Kalocite/Kalocite_a.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Furniture/Kalocite/CrystalWallLamp_south.png
+- Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/ClothingA.ogg
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Linked/WattleDaub_Atlas_m.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Spells/PoisonLoop.ogg
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Weapons/Axe.png
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Furniture/Kalocite/CrystalWallLamp_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/Shelf_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/Toxocite/Toxocite_a.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/SimpleWorkbenchBlue_north.png
@@ -525,7 +502,6 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Skeleton/Head/Normal_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/Forge_eastm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/ClayworkBench_northm.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Weapons/Hoe.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Resources/ArcaneComponent.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/SimpleWorkbenchRed_eastm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/BackpackHeavy/Apparel_Thin_southm.png
@@ -541,19 +517,20 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/HeavyTribalwear/Apparel_Hulk_north.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/GenericB.ogg
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/TribalRobe/Apparel.png
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Weapons/ObsidianShortsword.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/TribalRobe/Apparel_Hulk_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/SimpleWorkbenchPurple_northm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBoneArmor/Apparel_Hulk_south.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Spells/AlterationLoop.ogg
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/CuSith/CuSith_north.png
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Weapons/ObsidianDagger.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/RoundShots/RoundShots_c.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Blue/FockattFemale_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Grey/FockattFemale_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/ClayworkBench_southm.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Wendigo/FireWendigo_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Projectiles/ArcaneProj_L.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/BackpackHeavy/Apparel_Hulk_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/FockattFemalePack_south.png
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Weapons/InsectAxe.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/EndTableLight_southm.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/WeaponBluntA.ogg
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/Backpack/Apparel_Male_east.png
@@ -567,7 +544,6 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Black/FockattFemale_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/TableLargeSquare.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Furniture/Kalocite/CrystalLamp.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Weapons/Saw.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/FockattPack_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ShoulderCloak/Apparel_Fat_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Resources/ArcaneCore.png
@@ -583,7 +559,6 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Black/FockattFemale_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/Forge_southm.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/ApparatusB.ogg
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Weapons/Trowel.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/ScrollD.ogg
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/Backpack/Apparel_Fat_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/EndTable_north.png
@@ -593,7 +568,6 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/TribalMask_Feline/Head_south.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/ArmorLightB.ogg
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/RationPack.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Wendigo/FireWendigo_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/SimpleWorkbench_eastm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Structural/WideStoneDoor/DoorMover_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/HeavyTribalPadding/Apparel_Thin_east.png
@@ -608,7 +582,6 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/TableMedRect_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/ROMBoneArmor/Apparel_Thin_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/Books/Universal_Intermediate.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Weapons/Paintbrush_m.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/SimpleWorkbenchGreen_east.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/ApparatusA.ogg
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Spells/PoisonFail.ogg
@@ -616,19 +589,18 @@ Assets:
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/BallistaBolts/BallistaBolts_c.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Items/SoulGems/Lesser.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/OilLamp.png
+- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Weapons/InsectDagger.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/Bookshelf_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/BackpackHeavy/Apparel_Male_northm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/Backpack/Apparel_Male_eastm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Apparel/TribalRobe/Apparel_Hulk_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/SimpleWorkbenchGreen_northm.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Grey/FockattFemalePack_north.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Tyranodon/DessicatedTyranodon.png
 - Assets/Data/Neronix17.Outland.Core/Sounds/Outland/Items/BookPageC.ogg
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/StoneFurniture/EndTable_east.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Security/GasTrapMedieval_Firefoam.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Fockatt_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/GeneIcons/Gene_ArcaneAversionLarge.png
-- Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Tyranodon/TyranodonBaby_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Structural/WideStoneDoor/DoorTop_south.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Pawns/Fockatt/Blue/Fockatt_north.png
 - Assets/Data/Neronix17.Outland.Core/Textures/Outland/Buildings/Production/SimpleWorkbenchGreen_southm.png

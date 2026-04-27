@@ -12,6 +12,7 @@ namespace Outland
     public class OutlandSettings : ModSettings
     {
         public float boneFactor = 1f;
+        public float chitinFactor = 0.5f;
         public bool smithyToForge = false;
 
 
@@ -20,6 +21,7 @@ namespace Outland
             base.ExposeData();
 
             Scribe_Values.Look(ref boneFactor, "boneFactor", 1f);
+            Scribe_Values.Look(ref boneFactor, "chitinFactor", 0.5f);
             Scribe_Values.Look(ref smithyToForge, "smithyToForge", false);
         }
 

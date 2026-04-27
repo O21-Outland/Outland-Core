@@ -30,3 +30,7 @@ F:\RWModCategories\Neronix17\Outland\Outland - Core\1.6\Source\Outland\obj\Debug
 F:\RWModCategories\Neronix17\Outland\Outland - Core\1.6\Source\Outland\obj\Debug\Outland.csproj.CoreCompileInputs.cache
 F:\RWModCategories\Neronix17\Outland\Outland - Core\1.6\Source\Outland\obj\Debug\Outland.dll
 F:\RWModCategories\Neronix17\Outland\Outland - Core\1.6\Assemblies\Outland.dll
+G:\RWModCategories\Neronix17\Outland\Outland - Core\1.6\Assemblies\Outland.dll
+G:\RWModCategories\Neronix17\Outland\Outland - Core\1.6\Source\Outland\obj\Debug\Outland.csproj.AssemblyReference.cache
+G:\RWModCategories\Neronix17\Outland\Outland - Core\1.6\Source\Outland\obj\Debug\Outland.csproj.CoreCompileInputs.cache
+G:\RWModCategories\Neronix17\Outland\Outland - Core\1.6\Source\Outland\obj\Debug\Outland.dll

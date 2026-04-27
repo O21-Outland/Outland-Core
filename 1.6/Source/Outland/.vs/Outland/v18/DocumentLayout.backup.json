@@ -1,0 +1,203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|g:\\rwmodcategories\\neronix17\\outland\\outland - core\\1.6\\source\\outland\\outlandmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:outlandmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|g:\\rwmodcategories\\neronix17\\outland\\outland - core\\1.6\\source\\outland\\stats\\statpart_bonefactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:stats\\statpart_bonefactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\outlandsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:outlandsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|g:\\rwmodcategories\\neronix17\\outland\\outland - core\\1.6\\source\\outland\\stats\\statpart_chitinfactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:stats\\statpart_chitinfactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|g:\\rwmodcategories\\neronix17\\outland\\outland - core\\1.6\\source\\outland\\harmony\\patch_pawn_butcherproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:harmony\\patch_pawn_butcherproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\outlanddefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:outlanddefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|g:\\rwmodcategories\\neronix17\\outland\\outland - core\\1.6\\source\\outland\\harmony\\patch_corpse_specialdisplaystats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:harmony\\patch_corpse_specialdisplaystats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\utility\\logutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:utility\\logutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\outlanddebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:outlanddebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\outlandstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:outlandstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StatPart_ChitinFactor.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\Stats\\StatPart_ChitinFactor.cs",
+              "RelativeDocumentMoniker": "Stats\\StatPart_ChitinFactor.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\Stats\\StatPart_ChitinFactor.cs",
+              "RelativeToolTip": "Stats\\StatPart_ChitinFactor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T14:37:49.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StatPart_BoneFactor.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\Stats\\StatPart_BoneFactor.cs",
+              "RelativeDocumentMoniker": "Stats\\StatPart_BoneFactor.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\Stats\\StatPart_BoneFactor.cs",
+              "RelativeToolTip": "Stats\\StatPart_BoneFactor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T14:37:25.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Patch_Pawn_ButcherProducts.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\Harmony\\Patch_Pawn_ButcherProducts.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_Pawn_ButcherProducts.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\Harmony\\Patch_Pawn_ButcherProducts.cs",
+              "RelativeToolTip": "Harmony\\Patch_Pawn_ButcherProducts.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T14:29:06.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Patch_Corpse_SpecialDisplayStats.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\Harmony\\Patch_Corpse_SpecialDisplayStats.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_Corpse_SpecialDisplayStats.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\Harmony\\Patch_Corpse_SpecialDisplayStats.cs",
+              "RelativeToolTip": "Harmony\\Patch_Corpse_SpecialDisplayStats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T14:28:50.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T14:28:08.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LogUtil.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\Utility\\LogUtil.cs",
+              "RelativeDocumentMoniker": "Utility\\LogUtil.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\Utility\\LogUtil.cs",
+              "RelativeToolTip": "Utility\\LogUtil.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAewC0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T14:28:09.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OutlandSettings.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\OutlandSettings.cs",
+              "RelativeDocumentMoniker": "OutlandSettings.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\OutlandSettings.cs",
+              "RelativeToolTip": "OutlandSettings.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T14:28:09.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OutlandMod.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\OutlandMod.cs",
+              "RelativeDocumentMoniker": "OutlandMod.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\OutlandMod.cs",
+              "RelativeToolTip": "OutlandMod.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwEoAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T14:28:09.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OutlandStartup.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\OutlandStartup.cs",
+              "RelativeDocumentMoniker": "OutlandStartup.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\OutlandStartup.cs",
+              "RelativeToolTip": "OutlandStartup.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAKIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T14:28:09.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OutlandDebug.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\OutlandDebug.cs",
+              "RelativeDocumentMoniker": "OutlandDebug.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\OutlandDebug.cs",
+              "RelativeToolTip": "OutlandDebug.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAHMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T14:28:09.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OutlandDefOf.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\OutlandDefOf.cs",
+              "RelativeDocumentMoniker": "OutlandDefOf.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\OutlandDefOf.cs",
+              "RelativeToolTip": "OutlandDefOf.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T14:28:09.301Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

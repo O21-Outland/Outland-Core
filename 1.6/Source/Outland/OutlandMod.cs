@@ -70,6 +70,10 @@ namespace Outland
             listing.GapLine();
             listing.AddLabeledSlider("Harvest Multiplier: " + settings.boneFactor.ToStringPercent(), ref settings.boneFactor, 0f, 2f, "Min: 0%", "Max: 200%", 0.01f);
             listing.GapLine();
+            listing.Label("Chitin");
+            listing.GapLine();
+            listing.AddLabeledSlider("Harvest Multiplier: " + settings.chitinFactor.ToStringPercent(), ref settings.chitinFactor, 0f, 2f, "Min: 0%", "Max: 200%", 0.01f);
+            listing.GapLine();
             listing.Label("Crafting");
             listing.GapLine();
             listing.CheckboxEnhanced("Add Smithy recipes to Forge", "If enabled, adds all recipes from the vanilla Smithing bench to the Outland Forge.", ref settings.smithyToForge);

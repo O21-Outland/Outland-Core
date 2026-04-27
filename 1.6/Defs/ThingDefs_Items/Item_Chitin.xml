@@ -4,7 +4,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>Outland_Chitin</defName>
 		<label>chitin</label>
-		<description>TODO</description>
+		<description>The hard carapace of a giant insect. Strong enough to be used in a variety of ways, it is commonly used by tribal groups for both their weapons and armour.</description>
 		<graphicData>
 			<texPath>Outland/Items/Chitin</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
