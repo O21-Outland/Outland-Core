@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Tribal_Penitent"]/weaponTags</xpath>
+		<value>
+			<li>ChitinMeleeBasic</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">ObsidianMeleeBasic</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Tribal_Warrior"]/weaponTags</xpath>
+		<value>
+			<li>ChitinMeleeBlunt</li>
+			<li>ChitinMeleeDecent</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">ObsidianMeleeBlunt</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">ObsidianMeleeDecent</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Tribal_Berserker"]/weaponTags</xpath>
+		<value>
+			<li>ChitinMeleeDecent</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">ObsidianMeleeDecent</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Tribal_Archer" or defName="Tribal_Hunter"]/weaponTags</xpath>
+		<value>
+			<li>ChitinRanged</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">ObsidianRanged</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Tribal_ChiefMelee" or defName="Tribal_Berserker"]/weaponTags</xpath>
+		<value>
+			<li>ChitinMeleeHeavy</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">ObsidianMeleeHeavy</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Tribal_ChiefRanged" or defName="Tribal_HeavyArcher"]/weaponTags</xpath>
+		<value>
+			<li>ChitinRangedHeavy</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">ObsidianRangedHeavy</li>
+		</value>
+	</Operation>
+
+</Patch>
