@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="OutlandBaseMeleeWeapon_Sharp">
+	<ThingDef ParentName="OutlandBaseMeleeWeapon_Sharp"  MayRequire="Ludeon.RimWorld.Odyssey">
 		<defName>Outland_ObsidianSword</defName>
 		<label>obsidian sword</label>
 		<description>TODO</description>
 		<graphicData>
-			<texPath>Outland/Weapons/ObsidianSword</texPath>
+			<texPath>Outland/Weapons/ObsidianShortsword</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>

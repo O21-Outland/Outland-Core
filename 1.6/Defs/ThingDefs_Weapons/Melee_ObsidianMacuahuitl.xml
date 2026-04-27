@@ -2,11 +2,11 @@
 <Defs>
 
 	<ThingDef ParentName="OutlandBaseMeleeWeapon_Sharp"  MayRequire="Ludeon.RimWorld.Odyssey">
-		<defName>Outland_ObsidianMacuahutil</defName>
-		<label>obsidian macuahutil</label>
+		<defName>Outland_ObsidianMacuahuitl</defName>
+		<label>obsidian macuahuitl</label>
 		<description>TODO.</description>
 		<graphicData>
-			<texPath>Outland/Weapons/ObsidianMacuahutil</texPath>
+			<texPath>Outland/Weapons/ObsidianMacuahuitl</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -35,7 +35,7 @@
 			<li>
 				<label>point</label>
 				<capacities>
-					<li>Sharp</li>
+					<li>Stab</li>
 				</capacities>
 				<power>18</power>
 				<cooldownTime>2</cooldownTime>
@@ -43,7 +43,7 @@
 			<li>
 				<label>edge</label>
 				<capacities>
-					<li>Sharp</li>
+					<li>Cut</li>
 				</capacities>
 				<power>28</power>
 				<cooldownTime>2</cooldownTime>

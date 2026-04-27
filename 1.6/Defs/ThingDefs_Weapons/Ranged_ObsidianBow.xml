@@ -6,7 +6,7 @@
 		<label>obsidian bow</label>
 		<description>TODO</description>
 		<graphicData>
-			<texPath>Outland/Weapons/InsectBow</texPath>
+			<texPath>Outland/Weapons/ObsidianBow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<equippedAngleOffset>-45</equippedAngleOffset>

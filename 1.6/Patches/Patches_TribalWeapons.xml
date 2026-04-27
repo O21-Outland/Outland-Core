@@ -2,7 +2,7 @@
 <Patch>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[defName="Tribal_Penitent"]/weaponTags</xpath>
+		<xpath>/Defs/PawnKindDef[defName="Tribal_Penitent"]/weaponTags</xpath>
 		<value>
 			<li>ChitinMeleeBasic</li>
 			<li MayRequire="Ludeon.RimWorld.Odyssey">ObsidianMeleeBasic</li>
@@ -10,7 +10,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[defName="Tribal_Warrior"]/weaponTags</xpath>
+		<xpath>/Defs/PawnKindDef[defName="Tribal_Warrior"]/weaponTags</xpath>
 		<value>
 			<li>ChitinMeleeBlunt</li>
 			<li>ChitinMeleeDecent</li>
@@ -20,7 +20,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[defName="Tribal_Berserker"]/weaponTags</xpath>
+		<xpath>/Defs/PawnKindDef[defName="Tribal_Berserker"]/weaponTags</xpath>
 		<value>
 			<li>ChitinMeleeDecent</li>
 			<li MayRequire="Ludeon.RimWorld.Odyssey">ObsidianMeleeDecent</li>
@@ -28,7 +28,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[defName="Tribal_Archer" or defName="Tribal_Hunter"]/weaponTags</xpath>
+		<xpath>/Defs/PawnKindDef[defName="Tribal_Archer" or defName="Tribal_Hunter"]/weaponTags</xpath>
 		<value>
 			<li>ChitinRanged</li>
 			<li MayRequire="Ludeon.RimWorld.Odyssey">ObsidianRanged</li>
@@ -36,7 +36,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[defName="Tribal_ChiefMelee" or defName="Tribal_Berserker"]/weaponTags</xpath>
+		<xpath>/Defs/PawnKindDef[defName="Tribal_ChiefMelee" or defName="Tribal_Berserker"]/weaponTags</xpath>
 		<value>
 			<li>ChitinMeleeHeavy</li>
 			<li MayRequire="Ludeon.RimWorld.Odyssey">ObsidianMeleeHeavy</li>
@@ -44,7 +44,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[defName="Tribal_ChiefRanged" or defName="Tribal_HeavyArcher"]/weaponTags</xpath>
+		<xpath>/Defs/PawnKindDef[defName="Tribal_ChiefRanged" or defName="Tribal_HeavyArcher"]/weaponTags</xpath>
 		<value>
 			<li>ChitinRangedHeavy</li>
 			<li MayRequire="Ludeon.RimWorld.Odyssey">ObsidianRangedHeavy</li>
