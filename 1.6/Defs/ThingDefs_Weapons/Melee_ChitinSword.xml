@@ -19,7 +19,7 @@
 			<li>ChitinLightSharp</li>
 		</weaponTags>
 		<statBases>
-			<WorkToMake>2500</WorkToMake>
+			<WorkToMake>1500</WorkToMake>
 			<Mass>0.85</Mass>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
@@ -50,7 +50,6 @@
 			</li>
 		</tools>
 		<recipeMaker>
-			<researchPrerequisite>Smithing</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>3</Crafting>
 			</skillRequirements>

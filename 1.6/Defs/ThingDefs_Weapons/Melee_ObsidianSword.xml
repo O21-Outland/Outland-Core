@@ -2,23 +2,25 @@
 <Defs>
 
 	<ThingDef ParentName="OutlandBaseMeleeWeapon_Sharp">
-		<defName>Outland_ChitinAxe</defName>
-		<label>chitin axe</label>
+		<defName>Outland_ObsidianSword</defName>
+		<label>obsidian sword</label>
 		<description>TODO</description>
 		<graphicData>
-			<texPath>Outland/Weapons/InsectAxe</texPath>
+			<texPath>Outland/Weapons/ObsidianSword</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<costList>
-			<Outland_Chitin>50</Outland_Chitin>
+			<WoodLog>20</WoodLog>
+			<Obsidian>30</Obsidian>
 		</costList>
 		<weaponTags>
-			<li>ChitinMeleeDecent</li>
+			<li>ObsidianMeleeDecent</li>
+			<li>ObsidianLightSharp</li>
 		</weaponTags>
 		<statBases>
-			<WorkToMake>1500</WorkToMake>
+			<WorkToMake>2000</WorkToMake>
 			<Mass>0.85</Mass>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
@@ -32,17 +34,25 @@
 				<cooldownTime>2</cooldownTime>
 			</li>
 			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2.1</cooldownTime>
+			</li>
+			<li>
 				<label>edge</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>20</power>
-				<cooldownTime>1.95</cooldownTime>
+				<power>19</power>
+				<cooldownTime>1.8</cooldownTime>
 			</li>
 		</tools>
 		<recipeMaker>
 			<skillRequirements>
-				<Crafting>3</Crafting>
+				<Crafting>5</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 	</ThingDef>

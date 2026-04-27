@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="OutlandBaseMeleeWeapon_Sharp">
-		<defName>Outland_ChitinAxe</defName>
-		<label>chitin axe</label>
+	<ThingDef ParentName="OutlandBaseMeleeWeapon_Sharp"  MayRequire="Ludeon.RimWorld.Odyssey">
+		<defName>Outland_ObsidianAxe</defName>
+		<label>obsidian axe</label>
 		<description>TODO</description>
 		<graphicData>
-			<texPath>Outland/Weapons/InsectAxe</texPath>
+			<texPath>Outland/Weapons/ObsidianAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<costList>
-			<Outland_Chitin>50</Outland_Chitin>
+			<WoodLog>30</WoodLog>
+			<Obsidian>20</Obsidian>
 		</costList>
 		<weaponTags>
-			<li>ChitinMeleeDecent</li>
+			<li>ObsidianMeleeDecent</li>
 		</weaponTags>
 		<statBases>
 			<WorkToMake>1500</WorkToMake>
@@ -28,7 +29,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>9</power>
+				<power>11</power>
 				<cooldownTime>2</cooldownTime>
 			</li>
 			<li>
@@ -36,13 +37,13 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>20</power>
+				<power>22</power>
 				<cooldownTime>1.95</cooldownTime>
 			</li>
 		</tools>
 		<recipeMaker>
 			<skillRequirements>
-				<Crafting>3</Crafting>
+				<Crafting>5</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 	</ThingDef>

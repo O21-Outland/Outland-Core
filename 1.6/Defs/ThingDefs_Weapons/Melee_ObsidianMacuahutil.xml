@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef ParentName="OutlandBaseMeleeWeapon_Sharp">
-		<defName>Outland_ChitinSpear</defName>
-		<label>chitin spear</label>
-		<description>TODO</description>
+	<ThingDef ParentName="OutlandBaseMeleeWeapon_Sharp"  MayRequire="Ludeon.RimWorld.Odyssey">
+		<defName>Outland_ObsidianMacuahutil</defName>
+		<label>obsidian macuahutil</label>
+		<description>TODO.</description>
 		<graphicData>
-			<texPath>Outland/Weapons/InsectSpear</texPath>
+			<texPath>Outland/Weapons/ObsidianMacuahutil</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<equippedAngleOffset>-30</equippedAngleOffset>
 		<techLevel>Medieval</techLevel>
 		<costList>
-			<Outland_Chitin>50</Outland_Chitin>
+			<WoodLog>30</WoodLog>
+			<Obsidian>30</Obsidian>
 		</costList>
 		<weaponTags>
-			<li>ChitinMeleeDecent</li>
+			<li>ObsidianMeleeBlunt</li>
 		</weaponTags>
 		<statBases>
-			<WorkToMake>1500</WorkToMake>
+			<WorkToMake>3000</WorkToMake>
 			<Mass>0.85</Mass>
 		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
 				<label>handle</label>
@@ -34,23 +35,23 @@
 			<li>
 				<label>point</label>
 				<capacities>
-					<li>Stab</li>
+					<li>Sharp</li>
 				</capacities>
 				<power>18</power>
-				<cooldownTime>2.1</cooldownTime>
+				<cooldownTime>2</cooldownTime>
 			</li>
 			<li>
 				<label>edge</label>
 				<capacities>
-					<li>Cut</li>
+					<li>Sharp</li>
 				</capacities>
-				<power>18</power>
-				<cooldownTime>2.1</cooldownTime>
+				<power>28</power>
+				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
 		<recipeMaker>
 			<skillRequirements>
-				<Crafting>3</Crafting>
+				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 	</ThingDef>
