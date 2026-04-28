@@ -31,9 +31,9 @@ namespace Outland
 				{
 					if (__result.Any(t => FoodUtility.GetMeatSourceCategory(t.def) != MeatSourceCategory.Insect))
                     {
-                        Thing bones = ThingMaker.MakeThing(OutlandDefOf.Outland_Bones, null);
-                        bones.stackCount = boneCount;
-                        NewList.Add(bones);
+                        Thing chitin = ThingMaker.MakeThing(OutlandDefOf.Outland_Chitin, null);
+                        chitin.stackCount = boneCount;
+                        NewList.Add(chitin);
                     }
 					else
 					{

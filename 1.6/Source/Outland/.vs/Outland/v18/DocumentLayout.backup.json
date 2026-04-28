@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\harmony\\patch_pawn_butcherproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:harmony\\patch_pawn_butcherproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\harmony\\patch_corpse_specialdisplaystats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:harmony\\patch_corpse_specialdisplaystats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|g:\\rwmodcategories\\neronix17\\outland\\outland - core\\1.6\\source\\outland\\outlandmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:outlandmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|g:\\rwmodcategories\\neronix17\\outland\\outland - core\\1.6\\source\\outland\\stats\\statpart_bonefactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\stats\\statpart_bonefactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:stats\\statpart_bonefactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,20 +23,12 @@
       "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:outlandsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|g:\\rwmodcategories\\neronix17\\outland\\outland - core\\1.6\\source\\outland\\stats\\statpart_chitinfactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\stats\\statpart_chitinfactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:stats\\statpart_chitinfactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|g:\\rwmodcategories\\neronix17\\outland\\outland - core\\1.6\\source\\outland\\harmony\\patch_pawn_butcherproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:harmony\\patch_pawn_butcherproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\outlanddefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:outlanddefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|g:\\rwmodcategories\\neronix17\\outland\\outland - core\\1.6\\source\\outland\\harmony\\patch_corpse_specialdisplaystats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|solutionrelative:harmony\\patch_corpse_specialdisplaystats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B79F2E3C-240B-4AC0-B4A3-806B390A0B25}|Outland.csproj|G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "StatPart_ChitinFactor.cs",
               "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\Stats\\StatPart_ChitinFactor.cs",
               "RelativeDocumentMoniker": "Stats\\StatPart_ChitinFactor.cs",
@@ -66,12 +66,11 @@
               "RelativeToolTip": "Stats\\StatPart_ChitinFactor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T14:37:49.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T14:37:49.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "StatPart_BoneFactor.cs",
               "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\Stats\\StatPart_BoneFactor.cs",
               "RelativeDocumentMoniker": "Stats\\StatPart_BoneFactor.cs",
@@ -79,25 +78,24 @@
               "RelativeToolTip": "Stats\\StatPart_BoneFactor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T14:37:25.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T14:37:25.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Patch_Pawn_ButcherProducts.cs",
               "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\Harmony\\Patch_Pawn_ButcherProducts.cs",
               "RelativeDocumentMoniker": "Harmony\\Patch_Pawn_ButcherProducts.cs",
               "ToolTip": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\Harmony\\Patch_Pawn_ButcherProducts.cs",
               "RelativeToolTip": "Harmony\\Patch_Pawn_ButcherProducts.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T14:29:06.364Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Patch_Corpse_SpecialDisplayStats.cs",
               "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\Harmony\\Patch_Corpse_SpecialDisplayStats.cs",
               "RelativeDocumentMoniker": "Harmony\\Patch_Corpse_SpecialDisplayStats.cs",
@@ -134,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "OutlandSettings.cs",
               "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\OutlandSettings.cs",
               "RelativeDocumentMoniker": "OutlandSettings.cs",
@@ -142,18 +140,17 @@
               "RelativeToolTip": "OutlandSettings.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T14:28:09.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T14:28:09.058Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "OutlandMod.cs",
               "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\OutlandMod.cs",
               "RelativeDocumentMoniker": "OutlandMod.cs",
               "ToolTip": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\OutlandMod.cs",
               "RelativeToolTip": "OutlandMod.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAcwEoAAACAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwEwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T14:28:09.16Z",
               "EditorCaption": ""
@@ -184,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "OutlandDefOf.cs",
               "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\Outland\\Outland - Core\\1.6\\Source\\Outland\\OutlandDefOf.cs",
               "RelativeDocumentMoniker": "OutlandDefOf.cs",
@@ -192,8 +189,7 @@
               "RelativeToolTip": "OutlandDefOf.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAACEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T14:28:09.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T14:28:09.301Z"
             }
           ]
         }

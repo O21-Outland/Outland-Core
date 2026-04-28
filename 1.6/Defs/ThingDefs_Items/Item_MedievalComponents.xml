@@ -4,7 +4,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>Outland_ComponentMedieval</defName>
 		<label>medieval component</label>
-		<description>Miscellaneous gears, ropes, hinges and other mechanical parts for building more complex things. \n\nNote: No longer used, will be removed eventually when it can be done cleanly.</description>
+		<description>An archaic component, it's use has been long lost to time.</description>
 		<graphicData>
 			<texPath>Outland/Items/MedievalComponent</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -14,17 +14,17 @@
 		<stackLimit>50</stackLimit>
 		<healthAffectsPrice>false</healthAffectsPrice>
 		<statBases>
-			<MaxHitPoints>50</MaxHitPoints>
-			<MarketValue>20</MarketValue>
-			<Mass>0.8</Mass>
-			<Flammability>0.8</Flammability>
-			<DeteriorationRate>2.0</DeteriorationRate>
+			<MaxHitPoints>1</MaxHitPoints>
+			<MarketValue>0</MarketValue>
+			<Mass>0.1</Mass>
+			<Flammability>1</Flammability>
+			<DeteriorationRate>10.0</DeteriorationRate>
 		</statBases>
 		<intricate>true</intricate>
 		<thingCategories>
 			<li>Manufactured</li>
 		</thingCategories>
-		<allowedArchonexusCount>10</allowedArchonexusCount>
+		<preventSpawningInResourcePod>True</preventSpawningInResourcePod>
 	</ThingDef>
 
 </Defs>
