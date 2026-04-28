@@ -51,4 +51,22 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PawnKindDef[defName="Tribal_Trader"]/apparelTags</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName="Tribal_Trader"]/apparelTags</xpath>
+			<value>
+				<li>Backpack_Neolithic</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName="Tribal_Trader"]</xpath>
+			<value>
+				<apparelTags>
+					<li>Backpack_Neolithic</li>
+				</apparelTags>
+			</value>
+		</nomatch>
+	</Operation>
+
 </Patch>

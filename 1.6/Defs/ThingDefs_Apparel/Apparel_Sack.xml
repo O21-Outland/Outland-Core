@@ -2,16 +2,15 @@
 <Defs>
 
 	<TabulaRasa.ExtendedApparelDef ParentName="OutlandApparelMakeableBase">
-		<defName>Outland_BackpackHeavy</defName>
-		<label>heavy backpack</label>
-		<description>A large backpack. Greatly increases the carry capacity of the pawn wearing it.</description>
+		<defName>Outland_Sack</defName>
+		<label>sack</label>
+		<description>A small sack, wearable on the back, for holding some items.</description>
 		<graphicData>
-			<texPath>Outland/Apparel/BackpackHeavy/Apparel</texPath>
+			<texPath>Outland/Apparel/TribalBag/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<techLevel>Medieval</techLevel>
+		<techLevel>Neolithic</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>ComplexClothing</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
 			<recipeUsers>
 				<li>CraftingSpot</li>
@@ -24,27 +23,27 @@
 			<effectWorking>Tailor</effectWorking>
 			<soundWorking>Recipe_Tailor</soundWorking>
 			<skillRequirements>
-				<Crafting>6</Crafting>
+				<Crafting>3</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
-		<costStuffCount>80</costStuffCount>
+		<costStuffCount>30</costStuffCount>
 		<statBases>
-			<WorkToMake>4200</WorkToMake>
-			<Mass>3</Mass>
+			<WorkToMake>2800</WorkToMake>
+			<Mass>1.7</Mass>
 			<Flammability>0.4</Flammability>
-			<EquipDelay>2.5</EquipDelay>
+			<EquipDelay>2</EquipDelay>
 		</statBases>
-		<carryCapBuff>60</carryCapBuff>
+		<carryCapBuff>25</carryCapBuff>
 		<thingCategories>
 			<li>ApparelUtility</li>
 		</thingCategories>
-		<generateAllowChance>0.025</generateAllowChance>
+		<generateAllowChance>0.05</generateAllowChance>
 		<apparel>
-			<wornGraphicPath>Outland/Apparel/BackpackHeavy/Apparel</wornGraphicPath>
+			<wornGraphicPath>Outland/Apparel/TribalBag/Apparel</wornGraphicPath>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<useWornGraphicMask>false</useWornGraphicMask>
@@ -56,13 +55,10 @@
 				<li>Shell</li>
 			</layers>
 			<tags>
-				<li>Backpack_Medieval</li>
+				<li>Backpack_Neolithic</li>
 			</tags>
 			<wornGraphicData>
 				<renderUtilityAsPack>false</renderUtilityAsPack>
-				<north>
-					<offset>(0.35,-0.05)</offset>
-				</north>
 			</wornGraphicData>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">

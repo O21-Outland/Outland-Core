@@ -8,10 +8,10 @@
 		<graphicData>
 			<texPath>Outland/Apparel/Backpack/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<techLevel>Neolithic</techLevel>
+		<techLevel>Medieval</techLevel>
 		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
 			<recipeUsers>
 				<li>CraftingSpot</li>
@@ -31,14 +31,14 @@
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
-		<costStuffCount>75</costStuffCount>
+		<costStuffCount>50</costStuffCount>
 		<statBases>
 			<WorkToMake>2800</WorkToMake>
 			<Mass>1.7</Mass>
 			<Flammability>0.4</Flammability>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
-		<carryCapBuff>30</carryCapBuff>
+		<carryCapBuff>40</carryCapBuff>
 		<thingCategories>
 			<li>ApparelUtility</li>
 		</thingCategories>
@@ -47,7 +47,7 @@
 			<wornGraphicPath>Outland/Apparel/Backpack/Apparel</wornGraphicPath>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
-			<useWornGraphicMask>True</useWornGraphicMask>
+			<useWornGraphicMask>false</useWornGraphicMask>
 			<careIfDamaged>false</careIfDamaged>
 			<bodyPartGroups>
 				<li>Waist</li>
@@ -56,7 +56,6 @@
 				<li>Shell</li>
 			</layers>
 			<tags>
-				<li>Backpack_Neolithic</li>
 				<li>Backpack_Medieval</li>
 			</tags>
 			<wornGraphicData>
