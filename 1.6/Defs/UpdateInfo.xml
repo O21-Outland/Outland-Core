@@ -2,17 +2,25 @@
 <Defs>
 
 	<TabulaRasa.UpdateDef>
-		<defName>Outland_Core_04042024</defName>
-		<date>2024/04/04</date>
+		<defName>Outland_Core_04052026</defName>
+		<date>2026/05/04</date>
 		<banner>UpdateInfo/O21Outland</banner>
 		<contentList>
 			<li>
-				<header>Update to RimWorld 1.5</header>
-				<text>The mod, and related modules should now be fully updated to support RimWorld 1.5.</text>
+				<header>No More Medieval Components</header>
+				<text>Medieval components were underused and weird. They've now been removed from all costs and can no longer be crafted. No new medieval components should spawn on traders or from resource pods, which is as close to removing them completely as I can do safely for now.\n\nAny existing medieval components may still be there, but the deterioration rate is now 10x and max hit points is 1, so they should vanish pretty quickly if put somewhere exposed.</text>
 			</li>
 			<li>
-				<header>Removed Content</header>
-				<text>Content relating specifically to the magic system has been removed and will return instead as part of Mages Guild. Most of it you probably never seen but what you will notice if you're a returning user is that Kalocite and Grimstone are no longer in the Core mod.\n\nThe reasoning for this if you are curious is that it was content intended to be used by multiple magic focused modules that were going to be split by class originally, plans have since changed and it felt more appropriate to include them in the main magic module which will contain most of the magic related content instead.</text>
+				<header>Chitin and Chitin Equipment</header>
+				<text>Chitin is now obtainable from any insectoid animals, similar to bones for anything else, you can adjust the quantities in the settings if they don't feel right to you, even making them 0% for not producing any. There's a set of tribal weapons and armour using it also added, no research needed.\n\nThese are distributed to tribal factions so they will spawn with them.</text>
+			</li>
+			<li>
+				<header>Obsidian Weapons</header>
+				<text>If you have the Odyssey DLC, a set of tribal Obsidian weapons has been added, very good for sharp damage.\n\nThese have also been distributed to tribal factions.</text>
+			</li>
+			<li>
+				<header>More Backpacks</header>
+				<text>There are now two new backpack options aimed at Tribal but can work for Medieval too, the pouch and sack, intended to be an earlier option for increasing carry weight a little for the pawns wearing them. The previous two backpacks in the mod have also been retextured, the original textures were rough and needed a rework.</text>
 			</li>
 		</contentList>
 		<links>

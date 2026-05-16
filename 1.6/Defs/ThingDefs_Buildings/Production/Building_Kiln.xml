@@ -70,7 +70,6 @@
 				<glowColor>(252, 187, 113, 0)</glowColor>
 			</li>
 			<li Class="CompProperties_Flickable" />
-			<li Class="CompProperties_Breakdownable" />
 		</comps>
 		<modExtensions>
 			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
