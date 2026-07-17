@@ -62,8 +62,8 @@
 	</ThingDef>
 
 	<ThingDef ParentName="OutlandShamanMask">
-		<defName>Outland_BoneMask_Deer</defName>
-		<label>bone mask (deer)</label>
+		<defName>Outland_ShamanMask_Herbal</defName>
+		<label>shaman mask (herbal)</label>
 		<graphicData>
 			<texPath>Outland/Apparel/ShamanMask/Head</texPath>
 		</graphicData>
