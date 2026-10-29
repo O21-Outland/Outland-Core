@@ -2,17 +2,17 @@
 <Defs>
 
 	<TabulaRasa.UpdateDef>
-		<defName>Outland_Core_04052026</defName>
-		<date>2026/05/04</date>
+		<defName>Outland_Core_29102026</defName>
+		<date>2026/10/29</date>
 		<banner>UpdateInfo/O21Outland</banner>
 		<contentList>
 			<li>
 				<header>No More Medieval Components</header>
-				<text>Medieval components were underused and weird. They've now been removed from all costs and can no longer be crafted. No new medieval components should spawn on traders or from resource pods, which is as close to removing them completely as I can do safely for now.\n\nAny existing medieval components may still be there, but the deterioration rate is now 10x and max hit points is 1, so they should vanish pretty quickly if put somewhere exposed.</text>
+				<text>Medieval components were underused and weird. They've now been removed.</text>
 			</li>
 			<li>
 				<header>Chitin and Chitin Equipment</header>
-				<text>Chitin is now obtainable from any insectoid animals, similar to bones for anything else, you can adjust the quantities in the settings if they don't feel right to you, even making them 0% for not producing any. There's a set of tribal weapons and armour using it also added, no research needed.\n\nThese are distributed to tribal factions so they will spawn with them.</text>
+				<text>Chitin is now obtainable from any insectoid animals, similar to bones for anything else, you can adjust the quantities in the settings if they don't feel right to you, even making them 0% for not producing any. There's a set of tribal weapons using it also added, no research needed.\n\nThese are distributed to tribal factions so they will spawn with them.</text>
 			</li>
 			<li>
 				<header>Obsidian Weapons</header>

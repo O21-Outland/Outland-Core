@@ -34,7 +34,7 @@ namespace Outland
             Version version = Assembly.GetExecutingAssembly().GetName().Version;
             CurrentVersion = $"{version.Major}.{version.Minor}.{version.Build}";
 
-            Log.Message($":: Tabula Rasa ::".Colorize(new Color(0.266f, 0.580f, 0.890f)) + $" Version {CurrentVersion}");
+            Log.Message($":: Outland - Core ::".Colorize(new Color(0.266f, 0.580f, 0.890f)) + $" Version {CurrentVersion}");
 
             if (Prefs.DevMode)
             {
