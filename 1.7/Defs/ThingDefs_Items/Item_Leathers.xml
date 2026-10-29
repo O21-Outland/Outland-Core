@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>Outland_FockattFur</defName>
+		<label>fockatt fur</label>
+		<description>The strong furry pelt of a fockatt. Good at temperature regulation in cold climates.</description>
+		<possessionCount>20</possessionCount>
+		<graphicData>
+			<color>(112, 82, 65)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>3.4</MarketValue>
+			<StuffPower_Armor_Sharp>1.12</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(112, 82, 65)</color>
+			<commonality>0.05</commonality>
+			<statFactors>
+				<Beauty>2.0</Beauty>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>

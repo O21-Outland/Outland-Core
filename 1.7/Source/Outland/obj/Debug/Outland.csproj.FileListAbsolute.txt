@@ -1,0 +1,11 @@
+G:\RWModCategories\Neronix17\Outland\Outland - Core\1.7\Source\Outland\obj\Debug\Outland.csproj.AssemblyReference.cache
+G:\RWModCategories\Neronix17\Outland\Outland - Core\1.7\Source\Outland\obj\Debug\Outland.GeneratedMSBuildEditorConfig.editorconfig
+G:\RWModCategories\Neronix17\Outland\Outland - Core\1.7\Source\Outland\obj\Debug\Outland.AssemblyInfoInputs.cache
+G:\RWModCategories\Neronix17\Outland\Outland - Core\1.7\Source\Outland\obj\Debug\Outland.AssemblyInfo.cs
+G:\RWModCategories\Neronix17\Outland\Outland - Core\1.7\Source\Outland\obj\Debug\Outland.csproj.CoreCompileInputs.cache
+G:\RWModCategories\Neronix17\Outland\Outland - Core\1.7\Source\Outland\obj\Debug\Outland.sourcelink.json
+G:\RWModCategories\Neronix17\Outland\Outland - Core\1.7\Assemblies\Outland.dll
+G:\RWModCategories\Neronix17\Outland\Outland - Core\1.7\Source\Outland\obj\Debug\Outland.csproj.Up2Date
+G:\RWModCategories\Neronix17\Outland\Outland - Core\1.7\Source\Outland\obj\Debug\Outland.dll
+G:\RWModCategories\Neronix17\Outland\Outland - Core\1.7\Source\Outland\obj\Debug\refint\Outland.dll
+G:\RWModCategories\Neronix17\Outland\Outland - Core\1.7\Source\Outland\obj\Debug\ref\Outland.dll

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OutlandBaseMeleeWeapon_Sharp"  MayRequire="Ludeon.RimWorld.Odyssey">
+		<defName>Outland_ObsidianAxe</defName>
+		<label>obsidian axe</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>Outland/Weapons/ObsidianAxe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<costList>
+			<WoodLog>30</WoodLog>
+			<Obsidian>20</Obsidian>
+		</costList>
+		<weaponTags>
+			<li>ObsidianMeleeDecent</li>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>1500</WorkToMake>
+			<Mass>0.85</Mass>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>22</power>
+				<cooldownTime>1.95</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+	</ThingDef>
+
+</Defs>

@@ -27,4 +27,10 @@
 		<li>1.6</li>
 		<li IfModActive="sihv.rombones">1.6/Mods/RoMBones</li>
 	</v1.6>
+	<v1.7>
+		<li>/</li>
+		<li>Common</li>
+		<li>1.7</li>
+		<li IfModActive="sihv.rombones">1.7/Mods/RoMBones</li>
+	</v1.7>
 </loadFolders>

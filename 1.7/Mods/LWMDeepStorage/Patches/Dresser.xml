@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================================== Winerack ==================================== -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Outland_Dresser"]</xpath>
+		<value>
+			<thingClass>Building_Storage</thingClass>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Outland_Dresser"]</xpath>
+		<value>
+			<inspectorTabs>
+				<li>ITab_Storage</li>
+				<li>LWM.DeepStorage.ITab_DeepStorage_Inventory</li>
+			</inspectorTabs>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Outland_Dresser"]</xpath>
+		<value>
+			<building>
+				<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+				<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+				<fixedStorageSettings>
+					<filter>
+						<categories>
+							<li>Apparel</li>
+						</categories>
+					</filter>
+				</fixedStorageSettings>
+			</building>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Outland_Dresser"]/comps</xpath>
+		<value>
+			<li Class="LWM.DeepStorage.Properties">
+				<maxNumberStacks>6</maxNumberStacks>
+				<minNumberStacks>3</minNumberStacks><!-- always allow at least 5 parkas per slot -->
+				<maxTotalMass>2.5</maxTotalMass>
+				<minTimeStoringTakes>90</minTimeStoringTakes>
+				<additionalTimeEachStack>15</additionalTimeEachStack>
+				<overlayType>SumOfAllItems</overlayType>
+			</li>
+		</value>
+	</Operation>
+
+</Patch>

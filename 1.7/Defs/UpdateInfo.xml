@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TabulaRasa.UpdateDef>
+		<defName>Outland_Core_04052026</defName>
+		<date>2026/05/04</date>
+		<banner>UpdateInfo/O21Outland</banner>
+		<contentList>
+			<li>
+				<header>No More Medieval Components</header>
+				<text>Medieval components were underused and weird. They've now been removed from all costs and can no longer be crafted. No new medieval components should spawn on traders or from resource pods, which is as close to removing them completely as I can do safely for now.\n\nAny existing medieval components may still be there, but the deterioration rate is now 10x and max hit points is 1, so they should vanish pretty quickly if put somewhere exposed.</text>
+			</li>
+			<li>
+				<header>Chitin and Chitin Equipment</header>
+				<text>Chitin is now obtainable from any insectoid animals, similar to bones for anything else, you can adjust the quantities in the settings if they don't feel right to you, even making them 0% for not producing any. There's a set of tribal weapons and armour using it also added, no research needed.\n\nThese are distributed to tribal factions so they will spawn with them.</text>
+			</li>
+			<li>
+				<header>Obsidian Weapons</header>
+				<text>If you have the Odyssey DLC, a set of tribal Obsidian weapons has been added, very good for sharp damage.\n\nThese have also been distributed to tribal factions.</text>
+			</li>
+			<li>
+				<header>More Backpacks</header>
+				<text>There are now two new backpack options aimed at Tribal but can work for Medieval too, the pouch and sack, intended to be an earlier option for increasing carry weight a little for the pawns wearing them. The previous two backpacks in the mod have also been retextured, the original textures were rough and needed a rework.</text>
+			</li>
+			<li>
+				<header>New Masks</header>
+				<text>Two bone masks, and a shaman mask, for neolithic tech level. Shaman mask provides a buff to medical success, while the bone masks just provide a bit more protection than masks usually do.</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2755501685</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outland Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/workshop/filedetails/?id=2755526603</linkUrl>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef>
+
+</Defs>

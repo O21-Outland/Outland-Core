@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="OutlandBenchBase">
+		<defName>Outland_Kiln</defName>
+		<label>kiln</label>
+		<description>A thermally insulated chamber used in the processing of various materials. Primarily used in the hardening of clay objects like pottery, tiles and bricks.</description>
+		<thingClass>Building_WorkTableAutonomous</thingClass>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<texPath>Outland/Buildings/Production/Kiln</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawRotated>false</drawRotated>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.5</uiIconScale>
+		<size>(2,2)</size>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<surfaceType>Item</surfaceType>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<fillPercent>0.5</fillPercent>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>5000</WorkToBuild>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<costStuffCount>80</costStuffCount>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costList>
+			<Steel>20</Steel>
+		</costList>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<recipes>
+			<li>Outland_FireClayBricks</li>
+		</recipes>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+		<designationCategory>Outland_Outland</designationCategory>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>80.0</fuelConsumptionRate>
+				<fuelCapacity>50.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(252, 187, 113, 0)</glowColor>
+			</li>
+			<li Class="CompProperties_Flickable" />
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Production</li>
+				</subcategories>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

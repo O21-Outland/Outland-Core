@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="OutlandHatMakeableBase" Name="OutlandBoneMask" Abstract="True">
+		<description>Elegant traditional mask, often associated with religious significance. Improves combat skills.</description>
+		<recipeMaker>
+			<researchPrerequisite />
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.15</drawSize>
+		</graphicData>
+		<uiIconScale>1.15</uiIconScale>
+		<costList>
+			<Outland_Bones>40</Outland_Bones>
+		</costList>
+		<techLevel>Neolithic</techLevel>
+		<statBases>
+			<WorkToMake>3200</WorkToMake>
+			<Mass>1.2</Mass>
+			<StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MeleeCooldownFactor>-0.1</MeleeCooldownFactor>
+			<RangedCooldownFactor>-0.05</RangedCooldownFactor>
+			<AimingDelayFactor>-0.05</AimingDelayFactor>
+		</equippedStatOffsets>
+		<apparel>
+			<tags Inherit="false">
+				<li>Neolithic</li>
+			</tags>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<drawData>
+				<dataNorth>
+					<layer>-3</layer>
+				</dataNorth>
+			</drawData>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="OutlandBoneMask">
+		<defName>Outland_BoneMask_Deer</defName>
+		<label>bone mask (deer)</label>
+		<graphicData>
+			<texPath>Outland/Apparel/BoneMaskDeer/Head</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Outland/Apparel/BoneMaskDeer/Head</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="OutlandBoneMask">
+		<defName>Outland_BoneMask_Feline</defName>
+		<label>bone mask (feline)</label>
+		<graphicData>
+			<texPath>Outland/Apparel/BoneMaskFeline/Head</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Outland/Apparel/BoneMaskFeline/Head</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+</Defs>
